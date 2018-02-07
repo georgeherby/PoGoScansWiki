@@ -1,0 +1,302 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Setting up locations &mdash; Arceus 0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="Arceus 0 documentation" href="../index.html"/>
+        <link rel="next" title="Raid Alerts" href="../dialga/raid_alert.html"/>
+        <link rel="prev" title="Pokemon Alerts" href="arceus_alerts.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Arceus
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Basic Installation</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="arceus_alerts.html">Pokemon Alerts</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Setting up locations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dialga/raid_alert.html">Raid Alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dialga/raid_attendance.html">Raid Attendance</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Arceus</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Setting up locations</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/arceus/location_commands.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="setting-up-locations">
+<h1>Setting up locations<a class="headerlink" href="#setting-up-locations" title="Permalink to this headline">¶</a></h1>
+<p><strong>All commands should be run in DM (Direct Message) to Arceus</strong></p>
+<p>Alerts can be set against a channel &amp; area*, but also set against a
+defined location of your choosing. You may set up as many locations as
+you like, but may only have one location active at a given point.</p>
+<p>**For London, alerts cannot be set up for channel / area*</p>
+<div class="section" id="setup-locations">
+<h2>Setup locations<a class="headerlink" href="#setup-locations" title="Permalink to this headline">¶</a></h2>
+<p>The command to add a new location is:</p>
+<p><code class="docutils literal"><span class="pre">!location</span> <span class="pre">add</span> <span class="pre">name=&lt;name&gt;</span> <span class="pre">coord=&lt;coords&gt;</span> <span class="pre">distance=&lt;distance&gt;</span></code></p>
+<p>coordinates must be supplied in this format <code class="docutils literal"><span class="pre">lat,lon</span></code>, for example:</p>
+<p><code class="docutils literal"><span class="pre">!location</span> <span class="pre">add</span> <span class="pre">name=work</span> <span class="pre">coord=51.503129,-0.118659</span> <span class="pre">distance=2</span></code></p>
+<p>This will create a location at that location with a nickname of work,
+and when active will send me alerts when Pokemon alert filters are met
+AND the distance to my location is less than 2km.</p>
+<p>You can use any name you like, except “all” (this is used to reference
+all locations in code) and must be unique.</p>
+<p>There is a max distance setting applied on the server, so whilst you can
+enter as high a distance as you like, if greater than the system max
+distance, will use the system setting. We have done this as we will
+change the max setting based on numbers of alerts going out.</p>
+<div class="section" id="set-location-active">
+<h3>Set location active<a class="headerlink" href="#set-location-active" title="Permalink to this headline">¶</a></h3>
+<p>You’ve set up 1 or more locations using the guide above. To set a
+location as active:</p>
+<p><code class="docutils literal"><span class="pre">!location</span> <span class="pre">set</span> <span class="pre">&lt;name&gt;</span></code></p>
+<p>Using my example above, I would type <code class="docutils literal"><span class="pre">!location</span> <span class="pre">set</span> <span class="pre">work</span></code> to make that
+location active. Please note, adding a location does not automatically
+set it active, so you need to do this too. You can have no locations
+active (this will mute all your alerts without channel/area) or you can
+have 1 location active. Never more than 1.</p>
+<p>When you set a location active, all others locations will be set
+inactive.</p>
+</div>
+<div class="section" id="show-locations">
+<h3>Show locations<a class="headerlink" href="#show-locations" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal"><span class="pre">!location</span> <span class="pre">show</span></code> will return a table of all your locations:</p>
+<div class="highlight-default"><div class="highlight"><pre><span class="n">NAME</span>   <span class="o">|</span><span class="n">LATITUDE</span> <span class="o">|</span><span class="n">LONGITUDE</span> <span class="o">|</span><span class="n">DISTANCE</span> <span class="o">|</span><span class="n">ACTIVE</span>
+<span class="o">-------+---------+----------+---------+------</span>
+<span class="n">home</span>   <span class="o">|</span><span class="mf">55.4573</span>  <span class="o">|-</span><span class="mf">0.396158</span> <span class="o">|</span><span class="mf">1.0</span>      <span class="o">|</span><span class="n">false</span>
+<span class="n">london</span> <span class="o">|</span><span class="mf">51.5083</span>  <span class="o">|-</span><span class="mf">0.095649</span> <span class="o">|</span><span class="mf">2.0</span>      <span class="o">|</span><span class="n">false</span>
+<span class="n">work</span>   <span class="o">|</span><span class="mf">52.6889</span>  <span class="o">|-</span><span class="mf">0.452083</span> <span class="o">|</span><span class="mf">1.0</span>      <span class="o">|</span><span class="n">true</span>
+</pre></div>
+</div>
+<p>This shows that my work location is currently active.</p>
+</div>
+</div>
+<div class="section" id="remove-location-s">
+<h2>Remove location(s)<a class="headerlink" href="#remove-location-s" title="Permalink to this headline">¶</a></h2>
+<p><code class="docutils literal"><span class="pre">!location</span> <span class="pre">remove</span> <span class="pre">&lt;name&gt;</span></code></p>
+<p>So to remove my location I set up for work - <code class="docutils literal"><span class="pre">!location</span> <span class="pre">remove</span> <span class="pre">work</span></code></p>
+<p>If you want to remove all locations, type <code class="docutils literal"><span class="pre">!location</span> <span class="pre">remove</span> <span class="pre">all</span></code></p>
+</div>
+<div class="section" id="mute-locations">
+<h2>Mute locations<a class="headerlink" href="#mute-locations" title="Permalink to this headline">¶</a></h2>
+<p>If you want to mute alerts for all locations, just type
+<code class="docutils literal"><span class="pre">!location</span> <span class="pre">mute</span></code></p>
+<p>If you have already got alerts set up for a channel or area, you can
+remove the channel &amp; area and switch them to being location based. To do
+so:</p>
+<p><code class="docutils literal"><span class="pre">!channel</span> <span class="pre">remove</span> <span class="pre">&lt;ID&gt;</span></code> or <code class="docutils literal"><span class="pre">!channel</span> <span class="pre">remove</span> <span class="pre">all</span></code></p>
+<p>To add switch back to using channel &amp; Area for your alerts:</p>
+<p><code class="docutils literal"><span class="pre">!channel</span> <span class="pre">enable</span> <span class="pre">&lt;id&gt;</span> <span class="pre">channel=&lt;channel&gt;</span> <span class="pre">area=&lt;area&gt;</span></code>, ie
+<code class="docutils literal"><span class="pre">!channel</span> <span class="pre">enable</span> <span class="pre">12345</span> <span class="pre">channel=Brighton</span> <span class="pre">area=Patcham</span></code></p>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../dialga/raid_alert.html" class="btn btn-neutral float-right" title="Raid Alerts" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="arceus_alerts.html" class="btn btn-neutral" title="Pokemon Alerts" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, georgeherby &amp; Evil Moses.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

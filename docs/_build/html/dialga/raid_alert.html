@@ -1,0 +1,415 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Raid Alerts &mdash; Arceus 0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="Arceus 0 documentation" href="../index.html"/>
+        <link rel="next" title="Raid Attendance" href="raid_attendance.html"/>
+        <link rel="prev" title="Setting up locations" href="../arceus/location_commands.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Arceus
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Basic Installation</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../arceus/arceus_alerts.html">Pokemon Alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../arceus/location_commands.html">Setting up locations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../arceus/location_commands.html#switching-between-location-based-and-channel-area-based-alerts">Switching between location based and channel/area based alerts</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Raid Alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="raid_attendance.html">Raid Attendance</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Arceus</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Raid Alerts</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/dialga/raid_alert.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="raid-alerts">
+<h1>Raid Alerts<a class="headerlink" href="#raid-alerts" title="Permalink to this headline">¶</a></h1>
+<p><strong>All commands should be run in DM (Direct Message) to Dialga</strong></p>
+<p>[TOC]</p>
+<div class="section" id="add-raids">
+<h2>Add Raids<a class="headerlink" href="#add-raids" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="channel-wide">
+<h3>Channel Wide<a class="headerlink" href="#channel-wide" title="Permalink to this headline">¶</a></h3>
+<p>All hatched eggs of a certain <em>MINIMUM</em> level</p>
+<div class="highlight-default"><div class="highlight"><pre>!raid channel=worthing area=Ferring level=5
+</pre></div>
+</div>
+<p>All unhatched eggs of a certain <em>MINIMUM</em> level</p>
+<div class="highlight-default"><div class="highlight"><pre>!raid channel=worthing area=Ferring level=5 egg
+</pre></div>
+</div>
+<p>All specific name boss bosses from</p>
+<div class="highlight-default"><div class="highlight"><pre>!raid channel=worthing area=Ferring boss=wailmer
+</pre></div>
+</div>
+</div>
+<div class="section" id="specific-gym">
+<h3>Specific Gym<a class="headerlink" href="#specific-gym" title="Permalink to this headline">¶</a></h3>
+<p><strong>YOU MUST INCLUDE ``LEVEL=1`` FOR ALL RAIDS. AND ``LEVEL=1 EGG`` FOR
+ALL EGGS EVEN WHEN SPECIFYING A SINGLE GYM</strong></p>
+<p>All hatched eggs of a certain <em>MINIMUM</em> level</p>
+<div class="highlight-default"><div class="highlight"><pre>!raid channel=worthing gym=Marine Gardens Restaurant level=5
+</pre></div>
+</div>
+<p>All unhatched eggs of a certain <em>MINIMUM</em> level</p>
+<div class="highlight-default"><div class="highlight"><pre>!raid channel=worthing gym=Marine Gardens Restaurant level=5 egg
+</pre></div>
+</div>
+<p>All specific name boss bosses from</p>
+<div class="highlight-default"><div class="highlight"><pre>!raid channel=worthing gym=Marine Gardens Restaurant boss=wailmer
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="show-all-raids">
+<h2>Show all raids<a class="headerlink" href="#show-all-raids" title="Permalink to this headline">¶</a></h2>
+<p>This is to allow you to see all the raids that you have set up and this
+is your reference for the raid id (left most column)</p>
+<div class="highlight-default"><div class="highlight"><pre>!raid show
+</pre></div>
+</div>
+<p>Returns:</p>
+<div class="highlight-default"><div class="highlight"><pre><span class="n">RAID</span> <span class="n">ID</span> <span class="o">|</span><span class="n">CHANNEL</span>  <span class="o">|</span><span class="n">AREA</span><span class="o">/</span><span class="n">GYM</span>     <span class="o">|</span><span class="n">BOSS</span><span class="o">/</span><span class="n">EGG</span>   <span class="o">|</span><span class="n">LEVEL</span> <span class="o">|</span><span class="n">MUTED</span>
+<span class="o">--------+---------+-------------+-----------+------+-----</span>
+<span class="mi">32</span>      <span class="o">|</span><span class="n">Sussex</span>   <span class="o">|-</span>            <span class="o">|</span><span class="n">All</span> <span class="n">Eggs</span>   <span class="o">|</span><span class="mi">5</span>     <span class="o">|</span>
+<span class="mi">63</span>      <span class="o">|</span><span class="n">Sussex</span>   <span class="o">|-</span>            <span class="o">|</span><span class="n">All</span> <span class="n">Bosses</span> <span class="o">|</span><span class="mi">5</span>     <span class="o">|</span>
+<span class="mi">1</span>       <span class="o">|</span><span class="n">Worthing</span> <span class="o">|</span><span class="n">All</span>          <span class="o">|</span><span class="n">All</span> <span class="n">Eggs</span>   <span class="o">|</span><span class="mi">4</span>     <span class="o">|</span>
+<span class="mi">66</span>      <span class="o">|</span><span class="n">Worthing</span> <span class="o">|</span><span class="n">Ilex</span> <span class="n">Way</span> <span class="n">Park</span><span class="o">|</span><span class="n">All</span> <span class="n">Eggs</span>   <span class="o">|</span><span class="mi">5</span>     <span class="o">|</span>
+<span class="mi">28</span>      <span class="o">|</span><span class="n">Worthing</span> <span class="o">|</span><span class="n">All</span>          <span class="o">|</span><span class="n">All</span> <span class="n">Bosses</span> <span class="o">|</span><span class="mi">4</span>     <span class="o">|</span>
+<span class="mi">34</span>      <span class="o">|</span><span class="n">Worthing</span> <span class="o">|</span><span class="n">All</span>          <span class="o">|</span><span class="n">Machamp</span>    <span class="o">|-</span>     <span class="o">|</span>
+</pre></div>
+</div>
+<p>There are a few extra options for this command (always in ascending
+order)</p>
+<div class="highlight-default"><div class="highlight"><pre>!raid show             Returns a list sorted Channel, Boss
+!raid show boss        Returns a list sorted by Boss, Channel
+!raid show channel     Returns a list sorted by Channel, Boss
+</pre></div>
+</div>
+</div>
+<div class="section" id="remove-raid-from-table">
+<h2>Remove raid from table<a class="headerlink" href="#remove-raid-from-table" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="remove-by-id">
+<h3>Remove by ID<a class="headerlink" href="#remove-by-id" title="Permalink to this headline">¶</a></h3>
+<p>First run show command and note the raid alert id for the record you
+want to remove</p>
+<div class="highlight-default"><div class="highlight"><pre>!raid show
+</pre></div>
+</div>
+<p>Returns:</p>
+<div class="highlight-default"><div class="highlight"><pre><span class="n">RAID</span> <span class="n">ID</span> <span class="o">|</span><span class="n">CHANNEL</span>  <span class="o">|</span><span class="n">AREA</span>    <span class="o">|</span><span class="n">BOSS</span><span class="o">/</span><span class="n">EGG</span>   <span class="o">|</span><span class="n">LEVEL</span> <span class="o">|</span><span class="n">MUTED</span>
+<span class="o">--------+---------+--------+-----------+------+-----</span>
+<span class="mi">32</span>      <span class="o">|</span><span class="n">Sussex</span>   <span class="o">|-</span>       <span class="o">|</span><span class="n">All</span> <span class="n">Eggs</span>   <span class="o">|</span><span class="mi">5</span>     <span class="o">|</span><span class="n">MUTED</span>
+<span class="mi">66</span>      <span class="o">|</span><span class="n">Worthing</span> <span class="o">|</span><span class="n">Ferring</span> <span class="o">|</span><span class="n">All</span> <span class="n">Eggs</span>   <span class="o">|</span><span class="mi">5</span>     <span class="o">|</span>
+</pre></div>
+</div>
+<p>Once you have the raid alert id, you need to enter it in the mute
+commands as below</p>
+<div class="highlight-default"><div class="highlight"><pre>!raid remove 32        ------ 28 being the number in the Alert ID for the row to mute
+</pre></div>
+</div>
+</div>
+<div class="section" id="removeall-alerts">
+<h3>RemoveAll alerts<a class="headerlink" href="#removeall-alerts" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default"><div class="highlight"><pre>!raid remove all       ------ This will mute all record for your user id
+</pre></div>
+</div>
+</div>
+<div class="section" id="remove-by-location">
+<h3>Remove by Location<a class="headerlink" href="#remove-by-location" title="Permalink to this headline">¶</a></h3>
+<p>You can remove all alerts for a channel or an area within a channel:</p>
+<div class="highlight-default"><div class="highlight"><pre>!raid remove channel=&quot;MidSussex&quot;
+!raid remove channel=&quot;CentralEast&quot; area=&quot;Covent Garden&quot;
+</pre></div>
+</div>
+<p>If removing an area, channel is still required.</p>
+</div>
+</div>
+<div class="section" id="mute-alert-from-table">
+<h2>Mute alert from table<a class="headerlink" href="#mute-alert-from-table" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="mute-by-id">
+<h3>Mute by ID<a class="headerlink" href="#mute-by-id" title="Permalink to this headline">¶</a></h3>
+<p>First run show command and note the raid alert id for the record you
+want to mute</p>
+<div class="highlight-default"><div class="highlight"><pre>!raid show
+</pre></div>
+</div>
+<p>Returns:</p>
+<div class="highlight-default"><div class="highlight"><pre><span class="n">ID</span> <span class="o">|</span><span class="n">POKEMON</span>   <span class="o">|</span><span class="n">CHANNEL</span>  <span class="o">|</span><span class="n">AREA</span>            <span class="o">|</span><span class="n">IV</span>  <span class="o">|</span><span class="n">CP</span>   <span class="o">|</span><span class="n">MUTED</span>
+<span class="o">---+----------+---------+----------------+----+-----|-----</span>
+<span class="mi">28</span> <span class="o">|</span><span class="n">Kadabra</span>   <span class="o">|</span><span class="n">Brighton</span> <span class="o">|</span><span class="n">All</span>             <span class="o">|</span><span class="mi">80</span>  <span class="o">|</span><span class="mi">1500</span> <span class="o">|</span>
+</pre></div>
+</div>
+<p>Once you have the raid alert id, you need to enter it in the mute
+commands as below</p>
+<div class="highlight-default"><div class="highlight"><pre>!raid mute 28        ------ 28 being the number in the raid alert ID for the row to mute
+</pre></div>
+</div>
+</div>
+<div class="section" id="mute-all-alerts">
+<h3>Mute All alerts<a class="headerlink" href="#mute-all-alerts" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default"><div class="highlight"><pre>!raid mute all       ------ This will mute all record for your user id
+</pre></div>
+</div>
+</div>
+<div class="section" id="mute-by-location">
+<h3>Mute by Location<a class="headerlink" href="#mute-by-location" title="Permalink to this headline">¶</a></h3>
+<p>You can mute all raid alerts for a channel or an area within a channel:</p>
+<div class="highlight-default"><div class="highlight"><pre>!raid mute channel=&quot;MidSussex&quot;
+!raid mute channel=&quot;CentralEast&quot; area=&quot;Covent Garden&quot;
+</pre></div>
+</div>
+<p>If muting an area, channel is still required.</p>
+</div>
+</div>
+<div class="section" id="unmute-raid-from-table">
+<h2>Unmute raid from table<a class="headerlink" href="#unmute-raid-from-table" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="unmute-by-id">
+<h3>Unmute by ID<a class="headerlink" href="#unmute-by-id" title="Permalink to this headline">¶</a></h3>
+<p>First run show command and note the raid alert id for the record you
+want to mute</p>
+<div class="highlight-default"><div class="highlight"><pre>!raid show
+</pre></div>
+</div>
+<p>Returns:</p>
+<div class="highlight-default"><div class="highlight"><pre><span class="n">RAID</span> <span class="n">ID</span> <span class="o">|</span><span class="n">CHANNEL</span>  <span class="o">|</span><span class="n">AREA</span>    <span class="o">|</span><span class="n">BOSS</span><span class="o">/</span><span class="n">EGG</span>   <span class="o">|</span><span class="n">LEVEL</span> <span class="o">|</span><span class="n">MUTED</span>
+<span class="o">--------+---------+--------+-----------+------+-----</span>
+<span class="mi">32</span>      <span class="o">|</span><span class="n">Sussex</span>   <span class="o">|-</span>       <span class="o">|</span><span class="n">All</span> <span class="n">Eggs</span>   <span class="o">|</span><span class="mi">5</span>     <span class="o">|</span><span class="n">MUTED</span>
+<span class="mi">66</span>      <span class="o">|</span><span class="n">Worthing</span> <span class="o">|</span><span class="n">Ferring</span> <span class="o">|</span><span class="n">All</span> <span class="n">Eggs</span>   <span class="o">|</span><span class="mi">5</span>     <span class="o">|</span>
+</pre></div>
+</div>
+<p>Once you have the raid alert id, you need to enter it in the mute
+commands as below</p>
+<div class="highlight-default"><div class="highlight"><pre>!raid unmute 32        ------ 28 being the number in the Alert ID for the row to mute
+</pre></div>
+</div>
+</div>
+<div class="section" id="unmute-all-alerts">
+<h3>Unmute All alerts<a class="headerlink" href="#unmute-all-alerts" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default"><div class="highlight"><pre>!raid unmute all       ------ This will mute all record for your user id
+</pre></div>
+</div>
+</div>
+<div class="section" id="unmute-by-location">
+<h3>Unmute by Location<a class="headerlink" href="#unmute-by-location" title="Permalink to this headline">¶</a></h3>
+<p>You can unmute all alerts for a channel or an area within a channel:</p>
+<div class="highlight-default"><div class="highlight"><pre>!raid unmute channel=&quot;MidSussex&quot;
+!raid unmute channel=&quot;CentralEast&quot; area=&quot;Covent Garden&quot;
+</pre></div>
+</div>
+<p>If unmuting an area, channel is still required.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="raid_attendance.html" class="btn btn-neutral float-right" title="Raid Attendance" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../arceus/location_commands.html" class="btn btn-neutral" title="Setting up locations" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, georgeherby &amp; Evil Moses.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
