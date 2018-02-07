@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Arceus documentation build configuration file, created by
+# PoGoScans documentation build configuration file, created by
 # sphinx-quickstart on Wed Feb  7 13:09:54 2018.
 #
 # This file is execfile()d with the current directory set to its
@@ -45,7 +45,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Arceus'
+project = u'PoGoScans'
 copyright = u'2018, georgeherby & Evil Moses'
 author = u'georgeherby & Evil Moses'
 
@@ -111,7 +111,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Arceusdoc'
+htmlhelp_basename = 'PoGoScansdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -138,7 +138,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Arceus.tex', u'Arceus Documentation',
+    (master_doc, 'PoGoScans.tex', u'PoGoScans Documentation',
      u'georgeherby \\& Evil Moses', 'manual'),
 ]
 
@@ -148,7 +148,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'arceus', u'Arceus Documentation',
+    (master_doc, 'PoGoScans', u'PoGoScans Documentation',
      [author], 1)
 ]
 
@@ -159,8 +159,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Arceus', u'Arceus Documentation',
-     author, 'Arceus', 'One line description of project.',
+    (master_doc, 'PoGoScans', u'PoGoScans Documentation',
+     author, 'PoGoScans', 'One line description of project.',
      'Miscellaneous'),
 ]
 
