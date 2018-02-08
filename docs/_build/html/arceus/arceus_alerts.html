@@ -13,8 +13,6 @@
 
   
   
-  
-  
 
   
 
@@ -32,12 +30,9 @@
   
 
   
-        <link rel="index" title="Index"
-              href="../genindex.html"/>
-        <link rel="search" title="Search" href="../search.html"/>
     <link rel="top" title="PoGoScans 0 documentation" href="../index.html"/>
         <link rel="next" title="Setting up locations" href="location_commands.html"/>
-        <link rel="prev" title="Welcome to Arceus’s TEST documentation!" href="../index.html"/> 
+        <link rel="prev" title="Introduction" href="../intro.html"/> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -46,7 +41,6 @@
 
 <body class="wy-body-for-nav" role="document">
 
-   
   <div class="wy-grid-for-nav">
 
     
@@ -87,13 +81,17 @@
           
             
             
-              
-            
-            
-              <p class="caption"><span class="caption-text">Basic Installation</span></p>
+                <p class="caption"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../intro.html">Introduction</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Pokemon Alerts</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Pokemon Alerts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="location_commands.html">Setting up locations</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Raid Alerts</span></p>
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="../dialga/raid_alert.html">Raid Alerts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../dialga/raid_attendance.html">Raid Attendance</a></li>
 </ul>
@@ -108,10 +106,8 @@
 
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        
-          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../index.html">PoGoScans</a>
-        
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">PoGoScans</a>
       </nav>
 
 
@@ -120,40 +116,23 @@
         <div class="rst-content">
           
 
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 
 <div role="navigation" aria-label="breadcrumbs navigation">
-
   <ul class="wy-breadcrumbs">
-    
-      <li><a href="../index.html">Docs</a> &raquo;</li>
-        
-      <li>Pokemon Alerts</li>
-    
-    
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+    <li>Pokemon Alerts</li>
       <li class="wy-breadcrumbs-aside">
         
-            
-            <a href="../_sources/arceus/arceus_alerts.rst.txt" rel="nofollow"> View page source</a>
+          
+            <a href="../_sources/arceus/arceus_alerts.txt" rel="nofollow"> View page source</a>
           
         
       </li>
-    
   </ul>
-
-  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -169,17 +148,20 @@ alerts using Arceus. There are two types of alert:</p>
 </ol>
 <p>Users in Sussex and Home Counties have the option of both types, but
 London may only set up location based alerts.</p>
-<p>To set up locations before proceeding to create alerts, click <a class="reference external" href="https://bitbucket.org/georgeherby/arceus/wiki/Location%20Commands">here</a></p>
+<p>To set up locations before proceeding to create alerts, click <a href="#id1"><span class="problematic" id="id2">`here`_</span></a></p>
 <p>NOTE: You can switch your alerts between location and channel/area based
 very easily should you want. Instructions on how to do this are at the
 end of the location wiki above.</p>
 <p><strong>All commands should be run in DM (Direct Message) to Arceus</strong></p>
-<p>[TOC]</p>
 <div class="section" id="set-alerts-for-pokemon">
 <h2>Set alerts for Pokemon<a class="headerlink" href="#set-alerts-for-pokemon" title="Permalink to this headline">¶</a></h2>
 <p>For this you must format your commands in one of the formats below.</p>
+<p>WHERE IS THIS?! - All tables have gone missing!</p>
 <p><strong>Trainer Tip - you can change the minimum IV/CP/Level of alerts after
-using the command in</strong> ##Change Minimum IV/CP for alerts</p>
+using the command in</strong></p>
+</div>
+<div class="section" id="change-minimum-iv-cp-for-alerts">
+<h2>Change Minimum IV/CP for alerts<a class="headerlink" href="#change-minimum-iv-cp-for-alerts" title="Permalink to this headline">¶</a></h2>
 <p>If you have issues with entering invalid channels go to #help and type
 <code class="docutils literal"><span class="pre">!channels</span></code> and this will give a list of available channels to enter
 in the command</p>
@@ -187,38 +169,38 @@ in the command</p>
 <h3>Single Channel alerts<a class="headerlink" href="#single-channel-alerts" title="Permalink to this headline">¶</a></h3>
 <p>So if you want examples of how to get alerts for Reading, Worthing or
 Brighton for example see below.</p>
+</div>
 <div class="section" id="no-minimum-filters">
-<h4>No Minimum Filters<a class="headerlink" href="#no-minimum-filters" title="Permalink to this headline">¶</a></h4>
+<h3>No Minimum Filters<a class="headerlink" href="#no-minimum-filters" title="Permalink to this headline">¶</a></h3>
 <p><code class="docutils literal"><span class="pre">!alert</span> <span class="pre">pokemon=Unown</span> <span class="pre">channel=worthing</span> <span class="pre">area=all</span></code> <em>using channel &amp;
 area</em> <code class="docutils literal"><span class="pre">!alert</span> <span class="pre">pokemon=Unown</span></code> <em>to use location</em></p>
 </div>
 <div class="section" id="minimum-iv-cp">
-<h4>Minimum IV &amp; CP<a class="headerlink" href="#minimum-iv-cp" title="Permalink to this headline">¶</a></h4>
+<h3>Minimum IV &amp; CP<a class="headerlink" href="#minimum-iv-cp" title="Permalink to this headline">¶</a></h3>
 <p><code class="docutils literal"><span class="pre">!alert</span> <span class="pre">pokemon=Ampharos</span> <span class="pre">channel=reading</span> <span class="pre">area=reading</span> <span class="pre">cp=2000</span> <span class="pre">iv=100</span></code>
 <em>using channel &amp; area</em> <code class="docutils literal"><span class="pre">!alert</span> <span class="pre">pokemon=Ampharos</span> <span class="pre">cp=2000</span> <span class="pre">iv=100</span></code> <em>to
 use location</em></p>
 </div>
 <div class="section" id="minimum-iv-level">
-<h4>Minimum IV &amp; Level<a class="headerlink" href="#minimum-iv-level" title="Permalink to this headline">¶</a></h4>
+<h3>Minimum IV &amp; Level<a class="headerlink" href="#minimum-iv-level" title="Permalink to this headline">¶</a></h3>
 <p><code class="docutils literal"><span class="pre">!alert</span> <span class="pre">pokemon=Lapras</span> <span class="pre">channel=Brighton</span> <span class="pre">area=East</span> <span class="pre">Brighton</span> <span class="pre">iv=100</span> <span class="pre">level=30</span></code>
 <em>using channel &amp; area</em> <code class="docutils literal"><span class="pre">!alert</span> <span class="pre">pokemon=Lapras</span> <span class="pre">iv=100</span> <span class="pre">level=30</span></code> <em>to use
 location</em></p>
 </div>
 <div class="section" id="minimum-cp-level">
-<h4>Minimum CP &amp; Level<a class="headerlink" href="#minimum-cp-level" title="Permalink to this headline">¶</a></h4>
+<h3>Minimum CP &amp; Level<a class="headerlink" href="#minimum-cp-level" title="Permalink to this headline">¶</a></h3>
 <p><code class="docutils literal"><span class="pre">!alert</span> <span class="pre">pokemon=Tyranitar</span> <span class="pre">channel=worthing</span> <span class="pre">area=durrington</span> <span class="pre">cp=2500</span> <span class="pre">level=30</span></code>
 <em>using channel &amp; area</em> <code class="docutils literal"><span class="pre">!alert</span> <span class="pre">pokemon=Tyranitar</span> <span class="pre">cp=2500</span> <span class="pre">level=30</span></code> <em>to
 use location</em></p>
 </div>
 <div class="section" id="minimum-cp-or-level-or-iv">
-<h4>Minimum CP or Level or IV<a class="headerlink" href="#minimum-cp-or-level-or-iv" title="Permalink to this headline">¶</a></h4>
+<h3>Minimum CP or Level or IV<a class="headerlink" href="#minimum-cp-or-level-or-iv" title="Permalink to this headline">¶</a></h3>
 <p><code class="docutils literal"><span class="pre">!alert</span> <span class="pre">pokemon=Snorlax</span> <span class="pre">channel=slough</span> <span class="pre">area=all</span> <span class="pre">cp=2500</span></code>
 <code class="docutils literal"><span class="pre">!alert</span> <span class="pre">pokemon=Snorlax</span> <span class="pre">channel=slough</span> <span class="pre">area=all</span> <span class="pre">iv=95</span></code>
 <code class="docutils literal"><span class="pre">!alert</span> <span class="pre">pokemon=Snorlax</span> <span class="pre">channel=slough</span> <span class="pre">area=all</span> <span class="pre">level=30</span></code> <em>using
 channel &amp; area</em></p>
 <p><code class="docutils literal"><span class="pre">!alert</span> <span class="pre">pokemon=Snorlax</span> <span class="pre">cp=2500</span></code> <code class="docutils literal"><span class="pre">!alert</span> <span class="pre">pokemon=Snorlax</span> <span class="pre">iv=95</span></code>
 <code class="docutils literal"><span class="pre">!alert</span> <span class="pre">pokemon=Snorlax</span> <span class="pre">level=30</span></code> <em>to use location</em></p>
-</div>
 </div>
 <div class="section" id="alerts-for-all-pokemon-or-all-pokemon-by-generation">
 <h3>Alerts for All Pokemon or All Pokemon by Generation<a class="headerlink" href="#alerts-for-all-pokemon-or-all-pokemon-by-generation" title="Permalink to this headline">¶</a></h3>
@@ -235,25 +217,245 @@ channel &amp; area</em></p>
 </div>
 <div class="section" id="excluding-certain-pokemon-from-alerts">
 <h3>Excluding certain Pokemon from alerts<a class="headerlink" href="#excluding-certain-pokemon-from-alerts" title="Permalink to this headline">¶</a></h3>
-<p>When using the multiple pokemon alert typ</p>
+<p>When using the multiple pokemon alert type (All or Gen3 for example), you can choose to exclude certain pokemon from being alerted.</p>
+<p><code class="docutils literal"><span class="pre">`!alert</span> <span class="pre">pokemon=gen3</span> <span class="pre">channel=Eastbourne</span> <span class="pre">area=All</span> <span class="pre">iv=100</span> <span class="pre">level=35</span> <span class="pre">exclude=Meditite`</span></code>
+<code class="docutils literal"><span class="pre">`!alert</span> <span class="pre">pokemon=All</span> <span class="pre">channel=Brighton</span> <span class="pre">area=All</span> <span class="pre">iv=100</span> <span class="pre">exclude=eevee,magikarp`</span></code>
+<code class="docutils literal"><span class="pre">`!alert</span> <span class="pre">pokemon=All</span> <span class="pre">channel=Worthing</span> <span class="pre">area=All</span> <span class="pre">iv=100</span> <span class="pre">exclude=14,19`</span></code> <em>using channel &amp; area</em></p>
+<p><code class="docutils literal"><span class="pre">`!alert</span> <span class="pre">pokemon=gen3</span> <span class="pre">distance=5</span> <span class="pre">iv=100</span> <span class="pre">level=35</span> <span class="pre">exclude=Meditite`</span></code>
+<code class="docutils literal"><span class="pre">`!alert</span> <span class="pre">pokemon=All</span> <span class="pre">distance=5</span> <span class="pre">iv=100</span> <span class="pre">exclude=eevee,magikarp`</span></code>
+<code class="docutils literal"><span class="pre">`!alert</span> <span class="pre">pokemon=All</span> <span class="pre">distance=5</span> <span class="pre">iv=100</span> <span class="pre">exclude=14,19`</span></code> <em>to use location</em></p>
+<p>The format for exclusions is as follows:</p>
+<p><cite>exclude=pokemon1,pokemon2</cite>
+or
+<cite>exclude=12,14,19</cite></p>
+<p><strong>*NOTE: EXCLUDE MUST ALWAYS BE AT THE END*</strong></p>
+<p>##Show all alerts
+This is to allow you to see all the alerts that you have set up and this is your reference for the
+alert id (left most column)
+<code class="docutils literal"><span class="pre">`</span>
+<span class="pre">!alert</span> <span class="pre">show</span>
+<span class="pre">`</span></code>
+Returns:
+<code class="docutils literal"><span class="pre">`</span>
+<span class="pre">ALERT</span> <span class="pre">ID</span> <span class="pre">|POKEMON</span>&nbsp;&nbsp; <span class="pre">|CHANNEL/LOCATION</span> <span class="pre">|AREA</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|IV</span>&nbsp; <span class="pre">|CP</span> <span class="pre">|LEVEL</span> <span class="pre">|EXCLUSIONS</span> <span class="pre">|MUTED</span>
+<span class="pre">---------+----------+-----------------+---------------+----+---+------+-----------+-----</span>
+<span class="pre">45651</span>&nbsp;&nbsp;&nbsp; <span class="pre">|All</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|Home</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|N/a</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|100</span> <span class="pre">|0</span>&nbsp; <span class="pre">|1</span>&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|</span>
+<span class="pre">23802</span>&nbsp;&nbsp;&nbsp; <span class="pre">|All</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|Horsham</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|Henfield</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|100</span> <span class="pre">|0</span>&nbsp; <span class="pre">|20</span>&nbsp;&nbsp;&nbsp; <span class="pre">|Beedrill</span>&nbsp;&nbsp; <span class="pre">|MUTED</span>
+<span class="pre">23801</span>&nbsp;&nbsp;&nbsp; <span class="pre">|All</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|Midsussex</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|Haywards</span> <span class="pre">Heath</span> <span class="pre">|100</span> <span class="pre">|0</span>&nbsp; <span class="pre">|20</span>&nbsp;&nbsp;&nbsp; <span class="pre">|None</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|</span>
+<span class="pre">12523</span>&nbsp;&nbsp;&nbsp; <span class="pre">|Snorlax</span>&nbsp;&nbsp; <span class="pre">|Home</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|N/a</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|0</span>&nbsp;&nbsp; <span class="pre">|0</span>&nbsp; <span class="pre">|1</span>&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|None</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|MUTED</span>
+<span class="pre">12521</span>&nbsp;&nbsp;&nbsp; <span class="pre">|Snorlax</span>&nbsp;&nbsp; <span class="pre">|sussex</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|N/a</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|0</span>&nbsp;&nbsp; <span class="pre">|0</span>&nbsp; <span class="pre">|1</span>&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|None</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|</span>
+<span class="pre">`</span></code></p>
+<p>There are a few extra options for this command (always in ascending order)
+<code class="docutils literal"><span class="pre">`</span>
+<span class="pre">!alert</span> <span class="pre">show</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">Returns</span> <span class="pre">a</span> <span class="pre">list</span> <span class="pre">sorted</span> <span class="pre">by</span> <span class="pre">Pokemon</span> <span class="pre">Number,</span> <span class="pre">Channel,</span> <span class="pre">Area</span>
+<span class="pre">!alert</span> <span class="pre">show</span> <span class="pre">name</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">Returns</span> <span class="pre">a</span> <span class="pre">list</span> <span class="pre">sorted</span> <span class="pre">by</span> <span class="pre">Pokemon</span> <span class="pre">Name,</span> <span class="pre">Channel,</span> <span class="pre">Area</span>
+<span class="pre">!alert</span> <span class="pre">show</span> <span class="pre">number</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">Returns</span> <span class="pre">a</span> <span class="pre">list</span> <span class="pre">sorted</span> <span class="pre">by</span> <span class="pre">Pokemon</span> <span class="pre">Number,</span> <span class="pre">Channel,</span> <span class="pre">Area</span>
+<span class="pre">!alert</span> <span class="pre">show</span> <span class="pre">channel</span>&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">Returns</span> <span class="pre">a</span> <span class="pre">list</span> <span class="pre">sorted</span> <span class="pre">by</span> <span class="pre">Channel,</span> <span class="pre">Pokemon</span> <span class="pre">Name,</span> <span class="pre">Area</span>
+<span class="pre">!alert</span> <span class="pre">show</span> <span class="pre">area</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">Returns</span> <span class="pre">a</span> <span class="pre">list</span> <span class="pre">sorted</span> <span class="pre">by</span> <span class="pre">Area,</span> <span class="pre">Pokemon</span> <span class="pre">Name,</span> <span class="pre">Area</span>
+<span class="pre">`</span></code></p>
+<p><strong>NOTE - If IV is equal to 1 it is no being scanned and should be removed from your alert setup
+using</strong> <cite>!alert remove &lt;alert_id&gt;</cite></p>
+</div>
+</div>
+<div class="section" id="remove-alert-from-table">
+<h2>Remove alert from table<a class="headerlink" href="#remove-alert-from-table" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="remove-by-id">
+<h3>Remove by ID<a class="headerlink" href="#remove-by-id" title="Permalink to this headline">¶</a></h3>
+<p>First run show command and note the alert id for the record you want to mute
+<code class="docutils literal"><span class="pre">`</span>
+<span class="pre">!alert</span> <span class="pre">show</span>
+<span class="pre">`</span></code>
+Returns:
+<code class="docutils literal"><span class="pre">`</span>
+<span class="pre">ALERT</span> <span class="pre">ID</span> <span class="pre">|POKEMON</span>&nbsp;&nbsp; <span class="pre">|CHANNEL/LOCATION</span> <span class="pre">|AREA</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|IV</span>&nbsp; <span class="pre">|CP</span> <span class="pre">|LEVEL</span> <span class="pre">|EXCLUSIONS</span> <span class="pre">|MUTED</span>
+<span class="pre">---------+----------+-----------------+---------------+----+---+------+-----------+-----</span>
+<span class="pre">45651</span>&nbsp;&nbsp;&nbsp; <span class="pre">|All</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|Home</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|N/a</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|100</span> <span class="pre">|0</span>&nbsp; <span class="pre">|1</span>&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|</span>
+<span class="pre">23802</span>&nbsp;&nbsp;&nbsp; <span class="pre">|All</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|Horsham</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|Henfield</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|100</span> <span class="pre">|0</span>&nbsp; <span class="pre">|20</span>&nbsp;&nbsp;&nbsp; <span class="pre">|Beedrill</span>&nbsp;&nbsp; <span class="pre">|MUTED</span>
+<span class="pre">`</span></code>
+Once you have the alert id, you need to enter it in the remove commands as below
+<code class="docutils literal"><span class="pre">`</span>
+<span class="pre">!alert</span> <span class="pre">remove</span> <span class="pre">23802</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">------</span> <span class="pre">23802</span> <span class="pre">being</span> <span class="pre">the</span> <span class="pre">number</span> <span class="pre">in</span> <span class="pre">the</span> <span class="pre">Alert</span> <span class="pre">ID</span> <span class="pre">for</span> <span class="pre">the</span> <span class="pre">row</span> <span class="pre">to</span> <span class="pre">mute</span>
+<span class="pre">`</span></code></p>
+</div>
+<div class="section" id="remove-all-alerts">
+<h3>Remove All alerts<a class="headerlink" href="#remove-all-alerts" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal"><span class="pre">`</span>
+<span class="pre">!alert</span> <span class="pre">remove</span> <span class="pre">all</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">------</span> <span class="pre">This</span> <span class="pre">will</span> <span class="pre">remove</span> <span class="pre">all</span> <span class="pre">records</span> <span class="pre">for</span> <span class="pre">your</span> <span class="pre">user</span> <span class="pre">id</span>
+<span class="pre">`</span></code></p>
+</div>
+<div class="section" id="remove-by-location-only-available-for-sussex-home-counties-servers">
+<h3>Remove by Location <em>only available for Sussex &amp; Home Counties servers</em><a class="headerlink" href="#remove-by-location-only-available-for-sussex-home-counties-servers" title="Permalink to this headline">¶</a></h3>
+<p>You can remove all alerts for a channel or an area within a channel:</p>
+<p><code class="docutils literal"><span class="pre">`</span>
+<span class="pre">!alert</span> <span class="pre">remove</span> <span class="pre">channel=&quot;MidSussex&quot;</span>
+<span class="pre">!alert</span> <span class="pre">remove</span> <span class="pre">channel=&quot;Croydon&quot;</span> <span class="pre">area=&quot;Coulsdon&quot;</span>
+<span class="pre">`</span></code></p>
+<p>If removing an area, channel is still required.</p>
+</div>
+</div>
+<div class="section" id="change-minimum-iv-cp-level-distance-for-alerts">
+<h2>Change Minimum IV/CP/Level/Distance for alerts<a class="headerlink" href="#change-minimum-iv-cp-level-distance-for-alerts" title="Permalink to this headline">¶</a></h2>
+<p>You can do updating of alerts singularly or in groups</p>
+<div class="section" id="change-distance-single">
+<h3>Change Distance (Single)<a class="headerlink" href="#change-distance-single" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal"><span class="pre">`</span>
+<span class="pre">!distance</span> <span class="pre">&lt;ALERT_ID_REQUIRED&gt;</span> <span class="pre">&lt;NEW_DISTANCE_REQUIRED&gt;</span>
+<span class="pre">!distance</span> <span class="pre">3121</span> <span class="pre">2.5</span>
+<span class="pre">`</span></code></p>
+</div>
+<div class="section" id="change-distance-multiple">
+<h3>Change Distance (Multiple)<a class="headerlink" href="#change-distance-multiple" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal"><span class="pre">`</span>
+<span class="pre">!distance</span> <span class="pre">&lt;ALERT_ID_REQUIRED&gt;</span> <span class="pre">&lt;NEW_DISTANCE_REQUIRED&gt;,&lt;ALERT_ID_OPTIONAL&gt;</span> <span class="pre">&lt;NEW_DISTANCE_REQUIRED&gt;</span>
+<span class="pre">!distance</span> <span class="pre">3121</span> <span class="pre">2.5,3222</span> <span class="pre">5,3333</span> <span class="pre">0.5</span>
+<span class="pre">`</span></code></p>
+<p>You can have as many <cite>&lt;ALERT_ID_OPTIONAL&gt; &lt;NEW_DISTANCE_REQUIRED&gt;</cite> as you like separated by a comma
+(no space either side of the ,)</p>
+<p>You can only update distances for alerts without Channel &amp; Area.</p>
+</div>
+<div class="section" id="change-iv-single">
+<h3>Change IV (Single)<a class="headerlink" href="#change-iv-single" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal"><span class="pre">`</span>
+<span class="pre">!iv</span> <span class="pre">&lt;ALERT_ID_REQUIRED&gt;</span> <span class="pre">&lt;NEW_IV_REQUIRED&gt;</span>
+<span class="pre">!iv</span> <span class="pre">3121</span> <span class="pre">80</span>
+<span class="pre">`</span></code></p>
+</div>
+<div class="section" id="change-iv-multiple">
+<h3>Change IV (Multiple)<a class="headerlink" href="#change-iv-multiple" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal"><span class="pre">`</span>
+<span class="pre">!iv</span> <span class="pre">&lt;ALERT_ID_REQUIRED&gt;</span> <span class="pre">&lt;NEW_IV_REQUIRED&gt;,&lt;ALERT_ID_OPTIONAL&gt;</span> <span class="pre">&lt;NEW_IV_OPTIONAL&gt;</span>
+<span class="pre">!iv</span> <span class="pre">3121</span> <span class="pre">80,3222</span> <span class="pre">90,3333</span> <span class="pre">60</span>
+<span class="pre">`</span></code></p>
+<p>You can have as many <cite>&lt;ALERT_ID_OPTIONAL&gt; &lt;NEW_IV_OPTIONAL&gt;</cite> as you like separated by a comma
+(no space either side of the ,)</p>
+</div>
+<div class="section" id="change-cp-single">
+<h3>Change CP (Single)<a class="headerlink" href="#change-cp-single" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal"><span class="pre">`</span>
+<span class="pre">!cp</span> <span class="pre">&lt;ALERT_ID_REQUIRED&gt;</span> <span class="pre">&lt;NEW_CP_REQUIRED&gt;</span>
+<span class="pre">!cp</span> <span class="pre">3121</span> <span class="pre">1800</span>
+<span class="pre">`</span></code></p>
+</div>
+<div class="section" id="change-cp-multiple">
+<h3>Change CP (Multiple)<a class="headerlink" href="#change-cp-multiple" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal"><span class="pre">`</span>
+<span class="pre">!cp</span> <span class="pre">&lt;ALERT_ID_REQUIRED&gt;</span> <span class="pre">&lt;NEW_CP_REQUIRED&gt;,&lt;ALERT_ID_OPTIONAL&gt;</span> <span class="pre">&lt;NEW_CP_OPTIONAL&gt;</span>
+<span class="pre">!cp</span> <span class="pre">3121</span> <span class="pre">2000,3222</span> <span class="pre">1500,3333</span> <span class="pre">2900</span>
+<span class="pre">`</span></code></p>
+<p>You can have as many <cite>&lt;ALERT_ID_OPTIONAL&gt; &lt;NEW_CP_OPTIONAL&gt;</cite> as you like separated by a comma
+(no space either side of the ,)</p>
+</div>
+<div class="section" id="change-level-single">
+<h3>Change Level (Single)<a class="headerlink" href="#change-level-single" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal"><span class="pre">`</span>
+<span class="pre">!level</span> <span class="pre">&lt;ALERT_ID_REQUIRED&gt;</span> <span class="pre">&lt;NEW_LEVEL_REQUIRED&gt;</span>
+<span class="pre">!level</span> <span class="pre">3121</span> <span class="pre">30</span>
+<span class="pre">`</span></code></p>
+</div>
+<div class="section" id="change-level-multiple">
+<h3>Change Level (Multiple)<a class="headerlink" href="#change-level-multiple" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal"><span class="pre">`</span>
+<span class="pre">!level</span> <span class="pre">&lt;ALERT_ID_REQUIRED&gt;</span> <span class="pre">&lt;NEW_LEVEL_REQUIRED&gt;,&lt;ALERT_ID_OPTIONAL&gt;</span> <span class="pre">&lt;NEW_LEVEL_OPTIONAL&gt;</span>
+<span class="pre">!level</span> <span class="pre">3121</span> <span class="pre">80,3222</span> <span class="pre">90,3333</span> <span class="pre">60</span>
+<span class="pre">`</span></code></p>
+<p>You can have as many <cite>&lt;ALERT_ID_OPTIONAL&gt; &lt;NEW_LEVEL_OPTIONAL&gt;</cite> as you like separated by a comma
+(no space either side of the ,)</p>
+</div>
+</div>
+<div class="section" id="change-exclusions">
+<h2>Change exclusions<a class="headerlink" href="#change-exclusions" title="Permalink to this headline">¶</a></h2>
+<p>This can only be done one at a time.</p>
+<p><code class="docutils literal"><span class="pre">`</span>
+<span class="pre">!exclude</span> <span class="pre">&lt;ALERT_ID_REQUIRED&gt;</span> <span class="pre">&lt;NEW_EXCLUSIONS_REQUIRED&gt;</span>
+<span class="pre">!exclude</span> <span class="pre">3121</span> <span class="pre">129,133</span>
+<span class="pre">!exclude</span> <span class="pre">3121</span> <span class="pre">magikarp,eevee</span>
+<span class="pre">`</span></code></p>
+</div>
+<div class="section" id="mute-alert-from-table">
+<h2>Mute alert from table<a class="headerlink" href="#mute-alert-from-table" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="mute-by-id">
+<h3>Mute by ID<a class="headerlink" href="#mute-by-id" title="Permalink to this headline">¶</a></h3>
+<p>First run show command and note the alert id for the record you want to mute
+<code class="docutils literal"><span class="pre">`</span>
+<span class="pre">!alert</span> <span class="pre">show</span>
+<span class="pre">`</span></code>
+Returns:
+<code class="docutils literal"><span class="pre">`</span>
+<span class="pre">ALERT</span> <span class="pre">ID</span> <span class="pre">|POKEMON</span>&nbsp;&nbsp; <span class="pre">|CHANNEL/LOCATION</span> <span class="pre">|AREA</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|IV</span>&nbsp; <span class="pre">|CP</span> <span class="pre">|LEVEL</span> <span class="pre">|EXCLUSIONS</span> <span class="pre">|MUTED</span>
+<span class="pre">---------+----------+-----------------+---------------+----+---+------+-----------+-----</span>
+<span class="pre">45651</span>&nbsp;&nbsp;&nbsp; <span class="pre">|All</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|Home</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|N/a</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|100</span> <span class="pre">|0</span>&nbsp; <span class="pre">|1</span>&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|</span>
+<span class="pre">23802</span>&nbsp;&nbsp;&nbsp; <span class="pre">|All</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|Horsham</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|Henfield</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|100</span> <span class="pre">|0</span>&nbsp; <span class="pre">|20</span>&nbsp;&nbsp;&nbsp; <span class="pre">|Beedrill</span>&nbsp;&nbsp; <span class="pre">|</span>
+<span class="pre">`</span></code>
+Once you have the alert id, you need to enter it in the mute commands as below
+<code class="docutils literal"><span class="pre">`</span>
+<span class="pre">!alert</span> <span class="pre">mute</span> <span class="pre">23802</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">------</span> <span class="pre">23802</span> <span class="pre">being</span> <span class="pre">the</span> <span class="pre">number</span> <span class="pre">in</span> <span class="pre">the</span> <span class="pre">Alert</span> <span class="pre">ID</span> <span class="pre">for</span> <span class="pre">the</span> <span class="pre">row</span> <span class="pre">to</span> <span class="pre">mute</span>
+<span class="pre">`</span></code></p>
+</div>
+<div class="section" id="mute-all-alerts">
+<h3>Mute All alerts<a class="headerlink" href="#mute-all-alerts" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal"><span class="pre">`</span>
+<span class="pre">!alert</span> <span class="pre">mute</span> <span class="pre">all</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">------</span> <span class="pre">This</span> <span class="pre">will</span> <span class="pre">mute</span> <span class="pre">all</span> <span class="pre">record</span> <span class="pre">for</span> <span class="pre">your</span> <span class="pre">user</span> <span class="pre">id</span>
+<span class="pre">`</span></code></p>
+</div>
+<div class="section" id="mute-by-channel-only-available-for-sussex-home-counties-servers">
+<h3>Mute by Channel <em>only available for Sussex &amp; Home Counties servers</em><a class="headerlink" href="#mute-by-channel-only-available-for-sussex-home-counties-servers" title="Permalink to this headline">¶</a></h3>
+<p>You can mute all alerts for a channel or an area within a channel:</p>
+<p><code class="docutils literal"><span class="pre">`</span>
+<span class="pre">!alert</span> <span class="pre">mute</span> <span class="pre">channel=&quot;MidSussex&quot;</span>
+<span class="pre">!alert</span> <span class="pre">mute</span> <span class="pre">channel=&quot;CentralEast&quot;</span> <span class="pre">area=&quot;Covent</span> <span class="pre">Garden&quot;</span>
+<span class="pre">`</span></code></p>
+<p>If muting an area, channel is still required.</p>
+</div>
+</div>
+<div class="section" id="unmute-alert-from-table">
+<h2>Unmute alert from table<a class="headerlink" href="#unmute-alert-from-table" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="unmute-by-id">
+<h3>Unmute by ID<a class="headerlink" href="#unmute-by-id" title="Permalink to this headline">¶</a></h3>
+<p>First run show command and note the alert id for the record you want to mute
+<code class="docutils literal"><span class="pre">`</span>
+<span class="pre">!alert</span> <span class="pre">show</span>
+<span class="pre">`</span></code>
+Returns:
+<code class="docutils literal"><span class="pre">`</span>
+<span class="pre">ALERT</span> <span class="pre">ID</span> <span class="pre">|POKEMON</span>&nbsp;&nbsp; <span class="pre">|CHANNEL/LOCATION</span> <span class="pre">|AREA</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|IV</span>&nbsp; <span class="pre">|CP</span> <span class="pre">|LEVEL</span> <span class="pre">|EXCLUSIONS</span> <span class="pre">|MUTED</span>
+<span class="pre">---------+----------+-----------------+---------------+----+---+------+-----------+-----</span>
+<span class="pre">45651</span>&nbsp;&nbsp;&nbsp; <span class="pre">|All</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|Home</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|N/a</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|100</span> <span class="pre">|0</span>&nbsp; <span class="pre">|1</span>&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|</span>
+<span class="pre">23802</span>&nbsp;&nbsp;&nbsp; <span class="pre">|All</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|Horsham</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|Henfield</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">|100</span> <span class="pre">|0</span>&nbsp; <span class="pre">|20</span>&nbsp;&nbsp;&nbsp; <span class="pre">|Beedrill</span>&nbsp;&nbsp; <span class="pre">|MUTED</span>
+<span class="pre">`</span></code>
+Once you have the alert id, you need to enter it in the mute commands as below
+<code class="docutils literal"><span class="pre">`</span>
+<span class="pre">!alert</span> <span class="pre">unmute</span> <span class="pre">23802</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">------</span> <span class="pre">23802</span> <span class="pre">being</span> <span class="pre">the</span> <span class="pre">number</span> <span class="pre">in</span> <span class="pre">the</span> <span class="pre">Alert</span> <span class="pre">ID</span> <span class="pre">for</span> <span class="pre">the</span> <span class="pre">row</span> <span class="pre">to</span> <span class="pre">mute</span>
+<span class="pre">`</span></code></p>
+</div>
+<div class="section" id="unmute-all-alerts">
+<h3>Unmute All alerts<a class="headerlink" href="#unmute-all-alerts" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal"><span class="pre">`</span>
+<span class="pre">!alert</span> <span class="pre">unmute</span> <span class="pre">all</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="pre">------</span> <span class="pre">This</span> <span class="pre">will</span> <span class="pre">mute</span> <span class="pre">all</span> <span class="pre">record</span> <span class="pre">for</span> <span class="pre">your</span> <span class="pre">user</span> <span class="pre">id</span>
+<span class="pre">`</span></code></p>
+</div>
+<div class="section" id="unmute-by-location-only-available-for-sussex-home-counties-servers">
+<h3>Unmute by Location <em>only available for Sussex &amp; Home Counties servers</em><a class="headerlink" href="#unmute-by-location-only-available-for-sussex-home-counties-servers" title="Permalink to this headline">¶</a></h3>
+<p>You can unmute all alerts for a channel or an area within a channel:</p>
+<p><code class="docutils literal"><span class="pre">`</span>
+<span class="pre">!alert</span> <span class="pre">unmute</span> <span class="pre">channel=&quot;MidSussex&quot;</span>
+<span class="pre">!alert</span> <span class="pre">unmute</span> <span class="pre">channel=&quot;CentralEast&quot;</span> <span class="pre">area=&quot;Covent</span> <span class="pre">Garden&quot;</span>
+<span class="pre">`</span></code></p>
+<p>If unmuting an area, channel is still required.</p>
 </div>
 </div>
 </div>
 
 
-           </div>
-           <div class="articleComments">
-            
            </div>
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="location_commands.html" class="btn btn-neutral float-right" title="Setting up locations" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="location_commands.html" class="btn btn-neutral float-right" title="Setting up locations" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="../index.html" class="btn btn-neutral" title="Welcome to Arceus’s TEST documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../intro.html" class="btn btn-neutral" title="Introduction" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -287,8 +489,7 @@ channel &amp; area</em></p>
             VERSION:'0',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true,
-            SOURCELINK_SUFFIX: '.txt'
+            HAS_SOURCE:  true
         };
     </script>
       <script type="text/javascript" src="../_static/jquery.js"></script>

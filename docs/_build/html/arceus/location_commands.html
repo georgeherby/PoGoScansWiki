@@ -13,8 +13,6 @@
 
   
   
-  
-  
 
   
 
@@ -32,9 +30,6 @@
   
 
   
-        <link rel="index" title="Index"
-              href="../genindex.html"/>
-        <link rel="search" title="Search" href="../search.html"/>
     <link rel="top" title="PoGoScans 0 documentation" href="../index.html"/>
         <link rel="next" title="Raid Alerts" href="../dialga/raid_alert.html"/>
         <link rel="prev" title="Pokemon Alerts" href="arceus_alerts.html"/> 
@@ -46,7 +41,6 @@
 
 <body class="wy-body-for-nav" role="document">
 
-   
   <div class="wy-grid-for-nav">
 
     
@@ -87,13 +81,17 @@
           
             
             
-              
-            
-            
-              <p class="caption"><span class="caption-text">Basic Installation</span></p>
+                <p class="caption"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../intro.html">Introduction</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Pokemon Alerts</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="arceus_alerts.html">Pokemon Alerts</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Setting up locations</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Raid Alerts</span></p>
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="../dialga/raid_alert.html">Raid Alerts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../dialga/raid_attendance.html">Raid Attendance</a></li>
 </ul>
@@ -108,10 +106,8 @@
 
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        
-          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../index.html">PoGoScans</a>
-        
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">PoGoScans</a>
       </nav>
 
 
@@ -120,40 +116,23 @@
         <div class="rst-content">
           
 
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 
 <div role="navigation" aria-label="breadcrumbs navigation">
-
   <ul class="wy-breadcrumbs">
-    
-      <li><a href="../index.html">Docs</a> &raquo;</li>
-        
-      <li>Setting up locations</li>
-    
-    
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+    <li>Setting up locations</li>
       <li class="wy-breadcrumbs-aside">
         
-            
-            <a href="../_sources/arceus/location_commands.rst.txt" rel="nofollow"> View page source</a>
+          
+            <a href="../_sources/arceus/location_commands.txt" rel="nofollow"> View page source</a>
           
         
       </li>
-    
   </ul>
-
-  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -165,7 +144,7 @@
 <p>Alerts can be set against a channel &amp; area*, but also set against a
 defined location of your choosing. You may set up as many locations as
 you like, but may only have one location active at a given point.</p>
-<p>**For London, alerts cannot be set up for channel / area*</p>
+<p><a href="#id1"><span class="problematic" id="id2">*</span></a>For London, alerts cannot be set up for channel / area*</p>
 <div class="section" id="setup-locations">
 <h2>Setup locations<a class="headerlink" href="#setup-locations" title="Permalink to this headline">¶</a></h2>
 <p>The command to add a new location is:</p>
@@ -181,8 +160,9 @@ all locations in code) and must be unique.</p>
 enter as high a distance as you like, if greater than the system max
 distance, will use the system setting. We have done this as we will
 change the max setting based on numbers of alerts going out.</p>
+</div>
 <div class="section" id="set-location-active">
-<h3>Set location active<a class="headerlink" href="#set-location-active" title="Permalink to this headline">¶</a></h3>
+<h2>Set location active<a class="headerlink" href="#set-location-active" title="Permalink to this headline">¶</a></h2>
 <p>You’ve set up 1 or more locations using the guide above. To set a
 location as active:</p>
 <p><code class="docutils literal"><span class="pre">!location</span> <span class="pre">set</span> <span class="pre">&lt;name&gt;</span></code></p>
@@ -195,9 +175,9 @@ have 1 location active. Never more than 1.</p>
 inactive.</p>
 </div>
 <div class="section" id="show-locations">
-<h3>Show locations<a class="headerlink" href="#show-locations" title="Permalink to this headline">¶</a></h3>
+<h2>Show locations<a class="headerlink" href="#show-locations" title="Permalink to this headline">¶</a></h2>
 <p><code class="docutils literal"><span class="pre">!location</span> <span class="pre">show</span></code> will return a table of all your locations:</p>
-<div class="highlight-default"><div class="highlight"><pre><span class="n">NAME</span>   <span class="o">|</span><span class="n">LATITUDE</span> <span class="o">|</span><span class="n">LONGITUDE</span> <span class="o">|</span><span class="n">DISTANCE</span> <span class="o">|</span><span class="n">ACTIVE</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">NAME</span>   <span class="o">|</span><span class="n">LATITUDE</span> <span class="o">|</span><span class="n">LONGITUDE</span> <span class="o">|</span><span class="n">DISTANCE</span> <span class="o">|</span><span class="n">ACTIVE</span>
 <span class="o">-------+---------+----------+---------+------</span>
 <span class="n">home</span>   <span class="o">|</span><span class="mf">55.4573</span>  <span class="o">|-</span><span class="mf">0.396158</span> <span class="o">|</span><span class="mf">1.0</span>      <span class="o">|</span><span class="n">false</span>
 <span class="n">london</span> <span class="o">|</span><span class="mf">51.5083</span>  <span class="o">|-</span><span class="mf">0.095649</span> <span class="o">|</span><span class="mf">2.0</span>      <span class="o">|</span><span class="n">false</span>
@@ -205,7 +185,6 @@ inactive.</p>
 </pre></div>
 </div>
 <p>This shows that my work location is currently active.</p>
-</div>
 </div>
 <div class="section" id="remove-location-s">
 <h2>Remove location(s)<a class="headerlink" href="#remove-location-s" title="Permalink to this headline">¶</a></h2>
@@ -217,6 +196,9 @@ inactive.</p>
 <h2>Mute locations<a class="headerlink" href="#mute-locations" title="Permalink to this headline">¶</a></h2>
 <p>If you want to mute alerts for all locations, just type
 <code class="docutils literal"><span class="pre">!location</span> <span class="pre">mute</span></code></p>
+</div>
+<div class="section" id="switching-between-location-based-and-channel-area-based-alerts">
+<h2>Switching between location based and channel/area based alerts<a class="headerlink" href="#switching-between-location-based-and-channel-area-based-alerts" title="Permalink to this headline">¶</a></h2>
 <p>If you have already got alerts set up for a channel or area, you can
 remove the channel &amp; area and switch them to being location based. To do
 so:</p>
@@ -229,18 +211,15 @@ so:</p>
 
 
            </div>
-           <div class="articleComments">
-            
-           </div>
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../dialga/raid_alert.html" class="btn btn-neutral float-right" title="Raid Alerts" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../dialga/raid_alert.html" class="btn btn-neutral float-right" title="Raid Alerts" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="arceus_alerts.html" class="btn btn-neutral" title="Pokemon Alerts" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="arceus_alerts.html" class="btn btn-neutral" title="Pokemon Alerts" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -274,8 +253,7 @@ so:</p>
             VERSION:'0',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true,
-            SOURCELINK_SUFFIX: '.txt'
+            HAS_SOURCE:  true
         };
     </script>
       <script type="text/javascript" src="../_static/jquery.js"></script>
