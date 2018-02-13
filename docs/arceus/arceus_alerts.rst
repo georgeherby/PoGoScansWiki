@@ -19,11 +19,8 @@ end of the location wiki above.
 
 **All commands should be run in DM (Direct Message) to Arceus**
 
-Set alerts for Pokemon
-######################
-
-For this you must format your commands in one of the formats below.
-
+Examples
+--------
 
 
 
@@ -34,49 +31,46 @@ WHERE IS THIS?! - All tables have gone missing!
 
 
 **Trainer Tip - you can change the minimum IV/CP/Level of alerts after
-using the command in** 
+using the command LINK TO** 
 
-Change Minimum IV/CP for alerts
-###############################
-If you have issues with entering invalid channels go to #help and type
-``!channels`` and this will give a list of available channels to enter
-in the command
 
-Single Channel alerts
-*********************
-
+Create Simple Alerts
+--------------------
 So if you want examples of how to get alerts for Reading, Worthing or
 Brighton for example see below.
 
+Filters (IV/CP/Level)
+---------------------
+
 No Minimum Filters
-******************
+~~~~~~~~~~~~~~~~~~
 
 ``!alert pokemon=Unown channel=worthing area=all`` *using channel &
 area* ``!alert pokemon=Unown`` *to use location*
 
 Minimum IV & CP
-***************
+~~~~~~~~~~~~~~~
 
 ``!alert pokemon=Ampharos channel=reading area=reading cp=2000 iv=100``
 *using channel & area* ``!alert pokemon=Ampharos cp=2000 iv=100`` *to
 use location*
 
 Minimum IV & Level
-******************
+~~~~~~~~~~~~~~~~~~
 
 ``!alert pokemon=Lapras channel=Brighton area=East Brighton iv=100 level=30``
 *using channel & area* ``!alert pokemon=Lapras iv=100 level=30`` *to use
 location*
 
 Minimum CP & Level
-******************
+~~~~~~~~~~~~~~~~~~
 
 ``!alert pokemon=Tyranitar channel=worthing area=durrington cp=2500 level=30``
 *using channel & area* ``!alert pokemon=Tyranitar cp=2500 level=30`` *to
 use location*
 
 Minimum CP or Level or IV
-*************************
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ``!alert pokemon=Snorlax channel=slough area=all cp=2500``
 ``!alert pokemon=Snorlax channel=slough area=all iv=95``
@@ -87,7 +81,7 @@ channel & area*
 ``!alert pokemon=Snorlax level=30`` *to use location*
 
 Alerts for All Pokemon or All Pokemon by Generation
-***************************************************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **you can only apply these alerts with a filter (IV/CP/Level)**
 
@@ -102,8 +96,8 @@ Alerts for All Pokemon or All Pokemon by Generation
 ``!alert pokemon=All level=30 iv=100`` ``!alert pokemon=gen1 iv=90``
 ``!alert pokemon=gen3 iv=100 level=35`` *to use location*
 
-Excluding certain Pokemon from alerts
-*************************************
+Exclusions
+----------
 
 When using the multiple pokemon alert type (All or Gen3 for example), you can choose to exclude certain pokemon from being alerted.
 
