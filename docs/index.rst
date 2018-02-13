@@ -9,7 +9,7 @@ Welcome to PoGoScans's documentation!
 
 .. toctree::
     :titlesonly:
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: Introduction
     :glob:
 
@@ -17,7 +17,7 @@ Welcome to PoGoScans's documentation!
 
 .. toctree::
     :titlesonly:
-    :maxdepth: 3
+    :maxdepth: 2
     :caption: Pokemon Alerts
     :glob:
 
@@ -25,7 +25,7 @@ Welcome to PoGoScans's documentation!
 
 .. toctree::
     :titlesonly:
-    :maxdepth: 3
+    :maxdepth: 2
     :caption: Raid Alerts
     :glob:
 
