@@ -1,6 +1,6 @@
-***************
-Raid Attendance
-***************
+************
+Raid Meetups
+************
 
 **All commands should be run in your ares raidchat e.g. worthing-raidchat**
 

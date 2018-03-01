@@ -17,16 +17,40 @@ Welcome to PoGoScans's documentation!
 
 .. toctree::
     :titlesonly:
+    :maxdepth: 1
+    :caption: Guzzlord
+    :glob:
+
+    guzzlord/*
+
+.. toctree::
+    :titlesonly:
     :maxdepth: 3
-    :caption: Pokemon Alerts
+    :caption: Arceus
     :glob:
 
     arceus/*
 
 .. toctree::
     :titlesonly:
-    :maxdepth: 3
-    :caption: Raid Alerts
+    :maxdepth: 1
+    :caption: Dialga    
     :glob:
 
     dialga/*
+
+.. toctree::
+    :titlesonly:
+    :maxdepth: 1
+    :caption: Shaymin
+    :glob:
+
+    shaymin/*
+
+.. toctree::
+    :titlesonly:
+    :maxdepth: 1
+    :caption: Prof Oak
+    :glob:
+
+    prof_oak/*
