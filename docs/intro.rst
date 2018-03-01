@@ -30,7 +30,7 @@ We have a few bots on our discord servers to help make your experience with us b
 4. Shaymin - To let others know of nests in your area, use Shaymin.
 5. Prof Oak - The professor is your one stop shop to get info on all things PoGo. From finding out which egg a pokemon appears in to calculating IVs for your catches, the professor will help.
 
-Help!
+Help
 #####
 
 If you see someone asking questions that is answered in here, feel free to direct them here, or if you can, provide assistance yourself. We are a community and we help each other.
