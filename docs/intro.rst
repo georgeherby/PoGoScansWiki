@@ -2,83 +2,39 @@
 Introduction
 ************
 
-Ever thought “I wish i could stop those pesky Skarmory or Mantine
-notifications”, or “I just want notifications for that elusive Unown”.
-Well we have the answer!
+Hi and welcome to the wiki for our Pokémon Go scanning service. We currently have three discord servers:
 
-Using our bots Arceus & Dialga you can now configure alerts to your
-personal message inbox for specific pokemon or raids for certain areas.
-So whether you are only able to get to a small area or able to tour
-around the county after those rares it can be configured to suit your
-needs!
+PoGo Sussex
+PoGo HomeCounties
+PoGo London
 
-This function searches for posts in the server and resends them to you
-in a DM. This means that the filters applied on the server will apply to
-the DMs too.
+I guess you know about at least one of them having made your way here. If you need an invite to any of our other discord servers, just ask in the chat channel.
 
-*You need to be a Subscriber to get this feature - please see the
-subscribe channel on discord for further details*
+To see which locations we scan in each server, the readme will provide te information. There are screenshots and lists of areas there.
 
-Getting Started
+All are welcome here, but only raid channels are availble for free. Providing this service costs a lot of money, so to get access to the scanning channels, 
+the map or any of our bots you must subscribe to this service. The cost is currently £3 a month, but you can pay anything from £1 for 10 days of access upwards. 
+We do ask that you do not subscribe too far into the future, as given this service is against the Niantic terms and conditions, there is always a chance
+that this service could be closed down without much notice, and refunds will not be processed should this happen.
+
+To subscribe to this service, please read the **Guzzlord** subscription section.
+
+Our Bots
 ###############
 
-Once you have joined one of the below servers (mentioned in ***current
-servers*** section), assigned yourself some area roles and subscribed go
-to the #bot-commands channel type one of the following command:
+We have a few bots on our discord servers to help make your experience with us better and to help you find the pokemon you are looking for:
 
-``!alert`` - for pokemon alerts ``!raid`` - for raid alerts
-
-This will trigger a DM (direct message) from Arceus (for pokemon) or
-Dialga (for raids). Once you have got the message open it and from here
-all commands that you need to use must be entered in here. A page of all
-commands is below.
-
--  `Pokemon Alerts`_
-
-   -  `Location Settings`_
-
--  `Raid Alerts`_
-
-Note: if you lose a DM with the bots just run ``!alert`` or ``!raid``
-again in #bot-commands and you’ll get another DM, no need to reset up
-your settings they will be remembered in the bots bulging brain!
-
-Invite Code
-###########
-
-Once you are on the server if you want to give someone else the invite
-code just use the invite command and Arceus will send it to you
-
-::
-
-    !invite
-
-Raid Meetups
-############
-
-Dialga now also has the ability to set up raid meetups for you and
-organise your raids :)
-
-Each area has an -activeraids channel. All level 4 & 5 (level 1-3 are
-soloable and do not need meetups) raids are posted here for you to set
-up meetups. To help you familiarise yourself with the commands needed to
-set these up, click `here`_.
+1. Guzzlord - This bot is your tool to activate and maintain your subscription. Guzzlord is also used to assist with some other basic commands.
+2. Arceus - This is our pokemon alerting bot. Use this to set up alerts, filtered exactly how you want, for the locations you want.
+3. Dialga - This is our raid bot. Use Dialga to set up raid alerts for the areas or gyms of interest to you. Dialga is also used to set up and attend raid battles.
+4. Shaymin - To let others know of nests in your area, use Shaymin.
+5. Prof Oak - The professor is your one stop shop to get info on all things PoGo. From finding out which egg a pokemon appears in to calculating IVs for your catches, the professor will help.
 
 Help!
 #####
 
-If you see someone asking questions that you think this wiki answers use
-the wiki command they will get a link to this wiki
-
-::
-
-    !help
-
-If that doesn’t help. Please view FAQ
-`here <https://bitbucket.org/georgeherby/arceus/wiki/FAQ>`__
-
-If you are still lost and need help don’t be afraid to ping admin team
-in #bot-commands
+If you see someone asking questions that is answered in here, feel free to direct them here, or if you can, provide assistance yourself. We are a community and we help each other.
+Arceus & Dialga can seem daunting at first, so let's help those that are new here :)
 
 Acknowledgements
 ################
