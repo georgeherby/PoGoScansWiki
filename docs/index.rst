@@ -9,7 +9,7 @@ Welcome to PoGoScans's documentation!
 
 .. toctree::
     :titlesonly:
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: Introduction
     :glob:
 
@@ -54,3 +54,4 @@ Welcome to PoGoScans's documentation!
     :glob:
 
     prof_oak/*
+
