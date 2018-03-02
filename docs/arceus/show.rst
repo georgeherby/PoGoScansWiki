@@ -34,4 +34,3 @@ If you alerts have exclusions (indicated by a ✓ in the exclusions column, you 
     !exclude show <ID>
 	
 .. image:: exclude_show.PNG
-    :align: center

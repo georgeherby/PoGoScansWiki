@@ -21,7 +21,6 @@ Welcome to PoGoScans's documentation!
     :caption: Guzzlord
     :glob:
 
-    guzzlord/intro
     guzzlord/subscribing
     guzzlord/miscellaneous
 

@@ -87,9 +87,8 @@
 </ul>
 <p class="caption"><span class="caption-text">Guzzlord</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../guzzlord/intro.html">Introduction to Guzzlord</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../guzzlord/subscribing.html">Subscribing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../guzzlord/miscellaneous.html">Miscellaneous</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guzzlord/miscellaneous.html">Miscellaneous Commands</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Arceus</span></p>
 <ul class="current">
@@ -170,20 +169,22 @@
 <div class="highlight-bash"><div class="highlight"><pre><span></span>!alert show
 </pre></div>
 </div>
-<p>Shows a list of alerts. It’s the go-to to see what’s going on with filters. Example:</p>
+<p>Shows a list of alerts, sorted by pokedex number. It’s the go-to to see what’s going on with your alerts. Example:</p>
 <img alt="../_images/alert_show.PNG" class="align-center" src="../_images/alert_show.PNG" />
-<div class="highlight-bash"><div class="highlight"><pre><span></span>!alert show name
-!alert show number
+<p>There are a few extra sorting options for this command (always in ascending order):</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>!alert show name        Returns a list sorted by Pokemon Name
+!alert show channel     Returns a list sorted by Channel
+!alert show area        Returns a list sorted by Area
 </pre></div>
 </div>
-<p>Shows a list of filters, sorted by name or by (dex) number.</p>
 </div>
 <div class="section" id="viewing-exclusions">
 <h2><a class="toc-backref" href="#id2">Viewing Exclusions</a><a class="headerlink" href="#viewing-exclusions" title="Permalink to this headline">¶</a></h2>
-<p>If you alerts have exclusions, you can view these by typing:</p>
+<p>If you alerts have exclusions (indicated by a ✓ in the exclusions column, you can view these by typing:</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>!exclude show &lt;ID&gt;
 </pre></div>
 </div>
+<img alt="../_images/exclude_show.PNG" src="../_images/exclude_show.PNG" />
 </div>
 </div>
 

@@ -11,23 +11,26 @@ Viewing Filters
 
     !alert show
 
-Shows a list of alerts. It’s the go-to to see what’s going on with filters. Example:
+Shows a list of alerts, sorted by pokedex number. It’s the go-to to see what’s going on with your alerts. Example:
 
 .. image:: alert_show.PNG
     :align: center
 
+There are a few extra sorting options for this command (always in ascending order):
+
 .. code-block:: bash
 
-    !alert show name  
-    !alert show number
-
-Shows a list of filters, sorted by name or by (dex) number.
-
+    !alert show name        Returns a list sorted by Pokemon Name   
+    !alert show channel     Returns a list sorted by Channel
+    !alert show area        Returns a list sorted by Area
+	
 Viewing Exclusions
 ##################
 
-If you alerts have exclusions, you can view these by typing:
+If you alerts have exclusions (indicated by a ✓ in the exclusions column, you can view these by typing:
 
 .. code-block:: bash
 
     !exclude show <ID>
+	
+.. image:: exclude_show.PNG
