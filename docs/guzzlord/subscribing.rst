@@ -54,7 +54,7 @@ where ID is the transaction ID you noted in step 1. If the transaction ID is cor
 
 .. note::
 
-	Please remember, if you are subscribing again after expiring, your map credentials will have changed. 
+	Please remember, if you are subscribing again after expiring, your map credentials will have changed. If extending your subscription, your credentials will remain unchanged.
  
 Get Map Credentials
 ===================
@@ -76,9 +76,11 @@ and you will no longer be able to see the scan channels. Your alerts will not be
 Useful Commands 
 ###############
 
+All commands must be done in DM with Guzzlord.
+
 .. code-block:: bash
 
-    !change_password password
+    !change_password newpassword
 	
 If you want to change your map password to soemthing shorter or more memorable.
 
@@ -94,6 +96,6 @@ If you want to check your expiry date, use this command.
 
 .. code-block:: bash
 
-    !calculate
+    !calculate amount
 
-Want to find out how much bang for your buck you get? In DM with Guzzlord type: `!calculate amount`, for example `!calculate 5`
+Want to find out how much bang for your buck you get? Use this command to work out the expiry date for a given amount, for example `!calculate 5`
