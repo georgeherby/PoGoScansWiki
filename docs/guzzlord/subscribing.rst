@@ -10,9 +10,9 @@ Why Should I Subscribe?
 There are many reasons why subscribing is possibly the best thing you could ever do :smiley: Not only do you get the warm fuzzy feeling from knowing that your support is keeping this service running, 
 but you also get ALL of the following goodies!!
 
-~ Access to the scan channels to see what is spawning in the areas you want to know about
-~ Access to the map
-~ Access to use Arceus & Dialga, our amazing alerting bots (see :doc:`Arceus </arceus/intro>` or :doc:`Dialga </dialga/intro>`)
+~ Access to the scan channels to see what is spawning in the areas you want to know about  
+~ Access to the map  
+~ Access to use Arceus & Dialga, our amazing alerting bots (see :doc:`Arceus </arceus/intro>` or :doc:`Dialga </dialga/intro>`)  
 
 Cost of Subscription
 ####################
@@ -42,15 +42,19 @@ Go to the bot-commands channel and type:
 
     !subscribe
 	
- In DM with Guzzlord, type:
+In DM with Guzzlord, type:
  
 .. code-block:: bash
 
     !transction ID
 
-where ID is the transaction ID you noted in step 1. If the transaction ID is correct and found on PayPal, you will receive a response with your new subscription expiry date.
+where ID is the transaction ID you noted in step 1. If the transaction ID is correct and found on `PayPal <http://bit.ly/2igVOxV>`_, you will receive a response with your new subscription expiry date.
 
 .. image:: subscribe_response.PNG
+
+.. note::
+
+	Please remember, if you are subscribing again after expiring, your map credentials will have changed. 
  
 Get Map Credentials
 ===================
