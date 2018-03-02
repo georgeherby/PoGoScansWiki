@@ -17,7 +17,7 @@ the map or any of our bots you must subscribe to this service. The cost is curre
 We do ask that you do not subscribe too far into the future, as given this service is against the Niantic terms and conditions, there is always a chance
 that this service could be closed down without much notice, and refunds will not be processed should this happen.
 
-To subscribe to this service, please read the **Guzzlord** subscription section.
+To subscribe to this service, please read the :doc:`guzzlord/subscribing` section.
 
 Our Bots
 ###############
