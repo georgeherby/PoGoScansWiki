@@ -83,7 +83,7 @@ All commands must be done in DM with Guzzlord.
 
     !change_password newpassword
 	
-If you want to change your map password to soemthing shorter or more memorable.
+If you want to change your map password to something shorter or more memorable.
 
 .. note::
 
