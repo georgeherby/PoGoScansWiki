@@ -88,17 +88,20 @@
 <p class="caption"><span class="caption-text">Guzzlord</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../guzzlord/subscribing.html">Subscribing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guzzlord/miscellaneous.html">Miscellaneous Commands</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Arceus</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../arceus/alert_and_exclusions.html">Showing Alerts &amp; Exclusions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../arceus/amend_alerts.html">Amending Existing Alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../arceus/intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../arceus/show.html">Showing Alerts &amp; Exclusions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../arceus/locations.html">Locations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../arceus/channel_alerts.html">Setting Up Channel Alerts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../arceus/location_alerts.html">Setting Up Location Alerts</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../arceus/locations.html">Locations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../arceus/amend_alerts.html">Amending Existing Alerts</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Dialga</span></p>
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="../dialga/intro.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../dialga/raid_alert.html">Raid Alerts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../dialga/raid_meetups.html">Raid Meetups</a></li>
 </ul>
@@ -155,6 +158,37 @@
             
   <div class="section" id="shaymin">
 <h1>Shaymin<a class="headerlink" href="#shaymin" title="Permalink to this headline">¶</a></h1>
+<p>The nests channel in discord contains all known nests with information gathered by yourselves. Shaymin is used to collate and display all this information.</p>
+<div class="section" id="nest-types">
+<h2>Nest Types<a class="headerlink" href="#nest-types" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Large Spawn Area</li>
+<li>Single Spawn Point</li>
+<li>Multiple in One Point</li>
+<li>Unknown</li>
+</ol>
+</div>
+<div class="section" id="adding-a-new-nest">
+<h2>Adding A New Nest<a class="headerlink" href="#adding-a-new-nest" title="Permalink to this headline">¶</a></h2>
+<p>To add a new nest use this command:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>!nest <span class="s2">&quot;channel&quot;</span> <span class="s2">&quot;Nest Name&quot;</span> <span class="s2">&quot;pokemon&quot;</span> &lt;nest_type&gt;
+</pre></div>
+</div>
+<p>Example: <code class="docutils literal"><span class="pre">!nest</span> <span class="pre">&quot;Worthing&quot;</span> <span class="pre">&quot;Denton</span> <span class="pre">Garden&quot;</span> <span class="pre">&quot;Weedle&quot;</span> <span class="pre">1</span></code></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Before adding a new nest, please double check that the location does not already exist. If it does, use the below instead.</p>
+</div>
+</div>
+<div class="section" id="updating-a-nest-after-migration">
+<h2>Updating A Nest After Migration<a class="headerlink" href="#updating-a-nest-after-migration" title="Permalink to this headline">¶</a></h2>
+<p>Nests migrate every two weeks. When a migration has happened, We clear the pokemon from the nests. The information that needs repopulating with the new nest.</p>
+<p>To update a nest with no pokemon assigned to it:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>!update &lt;nest_id&gt; <span class="s2">&quot;pokemon Name&quot;</span>
+</pre></div>
+</div>
+<p>Example: !update 1432 &#8220;Weedle&#8221;</p>
+</div>
 </div>
 
 

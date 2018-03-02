@@ -47,9 +47,9 @@ In DM with Guzzlord, type:
  
 .. code-block:: bash
 
-    !transction ID
+    !transction <ID>
 
-where ID is the transaction ID you noted in step 1. If the transaction ID is correct and found on `PayPal <http://bit.ly/2igVOxV>`_, you will receive a response with your new subscription expiry date.
+where <ID> is the transaction ID you noted in step 1. If the transaction ID is correct and found on `PayPal <http://bit.ly/2igVOxV>`_, you will receive a response with your new subscription expiry date.
 
 .. image:: subscribe_response.PNG
 

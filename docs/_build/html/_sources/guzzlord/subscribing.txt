@@ -7,19 +7,20 @@ Subscribing
 Why Should I Subscribe?
 #######################
 
-There are many reasons why subscribing is possibly the best thing you could ever do :smiley: Not only do you get the warm fuzzy feeling from knowing that your support is keeping this service running, 
+There are many reasons why subscribing is possibly the best thing you could ever do :) Not only do you get the warm fuzzy feeling from knowing that your support is keeping this service running, 
 but you also get ALL of the following goodies!!
 
-~ Access to the scan channels to see what is spawning in the areas you want to know about
-~ Access to the map
-~ Access to use Arceus & Dialga, our amazing alerting bots (see :doc:`Arceus </arceus/intro>` or :doc:`Dialga </dialga/intro>`)
+* Access to the scan channels to see what is spawning in the areas you want to know about  
+* Access to the map  
+* Access to :doc:`Arceus </arceus/intro>`, our pokemon alert bot. This can be customised to alert you for pokemon based on location, IV, CP, Level and more.
+* Access to :doc:`Dialga </dialga/intro>`, our raid alert bot. This can be customised to alert you to raids in your chosen area or at specific gyms.
 
 Cost of Subscription
 ####################
 
-The cost is currently £3 a month, but you can pay anything from £1 for 10 days of access upwards. 
-We do ask that you do not subscribe too far into the future, as given this service is against the Niantic terms and conditions, there is always a chance
-that this service could be closed down without much notice, and refunds will not be processed should this happen.
+The minimum subscription cost is £1, which will cover you for 10 days. This works out to 10p a day!
+You can subscribe for whatever length of time you want; there is no maximum subscription but we would advise against subscribe too far into the future, due to the nature of our service. 
+Niantic could enforce changes that would result in the potential closure of our service without much notice, and refunds will not be processed should this happen.
 
 How To Subscribe
 ################
@@ -42,15 +43,19 @@ Go to the bot-commands channel and type:
 
     !subscribe
 	
- In DM with Guzzlord, type:
+In DM with Guzzlord, type:
  
 .. code-block:: bash
 
-    !transction ID
+    !transction <ID>
 
-where ID is the transaction ID you noted in step 1. If the transaction ID is correct and found on PayPal, you will receive a response with your new subscription expiry date.
+where <ID> is the transaction ID you noted in step 1. If the transaction ID is correct and found on `PayPal <http://bit.ly/2igVOxV>`_, you will receive a response with your new subscription expiry date.
 
 .. image:: subscribe_response.PNG
+
+.. note::
+
+	Please remember, if you are subscribing again after expiring, your map credentials will have changed. If extending your subscription, your credentials will remain unchanged.
  
 Get Map Credentials
 ===================
@@ -72,11 +77,13 @@ and you will no longer be able to see the scan channels. Your alerts will not be
 Useful Commands 
 ###############
 
+All commands must be done in DM with Guzzlord.
+
 .. code-block:: bash
 
-    !change_password password
+    !change_password newpassword
 	
-If you want to change your map password to soemthing shorter or more memorable.
+If you want to change your map password to something shorter or more memorable.
 
 .. note::
 
@@ -90,6 +97,16 @@ If you want to check your expiry date, use this command.
 
 .. code-block:: bash
 
-    !calculate
+    !calculate amount
 
-Want to find out how much bang for your buck you get? In DM with Guzzlord type: `!calculate amount`, for example `!calculate 5`
+Want to find out how much bang for your buck you get? Use this command to work out the expiry date for a given amount, for example ``!calculate 5``
+
+Terms & Conditions
+##################
+
+We will guarantee a level of service and extend expiration dates for extended downtime inside of our control.
+
+Should the scans go down for longer than 12 hours, we will add time to your expiration date to cover the downtime. 
+This does not cover downtime due to a new API being forced by Niantic as this is outside of our control. Usually, a new API is cracked within a few hours so this shouldn't be an issue anyway. 
+
+As you are paying for a service, we will guarantee that the admin team will be available at weekends in case of issues. Should scans go down, post in the isscandown channel in discord and we will investigate and fix immediately, provided it isn't 4am when we are asleep!
