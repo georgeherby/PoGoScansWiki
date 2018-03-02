@@ -22,7 +22,7 @@ Welcome to PoGoScans's documentation!
     :glob:
 
     guzzlord/subscribing
-	guzzlord/miscellaneous
+    guzzlord/miscellaneous
 
 .. toctree::
     :titlesonly:

@@ -31,7 +31,7 @@
 
   
     <link rel="top" title="PoGoScans 0 documentation" href="index.html"/>
-        <link rel="next" title="Pokemon Alerts" href="arceus/arceus_alerts.html"/>
+        <link rel="next" title="Subscribing" href="guzzlord/subscribing.html"/>
         <link rel="prev" title="Welcome to PoGoScans’s documentation!" href="index.html"/> 
 
   
@@ -85,15 +85,30 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Introduction</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Pokemon Alerts</span></p>
+<p class="caption"><span class="caption-text">Guzzlord</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="arceus/arceus_alerts.html">Pokemon Alerts</a></li>
-<li class="toctree-l1"><a class="reference internal" href="arceus/location_commands.html">Setting up locations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="guzzlord/subscribing.html">Subscribing</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Raid Alerts</span></p>
+<p class="caption"><span class="caption-text">Arceus</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="arceus/alert_and_exclusions.html">Showing Alerts &amp; Exclusions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arceus/amend_alerts.html">Amending Existing Alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arceus/channel_alerts.html">Setting Up Channel Alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arceus/location_alerts.html">Setting Up Location Alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arceus/locations.html">Locations</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Dialga</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="dialga/raid_alert.html">Raid Alerts</a></li>
-<li class="toctree-l1"><a class="reference internal" href="dialga/raid_attendance.html">Raid Attendance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dialga/raid_meetups.html">Raid Meetups</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Shaymin</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="shaymin/shaymin.html">Shaymin</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Prof Oak</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="prof_oak/prof_oak.html">Prof Oak</a></li>
 </ul>
 
             
@@ -140,68 +155,32 @@
             
   <div class="section" id="introduction">
 <h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
-<p>Ever thought “I wish i could stop those pesky Skarmory or Mantine
-notifications”, or “I just want notifications for that elusive Unown”.
-Well we have the answer!</p>
-<p>Using our bots Arceus &amp; Dialga you can now configure alerts to your
-personal message inbox for specific pokemon or raids for certain areas.
-So whether you are only able to get to a small area or able to tour
-around the county after those rares it can be configured to suit your
-needs!</p>
-<p>This function searches for posts in the server and resends them to you
-in a DM. This means that the filters applied on the server will apply to
-the DMs too.</p>
-<p><em>You need to be a Subscriber to get this feature - please see the
-subscribe channel on discord for further details</em></p>
-<div class="section" id="getting-started">
-<h2>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h2>
-<p>Once you have joined one of the below servers (mentioned in <strong>*current
-servers*</strong> section), assigned yourself some area roles and subscribed go
-to the #bot-commands channel type one of the following command:</p>
-<p><code class="docutils literal"><span class="pre">!alert</span></code> - for pokemon alerts <code class="docutils literal"><span class="pre">!raid</span></code> - for raid alerts</p>
-<p>This will trigger a DM (direct message) from Arceus (for pokemon) or
-Dialga (for raids). Once you have got the message open it and from here
-all commands that you need to use must be entered in here. A page of all
-commands is below.</p>
-<ul class="simple">
-<li><a class="reference external" href="https://bitbucket.org/georgeherby/arceus/wiki/Pokemon%20Alerts%20New">Pokemon Alerts</a><ul>
-<li><a class="reference external" href="https://bitbucket.org/georgeherby/arceus/wiki/Location%20Commands">Location Settings</a></li>
-</ul>
-</li>
-<li><a class="reference external" href="https://bitbucket.org/georgeherby/arceus/wiki/Raid%20Alerts">Raid Alerts</a></li>
-</ul>
-<p>Note: if you lose a DM with the bots just run <code class="docutils literal"><span class="pre">!alert</span></code> or <code class="docutils literal"><span class="pre">!raid</span></code>
-again in #bot-commands and you’ll get another DM, no need to reset up
-your settings they will be remembered in the bots bulging brain!</p>
-</div>
-<div class="section" id="invite-code">
-<h2>Invite Code<a class="headerlink" href="#invite-code" title="Permalink to this headline">¶</a></h2>
-<p>Once you are on the server if you want to give someone else the invite
-code just use the invite command and Arceus will send it to you</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!invite
-</pre></div>
-</div>
-</div>
-<div class="section" id="raid-meetups">
-<h2>Raid Meetups<a class="headerlink" href="#raid-meetups" title="Permalink to this headline">¶</a></h2>
-<p>Dialga now also has the ability to set up raid meetups for you and
-organise your raids :)</p>
-<p>Each area has an -activeraids channel. All level 4 &amp; 5 (level 1-3 are
-soloable and do not need meetups) raids are posted here for you to set
-up meetups. To help you familiarise yourself with the commands needed to
-set these up, click <a class="reference external" href="https://bitbucket.org/georgeherby/arceus/wiki/Raid%20Attendance">here</a>.</p>
+<p>Hi and welcome to the wiki for our Pokémon Go scanning service. We currently have three discord servers:</p>
+<p>PoGo Sussex
+PoGo HomeCounties
+PoGo London</p>
+<p>I guess you know about at least one of them having made your way here. If you need an invite to any of our other discord servers, just ask in the chat channel.</p>
+<p>To see which locations we scan in each server, the readme will provide te information. There are screenshots and lists of areas there.</p>
+<p>All are welcome here, but only raid channels are availble for free. Providing this service costs a lot of money, so to get access to the scanning channels,
+the map or any of our bots you must subscribe to this service. The cost is currently £3 a month, but you can pay anything from £1 for 10 days of access upwards.
+We do ask that you do not subscribe too far into the future, as given this service is against the Niantic terms and conditions, there is always a chance
+that this service could be closed down without much notice, and refunds will not be processed should this happen.</p>
+<p>To subscribe to this service, please read the <strong>Guzzlord</strong> subscription section.</p>
+<div class="section" id="our-bots">
+<h2>Our Bots<a class="headerlink" href="#our-bots" title="Permalink to this headline">¶</a></h2>
+<p>We have a few bots on our discord servers to help make your experience with us better and to help you find the pokemon you are looking for:</p>
+<ol class="arabic simple">
+<li>Guzzlord - This bot is your tool to activate and maintain your subscription. Guzzlord is also used to assist with some other basic commands.</li>
+<li>Arceus - This is our pokemon alerting bot. Use this to set up alerts, filtered exactly how you want, for the locations you want.</li>
+<li>Dialga - This is our raid bot. Use Dialga to set up raid alerts for the areas or gyms of interest to you. Dialga is also used to set up and attend raid battles.</li>
+<li>Shaymin - To let others know of nests in your area, use Shaymin.</li>
+<li>Prof Oak - The professor is your one stop shop to get info on all things PoGo. From finding out which egg a pokemon appears in to calculating IVs for your catches, the professor will help.</li>
+</ol>
 </div>
 <div class="section" id="help">
-<h2>Help!<a class="headerlink" href="#help" title="Permalink to this headline">¶</a></h2>
-<p>If you see someone asking questions that you think this wiki answers use
-the wiki command they will get a link to this wiki</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!help
-</pre></div>
-</div>
-<p>If that doesn’t help. Please view FAQ
-<a class="reference external" href="https://bitbucket.org/georgeherby/arceus/wiki/FAQ">here</a></p>
-<p>If you are still lost and need help don’t be afraid to ping admin team
-in #bot-commands</p>
+<h2>Help<a class="headerlink" href="#help" title="Permalink to this headline">¶</a></h2>
+<p>If you see someone asking questions that is answered in here, feel free to direct them here, or if you can, provide assistance yourself. We are a community and we help each other.
+Arceus &amp; Dialga can seem daunting at first, so let&#8217;s help those that are new here :)</p>
 </div>
 <div class="section" id="acknowledgements">
 <h2>Acknowledgements<a class="headerlink" href="#acknowledgements" title="Permalink to this headline">¶</a></h2>
@@ -216,7 +195,7 @@ in #bot-commands</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="arceus/arceus_alerts.html" class="btn btn-neutral float-right" title="Pokemon Alerts" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="guzzlord/subscribing.html" class="btn btn-neutral float-right" title="Subscribing" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="index.html" class="btn btn-neutral" title="Welcome to PoGoScans’s documentation!" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
