@@ -1,6 +1,6 @@
-*******
-Shaymin
-*******
+*****
+Nests
+*****
 
 The nests channel in discord contains all known nests with information gathered by yourselves. Shaymin is used to collate and display all this information.
 
