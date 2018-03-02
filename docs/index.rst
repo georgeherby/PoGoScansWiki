@@ -21,7 +21,8 @@ Welcome to PoGoScans's documentation!
     :caption: Guzzlord
     :glob:
 
-    guzzlord/*
+    guzzlord/subscribing
+	guzzlord/miscellaneous
 
 .. toctree::
     :titlesonly:
