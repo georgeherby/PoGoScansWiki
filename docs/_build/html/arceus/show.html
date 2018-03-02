@@ -159,26 +159,31 @@
             
   <div class="section" id="showing-alerts-exclusions">
 <h1>Showing Alerts &amp; Exclusions<a class="headerlink" href="#showing-alerts-exclusions" title="Permalink to this headline">¶</a></h1>
-<p>## Contents:</p>
+<div class="contents local topic" id="contents">
 <ul class="simple">
-<li>[Viewing Alerts] (#viewing-alerts)</li>
-<li>[Viewing Exclusions] (#viewing-exclusions)</li>
+<li><a class="reference internal" href="#viewing-filters" id="id1">Viewing Filters</a></li>
+<li><a class="reference internal" href="#viewing-exclusions" id="id2">Viewing Exclusions</a></li>
 </ul>
-<p>## Viewing Filters</p>
+</div>
+<div class="section" id="viewing-filters">
+<h2><a class="toc-backref" href="#id1">Viewing Filters</a><a class="headerlink" href="#viewing-filters" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>!alert show
 </pre></div>
 </div>
 <p>Shows a list of alerts. It’s the go-to to see what’s going on with filters. Example:</p>
 <img alt="../_images/alert_show.PNG" class="align-center" src="../_images/alert_show.PNG" />
-<div class="highlight-bash"><div class="highlight"><pre><span></span>!alert show name<span class="sb">`</span>
-!alert show number<span class="sb">`</span>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>!alert show name
+!alert show number
 </pre></div>
 </div>
 <p>Shows a list of filters, sorted by name or by (dex) number.</p>
-<p>## Viewing Exclusions</p>
+</div>
+<div class="section" id="viewing-exclusions">
+<h2><a class="toc-backref" href="#id2">Viewing Exclusions</a><a class="headerlink" href="#viewing-exclusions" title="Permalink to this headline">¶</a></h2>
 <p>If you alerts have exclusions, you can view these by typing:</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>!exclude show &lt;ID&gt;
 </pre></div>
+</div>
 </div>
 </div>
 

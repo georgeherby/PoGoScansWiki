@@ -2,12 +2,10 @@
 Showing Alerts & Exclusions
 ***************************
 
-## Contents:
+.. contents:: :local:
 
-- [Viewing Alerts] (#viewing-alerts)
-- [Viewing Exclusions] (#viewing-exclusions)
-
-## Viewing Filters
+Viewing Filters
+###############
 
 .. code-block:: bash
 
@@ -20,12 +18,13 @@ Shows a list of alerts. It’s the go-to to see what’s going on with filters. 
 
 .. code-block:: bash
 
-    !alert show name`  
-    !alert show number`
+    !alert show name  
+    !alert show number
 
 Shows a list of filters, sorted by name or by (dex) number.
 
-## Viewing Exclusions
+Viewing Exclusions
+##################
 
 If you alerts have exclusions, you can view these by typing:
 
