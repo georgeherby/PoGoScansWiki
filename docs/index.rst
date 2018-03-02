@@ -49,7 +49,7 @@ Welcome to PoGoScans's documentation!
 	
 .. toctree::
     :titlesonly:
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: Shaymin
     :glob:
 
