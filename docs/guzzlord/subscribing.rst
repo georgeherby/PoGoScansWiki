@@ -7,7 +7,7 @@ Subscribing
 Why Should I Subscribe?
 #######################
 
-There are many reasons why subscribing is possibly the best thing you could ever do :smiley: Not only do you get the warm fuzzy feeling from knowing that your support is keeping this service running, 
+There are many reasons why subscribing is possibly the best thing you could ever do :) Not only do you get the warm fuzzy feeling from knowing that your support is keeping this service running, 
 but you also get ALL of the following goodies!!
 
 ~ Access to the scan channels to see what is spawning in the areas you want to know about  
