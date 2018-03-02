@@ -11,7 +11,7 @@ Viewing Filters
 
     !alert show
 
-Shows a list of alerts. sorted by pokedex number. It’s the go-to to see what’s going on with your alerts. Example:
+Shows a list of alerts, sorted by pokedex number. It’s the go-to to see what’s going on with your alerts. Example:
 
 .. image:: alert_show.PNG
     :align: center
