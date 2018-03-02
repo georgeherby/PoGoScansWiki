@@ -2,24 +2,33 @@
 Showing Alerts & Exclusions
 ***************************
 
-Contents:
+## Contents:
 
-1. Viewing Alerts
-2. Viewing Exclusions
+- [Viewing Alerts] (#viewing-alerts)
+- [Viewing Exclusions] (#viewing-exclusions)
 
-1. Viewing Filters
+## Viewing Filters
 
-!alert show
+.. code-block:: bash
+
+    !alert show
 
 Shows a list of alerts. It’s the go-to to see what’s going on with filters. Example:
 
-image:: alert_show.png
+.. image:: alert_show.PNG
+    :align: center
 
-!alert show name
-!alert show number
+.. code-block:: bash
+
+    !alert show name`  
+    !alert show number`
 
 Shows a list of filters, sorted by name or by (dex) number.
 
+## Viewing Exclusions
+
 If you alerts have exclusions, you can view these by typing:
 
-!exclude show <ID>
+.. code-block:: bash
+
+    !exclude show <ID>
