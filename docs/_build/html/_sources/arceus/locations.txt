@@ -1,6 +1,5 @@
-*********
 Locations
-*********
+=========
 
 In order to get alerts for spawns within a certain distance of you (see Setting Up Location Alerts), you must set up locations. You can store a list of locations to switch between (add and remove), but may only have one active location at a time (chosen by setting). 
 You can switch your active location as you wish, but you must type the command; there is no tracking.
@@ -12,10 +11,13 @@ Adding/Removing Locations
 Setting/Unsetting Locations
 
 1. Viewing Locations
+--------------------
+
 !location show
 Shows a list of your saved locations, and shows which is active. It’s the go-to to see what’s going on with locations.
 
 2. Adding/Removing Locations
+----------------------------
 
 !location add name=<name> coord=<coords>
 !location add name=needle coord=51.5085,-0.1204
@@ -36,6 +38,8 @@ Removes a location by its name as stored at !location show.
 Removes all stored locations; start afresh!
 
 3. Setting/Unsetting Locations
+------------------------------
+
 !location set needle
 Sets a location to active by its name as stored at !location show. All other locations become inactive.
 

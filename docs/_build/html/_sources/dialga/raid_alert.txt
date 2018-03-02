@@ -1,14 +1,13 @@
-***********
 Raid Alerts
-***********
+===========
 
 **All commands should be run in DM (Direct Message) to Dialga**
 
 Add Raids
-#########
+---------
 
 Channel Wide
-************
+~~~~~~~~~~~~
 
 All hatched eggs of a certain *MINIMUM* level
 
@@ -29,7 +28,7 @@ All specific name boss bosses from
     !raid channel=worthing area=Ferring boss=wailmer
 
 Specific Gym
-************
+~~~~~~~~~~~~
 
 **YOU MUST INCLUDE ``LEVEL=1`` FOR ALL RAIDS. AND ``LEVEL=1 EGG`` FOR
 ALL EGGS EVEN WHEN SPECIFYING A SINGLE GYM**
@@ -53,7 +52,7 @@ All specific name boss bosses from
     !raid channel=worthing gym=Marine Gardens Restaurant boss=wailmer
 
 Show all raids
-##############
+--------------
 
 This is to allow you to see all the raids that you have set up and this
 is your reference for the raid id (left most column)
@@ -84,11 +83,11 @@ order)
     !raid show boss        Returns a list sorted by Boss, Channel
     !raid show channel     Returns a list sorted by Channel, Boss
 
-Remove raid from table
-######################
+Remove Raids Alerts
+-------------------
 
 Remove by ID
-************
+~~~~~~~~~~~~
 
 First run show command and note the raid alert id for the record you
 want to remove
@@ -114,14 +113,14 @@ commands as below
     !raid remove 32        ------ 28 being the number in the Alert ID for the row to mute
 
 Remove All alerts
-****************
+~~~~~~~~~~~~~~~~~
 
 ::
 
     !raid remove all       ------ This will mute all record for your user id
 
 Remove by Location
-******************
+~~~~~~~~~~~~~~~~~~
 
 You can remove all alerts for a channel or an area within a channel:
 
@@ -133,10 +132,10 @@ You can remove all alerts for a channel or an area within a channel:
 If removing an area, channel is still required.
 
 Mute alert from table
-#####################
+---------------------
 
 Mute by ID
-**********
+~~~~~~~~~~
 
 First run show command and note the raid alert id for the record you
 want to mute
@@ -161,14 +160,14 @@ commands as below
     !raid mute 28        ------ 28 being the number in the raid alert ID for the row to mute
 
 Mute All alerts
-***************
+~~~~~~~~~~~~~~~
 
 ::
 
     !raid mute all       ------ This will mute all record for your user id
 
 Mute by Location
-****************
+~~~~~~~~~~~~~~~~
 
 You can mute all raid alerts for a channel or an area within a channel:
 
@@ -180,10 +179,10 @@ You can mute all raid alerts for a channel or an area within a channel:
 If muting an area, channel is still required.
 
 Unmute raid from table
-######################
+----------------------
 
 Unmute by ID
-************
+~~~~~~~~~~~~
 
 First run show command and note the raid alert id for the record you
 want to mute
@@ -209,14 +208,14 @@ commands as below
     !raid unmute 32        ------ 28 being the number in the Alert ID for the row to mute
 
 Unmute All alerts
-*****************
+~~~~~~~~~~~~~~~~~
 
 ::
 
     !raid unmute all       ------ This will mute all record for your user id
 
 Unmute by Location
-******************
+~~~~~~~~~~~~~~~~~~
 
 You can unmute all alerts for a channel or an area within a channel:
 
