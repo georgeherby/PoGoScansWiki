@@ -12,7 +12,8 @@ but you also get ALL of the following goodies!!
 
 * Access to the scan channels to see what is spawning in the areas you want to know about  
 * Access to the map  
-* Access to use Arceus & Dialga, our amazing alerting bots (see :doc:`Arceus </arceus/intro>` or :doc:`Dialga </dialga/intro>`)  
+* Access to :doc:`Arceus </arceus/intro>`, our pokemon alert bot. This can be customised to alert you for pokemon based on location, IV, CP, Level and more.
+* Access to :doc:`Dialga </dialga/intro>`, our raid alert bot. This can be customised to alert you to raids in your chosen area or at specific gyms.
 
 Cost of Subscription
 ####################
