@@ -10,9 +10,9 @@ Why Should I Subscribe?
 There are many reasons why subscribing is possibly the best thing you could ever do :) Not only do you get the warm fuzzy feeling from knowing that your support is keeping this service running, 
 but you also get ALL of the following goodies!!
 
-~ Access to the scan channels to see what is spawning in the areas you want to know about  
-~ Access to the map  
-~ Access to use Arceus & Dialga, our amazing alerting bots (see :doc:`Arceus </arceus/intro>` or :doc:`Dialga </dialga/intro>`)  
+* Access to the scan channels to see what is spawning in the areas you want to know about  
+* Access to the map  
+* Access to use Arceus & Dialga, our amazing alerting bots (see :doc:`Arceus </arceus/intro>` or :doc:`Dialga </dialga/intro>`)  
 
 Cost of Subscription
 ####################
@@ -98,4 +98,4 @@ If you want to check your expiry date, use this command.
 
     !calculate amount
 
-Want to find out how much bang for your buck you get? Use this command to work out the expiry date for a given amount, for example `!calculate 5`
+Want to find out how much bang for your buck you get? Use this command to work out the expiry date for a given amount, for example ``!calculate 5``

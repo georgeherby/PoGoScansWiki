@@ -18,13 +18,13 @@ the map or any of our bots you must subscribe to this service. To subscribe to t
 Our Bots
 ###############
 
-We have a few bots on our discord servers to help make your experience with us better and to help you find the pokemon you are looking for:
+We have a few bots on our discord servers to help make your experience with us better and to help y			ou find the pokemon you are looking for:
 
-1. :doc:`Guzzlord </guzzlord/subscribing>` - This bot is your tool to activate and maintain your subscription. Guzzlord is also used to assist with some other basic commands.
-2. :doc:`Arceus </arceus/intro>` - This is our pokemon alerting bot. Use this to set up alerts, filtered exactly how you want, for the locations you want.
-3. :doc:`Dialga </dialga/intro>` - This is our raid bot. Use Dialga to set up raid alerts for the areas or gyms of interest to you. Dialga is also used to set up and attend raid battles.
-4. :doc:`Shaymin </shaymin/shaymin>` - To let others know of nests in your area, use Shaymin.
-5. :doc:`Prof Oak </prof_oak/prof_oak>` - The professor is your one stop shop to get info on all things PoGo. From finding out which egg a pokemon appears in to calculating IVs for your catches, the professor will help.
+#. :doc:`Guzzlord </guzzlord/subscribing>` - This bot is your tool to activate and maintain your subscription. Guzzlord is also used to assist with some other basic commands.
+#. :doc:`Arceus </arceus/intro>` - This is our pokemon alerting bot. Use this to set up alerts, filtered exactly how you want, for the locations you want.
+#. :doc:`Dialga </dialga/intro>` - This is our raid bot. Use Dialga to set up raid alerts for the areas or gyms of interest to you. Dialga is also used to set up and attend raid battles.
+#. :doc:`Shaymin </shaymin/shaymin>` - To let others know of nests in your area, use Shaymin.
+#. :doc:`Prof Oak </prof_oak/prof_oak>` - The professor is your one stop shop to get info on all things PoGo. From finding out which egg a pokemon appears in to calculating IVs for your catches, the professor will help.
 
 Help
 #####
