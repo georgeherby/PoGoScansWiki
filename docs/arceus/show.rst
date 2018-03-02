@@ -13,8 +13,9 @@ Contents:
 
 Shows a list of alerts. It’s the go-to to see what’s going on with filters. Example:
 
-image:: alert_show.png
-
+.. image:: alert_show.png
+    :align: center
+	
 !alert show name
 !alert show number
 
