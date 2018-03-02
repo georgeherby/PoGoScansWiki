@@ -18,9 +18,9 @@ but you also get ALL of the following goodies!!
 Cost of Subscription
 ####################
 
-The cost is currently £3 a month, but you can pay anything from £1 for 10 days of access upwards. 
-We do ask that you do not subscribe too far into the future, as given this service is against the Niantic terms and conditions, there is always a chance
-that this service could be closed down without much notice, and refunds will not be processed should this happen.
+The minimum subscription cost is £1, which will cover you for 10 days. This works out to 10p a day!
+You can subscribe for whatever length of time you want; there is no maximum subscription but we would advise against subscribe too far into the future, due to the nature of our service. 
+Niantic could enforce changes that would result in the potential closure of our service without much notice, and refunds will not be processed should this happen.
 
 How To Subscribe
 ################
@@ -100,3 +100,13 @@ If you want to check your expiry date, use this command.
     !calculate amount
 
 Want to find out how much bang for your buck you get? Use this command to work out the expiry date for a given amount, for example ``!calculate 5``
+
+Terms & Conditions
+##################
+
+We will guarantee a level of service and extend expiration dates for extended downtime inside of our control.
+
+Should the scans go down for longer than 12 hours, we will add time to your expiration date to cover the downtime. 
+This does not cover downtime due to a new API being forced by Niantic as this is outside of our control. Usually, a new API is cracked within a few hours so this shouldn't be an issue anyway. 
+
+As you are paying for a service, we will guarantee that the admin team will be available at weekends in case of issues. Should scans go down, post in the isscandown channel in discord and we will investigate and fix immediately, provided it isn't 4am when we are asleep!
