@@ -21,6 +21,7 @@ Welcome to PoGoScans's documentation!
     :caption: Guzzlord
     :glob:
 
+    guzzlord/intro
     guzzlord/subscribing
     guzzlord/miscellaneous
 
@@ -30,7 +31,12 @@ Welcome to PoGoScans's documentation!
     :caption: Arceus
     :glob:
 
-    arceus/*
+    arceus/intro
+    arceus/show
+    arceus/locations
+    arceus/channel_alerts
+    arceus/location_alerts
+    arceus/amend_alerts
 
 .. toctree::
     :titlesonly:
@@ -38,15 +44,17 @@ Welcome to PoGoScans's documentation!
     :caption: Dialga    
     :glob:
 
-    dialga/*
-
+    dialga/intro
+    dialga/raid_alert
+    dialga/raid_meetups
+	
 .. toctree::
     :titlesonly:
     :maxdepth: 1
     :caption: Shaymin
     :glob:
 
-    shaymin/*
+    shaymin/shaymin
 
 .. toctree::
     :titlesonly:
@@ -54,5 +62,5 @@ Welcome to PoGoScans's documentation!
     :caption: Prof Oak
     :glob:
 
-    prof_oak/*
+    prof_oak/prof_oak
 
