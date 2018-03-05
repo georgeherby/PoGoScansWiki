@@ -2,6 +2,8 @@
 Terms & Conditions
 ******************
 
+.. contents:: :local:
+
 Rules
 #####
 
