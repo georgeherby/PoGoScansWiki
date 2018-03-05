@@ -1,5 +1,6 @@
+**************************
 Setting Up Location Alerts
-==========================
+**************************
 
 The command to add a new alert is:
 
@@ -49,13 +50,13 @@ Creates an alert for all dratini within 1.5km with an IV over 90%
 
 	!alert pokemon=ultra rare distance=2 iv=80 cp=2000 excludemon=Blastoise
 	
-Creates an alert for all ultra rare pokémon within 2km that have an IV over 80% **and** a CP over 2000, exclusing Blastoise
+Creates an alert for all ultra rare pokémon within 2km that have an IV over 80% **and** a CP over 2000, excluding Blastoise
 	
 ::
 	
 	!alert pokemon=all distance=5 iv=100 excludemon=gen1,ultra common
 	
-Creates an alert for all 100% IV pokémon within 5km excluding ultra commons and anything gen1 pokémon
+Creates an alert for all 100% IV pokémon within 5km excluding ultra commons and any gen1 pokémon
 
 Removing, Muting Or Unmuting Alerts
 -----------------------------------
@@ -71,7 +72,7 @@ Once you have the alert id, use this command to remove, mute or unmute the alert
 ::
 
     !alert remove 32        ------ 32 being the ID you want to remove
-    !alert mute 32        ------ 32 being the ID you want to mute
+    !alert mute 32          ------ 32 being the ID you want to mute
     !alert unmute 32        ------ 32 being the ID you want to unmute
 
 All alerts
@@ -80,5 +81,5 @@ All alerts
 ::
 
     !alert remove all       ------ This will remove all raid alerts
-    !alert mute all       ------ This will mute all raid alerts
+    !alert mute all         ------ This will mute all raid alerts
     !alert unmute all       ------ This will unmute all raid alerts
