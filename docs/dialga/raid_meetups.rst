@@ -2,6 +2,8 @@
 Raid Meetups
 ************
 
+.. contents:: :local:
+
 Using dialga, you can create meetups for all raids thatr are level 4 or 5. Lower levels do not really need this functionality as can be soloed, or need at most 2 people. 
 All the current raids that can have a meetup created can be found in the -activeraids channel. This channel will show you all the current level 4+ raids, and also any meetups that have already been organised.
 
