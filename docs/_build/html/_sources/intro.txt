@@ -4,6 +4,9 @@ Introduction
 
 .. contents:: :local:
 
+Our Service
+###########
+
 Hi and welcome to the wiki for our Pokémon Go scanning service. We currently have three discord servers:
 
 * PoGo Sussex  
@@ -14,7 +17,7 @@ I guess you know about at least one of them having made your way here. If you ne
 
 To see which locations we scan in each server, the readme will provide the information. There are screenshots and lists of areas there.
 
-All are welcome here, but only raid channels are availble for free. Providing this service costs a lot of money, so to get access to the scanning channels, 
+All are welcome here, but only raid channels are available for free. Providing this service costs a lot of money, so to get access to the scanning channels, 
 the map or any of our bots you must subscribe to this service. To subscribe to this service, please read the :doc:`guzzlord/subscribing` section.
 
 Please make sure to read the :doc:`Terms & Conditions </T&C>` page, espeically the rules section. Failure to adhere to the rules will result in kicking or even banning, and not knowing the rules will not be accepted as a valid excuse.
@@ -40,12 +43,12 @@ To quickly get up and running with scan alerts. Try these steps:
 3. Add a new :ref:`location <addinglocations>` and :ref:`set <settinglocations>` it
 4. Add new alert for 100% mons within 2km of that location - ``!alert pokemon=all distance=2 iv=100``
 
-To set up more complicated alert, read the :doc:`Arceus </arceus/intro>` wiki in full
+To set up more complicated alerts, read the :doc:`Arceus </arceus/intro>` wiki in full
 
 Help
 ####
 
-If you see someone asking questions that is answered in here, feel free to direct them here, or if you can, provide assistance yourself. We are a community and we help each other.
+If you see someone asking questions that are answered in here, feel free to direct them here, or if you can, provide assistance yourself. We are a community and we help each other.
 Arceus & Dialga can seem daunting at first, so let's help those that are new here :)
 
 Acknowledgements

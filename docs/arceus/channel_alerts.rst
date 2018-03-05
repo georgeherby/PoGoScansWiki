@@ -7,6 +7,10 @@ Setting Up Channel Alerts
 Adding A New Alert
 ##################
 
+.. warning::
+
+	Channel alerting is unavailable in London. Please see :doc:`here </arceus/intro>` for the reason why.
+
 The command to add a new alert is:
 
 ::
@@ -17,7 +21,7 @@ The command to add a new alert is:
 
 	* ``all`` refers to all Pokémon
 	* ``gen1``, ``gen2``, ``gen3`` refers to all Pokémon in a generation.
-	* ``ultra common``, ``common``, ``uncommon``, ``rare``, ``ultra rare`` refers to rarity tiers of Pokémon as decided by the admins. To see what’s in each tier, send Arceus the command ``!rarity <tier-name>`` – e.g. ``!rarity ultra rare.``
+	* ``ultra common``, ``common``, ``uncommon``, ``rare``, ``ultra rare`` refers to rarity tiers of Pokémon as decided by the admins. To see what’s in each tier, send Arceus the command ``!rarity <tier-name>`` – e.g. ``!rarity ultra rare``
 	
 * ``<channel>`` - Compulsory. The channel for which you want alerting. 
 

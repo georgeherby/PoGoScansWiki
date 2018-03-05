@@ -47,7 +47,7 @@ To remove yourself from an area:
 
     !role remove <Channel>
 	
-i.e. ``!role remove Brighton``
+i.e. ``!role remove NorthWest``
 
 Help!
 -----

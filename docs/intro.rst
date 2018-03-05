@@ -43,12 +43,12 @@ To quickly get up and running with scan alerts. Try these steps:
 3. Add a new :ref:`location <addinglocations>` and :ref:`set <settinglocations>` it
 4. Add new alert for 100% mons within 2km of that location - ``!alert pokemon=all distance=2 iv=100``
 
-To set up more complicated alert, read the :doc:`Arceus </arceus/intro>` wiki in full
+To set up more complicated alerts, read the :doc:`Arceus </arceus/intro>` wiki in full
 
 Help
 ####
 
-If you see someone asking questions that is answered in here, feel free to direct them here, or if you can, provide assistance yourself. We are a community and we help each other.
+If you see someone asking questions that are answered in here, feel free to direct them here, or if you can, provide assistance yourself. We are a community and we help each other.
 Arceus & Dialga can seem daunting at first, so let's help those that are new here :)
 
 Acknowledgements

@@ -78,7 +78,7 @@ Type:
 
     !map
 	
-In DM with Guzzlord to get the URL of the map, and your credentials for logging onto the map. If desired you can also change your password (see below)
+In DM with Guzzlord to get the URL of the map, and your credentials for logging onto the map. If desired you can also change your password (see :ref:`changing password <passwordchange>`)
 
 Expiration
 ==========
@@ -98,8 +98,17 @@ You can always check your expiry date by typing:
 ::
 
 	!expiry
+	
+What If I Do Not Have PayPal?
+=============================
 
+Unfortunately we only accept PayPal as a form of payment for subscription. We have found that 99% of people do have and are happy to use PayPal and we cannot process any other form of payment.
+If you cannot use PayPal at all, our only suggestion is to liase with a fellow PoGo player or friend that does use PayPal, and ask them to do it for you if you pay them.
 
+There is no issue our side with this, and anybody can use the transaction ID generated, as long as it has not already been used.
+
+.. _passwordchange:
+	
 Useful Commands 
 ###############
 
