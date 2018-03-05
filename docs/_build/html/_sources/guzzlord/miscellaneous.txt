@@ -17,7 +17,6 @@ To generate an invite code to give to other users wanting to join, type:
     !invite
 	
 .. _roles:
-
 Roles
 -----
 
