@@ -18,9 +18,13 @@ but you also get ALL of the following goodies!!
 Cost of Subscription
 ####################
 
-The minimum subscription cost is £1, which will cover you for 10 days. This works out to 10p a day!
-You can subscribe for whatever length of time you want; there is no maximum subscription but we would advise against subscribe too far into the future, due to the nature of our service. 
+The minimum subscription cost is £1, which will cover you for 10 days. This works out to 10p a day! 
+You can subscribe for whatever length of time you want; there is no maximum subscription but we would advise against subscribing too far into the future, due to the nature of our service. 
 Niantic could enforce changes that would result in the potential closure of our service without much notice, and refunds will not be processed should this happen.
+
+.. warning::
+
+	Guzzlord will only read whole pound amounts, so if you pay £2.50, your subscription will only be for 20 days, or £2 worth.
 
 How To Subscribe
 ################
