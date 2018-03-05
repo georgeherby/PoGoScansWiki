@@ -30,7 +30,15 @@ How To Subscribe
 ################
 
 Make Payment
-============ 
+============
+
+Firstly, work out how much you want to pay by seeing how long an amount will get you using:
+
+::
+
+	!calculate amount
+
+For example ``!calculate 5`` 
 
 Make a payment via `PayPal <http://bit.ly/2igVOxV>`_. Make note of the transaction ID for the payment.
 
@@ -43,13 +51,13 @@ Apply Payment
 
 Go to the bot-commands channel and type:
 
-.. code-block:: bash
+::
 
     !subscribe
 	
 In DM with Guzzlord, type:
  
-.. code-block:: bash
+::
 
     !transction <ID>
 
@@ -66,7 +74,7 @@ Get Map Credentials
 
 Type:
 
-.. code-block:: bash
+::
 
     !map
 	
@@ -85,29 +93,24 @@ You will be sent a reminder 3 days before your subscription expires and again on
 
 Your alerts will not be deleted until you leave the server in case you decide to re-subscribe.
 
+You can always check your expiry date by typing:
+
+::
+
+	!expiry
+
+
 Useful Commands 
 ###############
 
 All commands must be done in DM with Guzzlord.
 
-.. code-block:: bash
+::
 
     !change_password newpassword
 	
 If you want to change your map password to something shorter or more memorable.
 
-.. note::
+.. warning::
 
     Passwords are stored in the DB as plain text. Please do not use a password that you use elsewhere.
-	
-.. code-block:: bash
-
-    !expiry
-
-If you want to check your expiry date, use this command. 
-
-.. code-block:: bash
-
-    !calculate amount
-
-Want to find out how much bang for your buck you get? Use this command to work out the expiry date for a given amount, for example ``!calculate 5``

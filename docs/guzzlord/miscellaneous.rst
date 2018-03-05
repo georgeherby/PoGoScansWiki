@@ -8,7 +8,7 @@ All commands should be posted in the bot-commands channel of discord.
 Inviting Other Users
 --------------------
 
-To generate an invite code to give to other users wannting to join, type:
+To generate an invite code to give to other users wanting to join, type:
 
 .. code-block:: bash
 
