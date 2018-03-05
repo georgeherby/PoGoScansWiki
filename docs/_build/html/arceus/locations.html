@@ -96,9 +96,9 @@
 <li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="show.html">Showing Alerts &amp; Exclusions</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Locations</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#viewing-locations">1. Viewing Locations</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#adding-removing-locations">2. Adding/Removing Locations</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#setting-unsetting-locations">3. Setting/Unsetting Locations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#viewing-locations">Viewing Locations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#adding-removing-locations">Adding/Removing Locations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#setting-unsetting-locations">Setting/Unsetting Locations</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="channel_alerts.html">Setting Up Channel Alerts</a></li>
@@ -164,39 +164,60 @@
             
   <div class="section" id="locations">
 <h1>Locations<a class="headerlink" href="#locations" title="Permalink to this headline">¶</a></h1>
-<p>In order to get alerts for spawns within a certain distance of you (see Setting Up Location Alerts), you must set up locations. You can store a list of locations to switch between (add and remove), but may only have one active location at a time (chosen by setting).
+<p>In order to get alerts for spawns within a certain distance of you (see <a class="reference internal" href="location_alerts.html"><span class="doc">Setting Up Location Alerts</span></a>), you must set up locations. You can store a list of locations to switch between (add and remove), but may only have one active location at a time (chosen by setting).
 You can switch your active location as you wish, but you must type the command; there is no tracking.</p>
-<p>Contents:</p>
-<p>Viewing Locations
-Adding/Removing Locations
-Setting/Unsetting Locations</p>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><a class="reference internal" href="#viewing-locations" id="id1">Viewing Locations</a></li>
+<li><a class="reference internal" href="#adding-removing-locations" id="id2">Adding/Removing Locations</a></li>
+<li><a class="reference internal" href="#setting-unsetting-locations" id="id3">Setting/Unsetting Locations</a></li>
+</ul>
+</div>
 <div class="section" id="viewing-locations">
-<h2>1. Viewing Locations<a class="headerlink" href="#viewing-locations" title="Permalink to this headline">¶</a></h2>
-<p>!location show
-Shows a list of your saved locations, and shows which is active. It’s the go-to to see what’s going on with locations.</p>
+<h2><a class="toc-backref" href="#id1">Viewing Locations</a><a class="headerlink" href="#viewing-locations" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!location show
+</pre></div>
+</div>
+<p>Shows a list of your saved locations, and shows which is active. It’s the go-to to see what’s going on with locations.</p>
+<img alt="../_images/location_show.PNG" src="../_images/location_show.PNG" />
 </div>
 <div class="section" id="adding-removing-locations">
-<h2>2. Adding/Removing Locations<a class="headerlink" href="#adding-removing-locations" title="Permalink to this headline">¶</a></h2>
-<p>!location add name=&lt;name&gt; coord=&lt;coords&gt;
-!location add name=needle coord=51.5085,-0.1204</p>
-<p>Adds a new location. Note the following:</p>
-<p>&lt;name&gt; should be alphanumeric - spaces won’t be accepted.
-The command is coord, not coords!
-&lt;coords&gt; should be in decimal notation only (51.xxx..,-0.xxx..).
-No spaces around the comma between coords, nor either side of any of the = in the command.
-Even if you only add one location, it doesn’t automatically become active (see §3. Setting/Unsetting Locations below).</p>
-<p>!location remove &lt;name&gt;
-!location remove needle
-Removes a location by its name as stored at !location show.</p>
-<p>!location remove all
-Removes all stored locations; start afresh!</p>
+<h2><a class="toc-backref" href="#id2">Adding/Removing Locations</a><a class="headerlink" href="#adding-removing-locations" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!location add name=&lt;name&gt; coord=&lt;coords&gt;
+</pre></div>
+</div>
+<p>For example <code class="docutils literal"><span class="pre">!location</span> <span class="pre">add</span> <span class="pre">name=needle</span> <span class="pre">coord=51.5085,-0.1204</span></code></p>
+<p>Adds a new location.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<ul class="last simple">
+<li>&lt;name&gt; should be alphanumeric - spaces won’t be accepted.</li>
+<li>The command is coord, not coords!</li>
+<li>&lt;coords&gt; should be in decimal notation only (51.xxx..,-0.xxx..).</li>
+<li>No spaces around the comma between coords, nor either side of any of the = in the command.</li>
+<li>Even if you only add one location, it doesn’t automatically become active (see Setting/Unsetting Locations below).</li>
+</ul>
+</div>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!location remove &lt;name&gt;
+</pre></div>
+</div>
+<p>For example !location remove needle</p>
+<p>Removes a location by its name as stored at <code class="docutils literal"><span class="pre">!location</span> <span class="pre">show</span></code>.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!location remove all
+</pre></div>
+</div>
+<p>Removes all stored locations; start afresh!</p>
 </div>
 <div class="section" id="setting-unsetting-locations">
-<h2>3. Setting/Unsetting Locations<a class="headerlink" href="#setting-unsetting-locations" title="Permalink to this headline">¶</a></h2>
-<p>!location set needle
-Sets a location to active by its name as stored at !location show. All other locations become inactive.</p>
-<p>!location mute
-Sets all locations to inactive.</p>
+<h2><a class="toc-backref" href="#id3">Setting/Unsetting Locations</a><a class="headerlink" href="#setting-unsetting-locations" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!location set needle
+</pre></div>
+</div>
+<p>Sets a location to active by its name as stored at <code class="docutils literal"><span class="pre">!location</span> <span class="pre">show</span></code>. All other locations become inactive.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!location mute
+</pre></div>
+</div>
+<p>Sets all locations to inactive.</p>
 </div>
 </div>
 

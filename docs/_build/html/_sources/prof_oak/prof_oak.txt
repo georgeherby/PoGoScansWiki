@@ -25,7 +25,7 @@ Will return the following:
 Powered Up
 ----------
 
-If you have powered up your mon, add the poweredup paramter to your command:
+If you have powered up your mon, add the poweredup parameter to your command:
 
 ::
 
@@ -57,11 +57,11 @@ Get details for egg hatches such as rarity and CP range:
 	
 Returns a list of all possible 2km eggs.
 
+.. image:: egg_distance.png
+
 .. note::
 
 	Only 2, 5 or 10 can be used here.
-	
-.. image:: egg_distance.png
 
 ::
 
