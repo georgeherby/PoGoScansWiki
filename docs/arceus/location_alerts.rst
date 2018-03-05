@@ -31,7 +31,7 @@ The command to add a new alert is:
 
 	You can list Pokémon by name, or dex number.
 	
-warning::
+.. warning::
 
 	* Though you may omit optional parameters, you must **stick to the order** of parameters as outlined above.
 	* Check there are **no spaces around any = sign**, and that you include only one space between separate parameters.
