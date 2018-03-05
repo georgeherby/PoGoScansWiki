@@ -50,15 +50,15 @@ As you are paying for a service, we will guarantee that the admin team will be a
 Privacy Notice
 ##############
 
-#. How have we got your information?  
-You may have given us your personal data yourself. For example, you may have provided your name or email address or picture in a Discord post.  
-#. What information do we collect?  
-We do not collect or process any personal data, not even under legitimate interest.   
+#. How have we got your information? 
+	You may have given us your personal data yourself. For example, you may have provided your name or email address or picture in a Discord post.  
+#. What information do we collect? 
+	We do not collect or process any personal data, not even under legitimate interest.   
 #. What we do with your information?  
-We never ask for information and we never process personal data. If you provide personal information which we did not ask for, we make every effort to permanently remove it. For example, your email address, name or PayPal transaction ID.  
-#. How we protect your information  
-We make every effort to permanently delete any personal data. There is no requirement in this service to store or process personal data.  
+	We never ask for information and we never process personal data. If you provide personal information which we did not ask for, we make every effort to permanently remove it. For example, your email address, name or PayPal transaction ID.  
+#. How we protect your information 
+	We make every effort to permanently delete any personal data. There is no requirement in this service to store or process personal data.  
 #. How long do we keep your information?  
-We make every effort to immediately and permanently remove any and any unwanted personal information.  
-#. How you can check your information  
-We’re happy for you to check the information we have about you at any time. You can ask us to tell you what information we have, why we have it, how we protect it etc. You can also check that your information’s accurate and we’ll make any corrections promptly. Similarly we’ll delete your information if you ask us to.  
+	We make every effort to immediately and permanently remove any and any unwanted personal information.  
+#. How you can check your information 
+	We’re happy for you to check the information we have about you at any time. You can ask us to tell you what information we have, why we have it, how we protect it etc. You can also check that your information’s accurate and we’ll make any corrections promptly. Similarly we’ll delete your information if you ask us to.  
