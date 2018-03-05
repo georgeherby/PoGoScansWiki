@@ -30,7 +30,7 @@ Example: ``!nest "Worthing" "Denton Garden" "Weedle" 1``
 Updating A Nest After Migration
 ###############################
 	
-Nests migrate every two weeks. When a migration has happened, We clear the pokemon from the nests. The information that needs repopulating with the new nest.	
+Nests migrate every two weeks. When a migration has happened, We clear the pokemon from the nests. The information that needs repopulating with the new pokemon.	
 	
 To update a nest with no pokemon assigned to it:
 
