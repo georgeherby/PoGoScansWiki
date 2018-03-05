@@ -33,9 +33,14 @@ We have a few bots on our discord servers to help make your experience with us b
 Quick Start
 ###########
 
-To quickly get up and running with scan alerts. Try these steps.
+To quickly get up and running with scan alerts. Try these steps:
 
 1. Add an area :ref:`role <roles>`
+2. :doc:`Subscribe </guzzlord/subscribing>`
+3. Add a new :ref:`location <addinglocations>` and :ref:`set <settinglocations>` it
+4. Add new alert for 100% mons within 2km of that location - ``!alert pokemon=all distance=2 iv=100``
+
+To set up more complicated alert, read the :doc:`Arceus </arceus/intro>` wiki in full
 
 Help
 ####

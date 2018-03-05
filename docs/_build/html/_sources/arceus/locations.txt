@@ -18,6 +18,8 @@ Shows a list of your saved locations, and shows which is active. It’s the go-t
 
 .. image:: location_show.PNG
 
+.. _addinglocations:
+
 Adding/Removing Locations
 ############################
 
@@ -38,7 +40,7 @@ Adds a new location.
 	
 .. warning::
 
-	Even if you only add one location, it doesn’t automatically become active, you will need to set it active (see Setting/Unsetting Locations below).
+	Even if you only add one location, it doesn’t automatically become active, you will need to set it active (see :ref:`settinglocations`).
 
 ::
 
@@ -51,6 +53,8 @@ For example ``!location remove work``. Removes a location by its name as stored 
 	!location remove all
 	
 Removes all stored locations; start afresh!
+
+.. _settinglocations:
 
 Setting/Unsetting Locations
 ###########################

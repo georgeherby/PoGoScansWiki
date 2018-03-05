@@ -6,7 +6,7 @@ Arceus is our alerting bot. Once you have alerts set up for the Pokémon you wan
 There are two types of alert:
 
 #. **Distance based alerts**. See the :doc:`Location Alerts </arceus/location_alerts>` page, but in summary users can set up locations and then create alerts within distances of that location.
-#. **Channel based alerts**. All our spawns are posted to area channels (see Roles section of the :doc:`Miscellaneous Commands </guzzlord/miscellaneous>` page), and you can set up alerts for the whole channel, or areas within the channel.
+#. **Channel based alerts**. All our spawns are posted to area channels (see :ref:`roles`), and you can set up alerts for the whole channel, or areas within the channel.
 
 Based on which discord server you have joined, you may find that not both options are unavilable to you:
 
