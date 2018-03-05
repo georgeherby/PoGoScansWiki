@@ -9,7 +9,7 @@ Updating IV/CP/Level/Distance
 
 .. note::
 
-	You can either update 1 alert, or update mutliple alerts at once
+	You can either update 1 alert, or update multiple alerts at once
 
 Change Minimum IV
 -----------------
