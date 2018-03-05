@@ -31,9 +31,9 @@ Adds a new location.
 
 .. note::
 
-	* <name> should be alphanumeric - spaces won’t be accepted.
+	* ``<name>`` should be alphanumeric - spaces won’t be accepted.
 	* The command is coord, not coords!
-	* <coords> should be in decimal notation only (51.xxx..,-0.xxx..).
+	* ``<coords>`` should be in decimal notation only (51.xxx..,-0.xxx..).
 	* No spaces around the comma between coords, nor either side of any of the = in the command.
 	* Even if you only add one location, it doesn’t automatically become active (see Setting/Unsetting Locations below).
 
@@ -41,9 +41,7 @@ Adds a new location.
 
 	!location remove <name>
 
-For example !location remove needle
-
-Removes a location by its name as stored at ``!location show``.
+For example ``!location remove work``. Removes a location by its name as stored at ``!location show``.
 
 ::
 
@@ -56,9 +54,9 @@ Setting/Unsetting Locations
 
 ::
 
-	!location set needle
+	!location set <name>
 	
-Sets a location to active by its name as stored at ``!location show``. All other locations become inactive.
+For example ``!location set work``. Sets a location to active by its name as stored at ``!location show``. All other locations become inactive.
 
 ::
 
