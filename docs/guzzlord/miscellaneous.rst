@@ -3,7 +3,9 @@ Miscellaneous Commands
 
 .. contents:: :local:
 
-All commands should be posted in the bot-commands channel of discord.
+.. note:: 
+
+	All the below commands should be posted in the bot-commands channel of discord.
 
 Inviting Other Users
 --------------------

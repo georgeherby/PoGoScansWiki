@@ -35,7 +35,7 @@ The command to add a new alert is:
 
 .. note::
 
-	You can list Pokémon by name, or dex number.
+	You can list Pokémon exclusions by name, or dex number.
 	
 .. warning::
 

@@ -36,7 +36,7 @@ Adds a new location.
 	* ``<coords>`` should be in decimal notation only (51.xxx..,-0.xxx..).
 	* No spaces around the comma between coords, nor either side of any of the = in the command.
 	
-..warning::
+.. warning::
 
 	Even if you only add one location, it doesn’t automatically become active, you will need to set it active (see Setting/Unsetting Locations below).
 

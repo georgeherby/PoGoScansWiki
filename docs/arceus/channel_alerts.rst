@@ -45,7 +45,7 @@ The command to add a new alert is:
 
 .. note::
 
-	You can list Pokémon by name, or dex number.
+	You can list Pokémon exclusions by name, or dex number.
 	
 * ``<areaexclusions>`` - Optional. If you’ve chosen "all" ``<area>``, you can exclude certain areas from generating an alert by providing a comma-separated list here.
 	
