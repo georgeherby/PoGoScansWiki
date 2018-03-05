@@ -29,7 +29,7 @@ For example ``!iv 3121 80,3222 90,3333 60`` to update multiple alerts.
 
 .. note::
 
-	You can have as many ``<ALERT_ID_OPTIONAL> <NEW_IV_OPTIONAL>`` as you like separated by a comma, but make sure there is no space between alerts.
+	You can have as many ``<ALERT_ID_OPTIONAL> <NEW_IV_OPTIONAL>`` as you like separated by a comma, but make sure there is no space between commas.
 
 Change Minimum CP
 -----------------
@@ -49,7 +49,7 @@ For example ``!cp 3121 2000,3222 1500,3333 2900`` to update multiple alerts.
 
 .. note::
 
-	You can have as many ``<ALERT_ID_REQUIRED> <NEW_CP_REQUIRED>`` as you like separated by a comma, but make sure there is no space between alerts.
+	You can have as many ``<ALERT_ID_REQUIRED> <NEW_CP_REQUIRED>`` as you like separated by a comma, but make sure there is no space between commas.
 
 Change Minimum Level
 --------------------
@@ -69,7 +69,7 @@ For example ``!level 3121 25,3222 30,3333 30`` to update multiple alerts.
 
 .. note::
 
-	You can have as many ``<ALERT_ID_OPTIONAL> <NEW_LEVEL_OPTIONAL>`` as you like separated by a comma, but make sure there is no space between alerts.
+	You can have as many ``<ALERT_ID_OPTIONAL> <NEW_LEVEL_OPTIONAL>`` as you like separated by a comma, but make sure there is no space between commas.
 
 Change Distance
 ---------------	
@@ -92,7 +92,7 @@ For example ``!distance 3121 2.5,3222 5,3333 0.5`` to update multiple alerts.
 
 .. note::
 
-	You can have as many ``<ALERT_ID_OPTIONAL> <NEW_DISTANCE_REQUIRED>`` as you like separated by a comma, but make sure there is no space between alerts.
+	You can have as many ``<ALERT_ID_OPTIONAL> <NEW_DISTANCE_REQUIRED>`` as you like separated by a comma, but make sure there is no space between commas.
 
 
 Updating Exclusions
