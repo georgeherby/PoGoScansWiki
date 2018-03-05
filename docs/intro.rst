@@ -20,7 +20,7 @@ Please make sure to read the :doc:`Terms & Conditions </T&C>` page, espeically t
 Our Bots
 ###############
 
-We have a few bots on our discord servers to help make your experience with us better and to help y			ou find the pokemon you are looking for:
+We have a few bots on our discord servers to help make your experience with us better and to help you find the pokemon you are looking for:
 
 #. :doc:`Guzzlord </guzzlord/subscribing>` - This bot is your tool to activate and maintain your subscription. Guzzlord is also used to assist with some other basic commands.
 #. :doc:`Arceus </arceus/intro>` - This is our pokemon alerting bot. Use this to set up alerts, filtered exactly how you want, for the locations you want.
