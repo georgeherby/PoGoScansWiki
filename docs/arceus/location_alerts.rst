@@ -4,6 +4,9 @@ Setting Up Location Alerts
 
 .. contents:: :local:
 
+Adding A New Alert
+##################
+
 The command to add a new alert is:
 
 ::
@@ -61,10 +64,10 @@ Creates an alert for all ultra rare pokémon within 2km that have an IV over 80%
 Creates an alert for all 100% IV pokémon within 5km excluding ultra commons and any gen1 pokémon
 
 Removing, Muting Or Unmuting Alerts
------------------------------------
+###################################
 
 By ID
-~~~~~~~~~~~~
+-----
 
 First run :doc:`show </arceus/show>` command above and note the alert id for the record you
 want to remove.
@@ -78,7 +81,7 @@ Once you have the alert id, use this command to remove, mute or unmute the alert
     !alert unmute 32        ------ 32 being the ID you want to unmute
 
 All alerts
-~~~~~~~~~~~~~~~~~
+----------
 
 ::
 
