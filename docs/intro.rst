@@ -4,6 +4,9 @@ Introduction
 
 .. contents:: :local:
 
+Our Service
+###########
+
 Hi and welcome to the wiki for our Pokémon Go scanning service. We currently have three discord servers:
 
 * PoGo Sussex  
@@ -14,7 +17,7 @@ I guess you know about at least one of them having made your way here. If you ne
 
 To see which locations we scan in each server, the readme will provide the information. There are screenshots and lists of areas there.
 
-All are welcome here, but only raid channels are availble for free. Providing this service costs a lot of money, so to get access to the scanning channels, 
+All are welcome here, but only raid channels are available for free. Providing this service costs a lot of money, so to get access to the scanning channels, 
 the map or any of our bots you must subscribe to this service. To subscribe to this service, please read the :doc:`guzzlord/subscribing` section.
 
 Please make sure to read the :doc:`Terms & Conditions </T&C>` page, espeically the rules section. Failure to adhere to the rules will result in kicking or even banning, and not knowing the rules will not be accepted as a valid excuse.
