@@ -56,3 +56,29 @@ Creates an alert for all ultra rare pokémon within 2km that have an IV over 80%
 	!alert pokemon=all distance=5 iv=100 excludemon=gen1,ultra common
 	
 Creates an alert for all 100% IV pokémon within 5km excluding ultra commons and anything gen1 pokémon
+
+Removing, Muting Or Unmuting Alerts
+-----------------------------------
+
+By ID
+~~~~~~~~~~~~
+
+First run :doc:`show </arceus/show>` command above and note the alert id for the record you
+want to remove.
+
+Once you have the alert id, use this command to remove, mute or unmute the alert
+
+::
+
+    !alert remove 32        ------ 32 being the ID you want to remove
+    !alert mute 32        ------ 32 being the ID you want to mute
+    !alert unmute 32        ------ 32 being the ID you want to unmute
+
+All alerts
+~~~~~~~~~~~~~~~~~
+
+::
+
+    !alert remove all       ------ This will remove all raid alerts
+    !alert mute all       ------ This will mute all raid alerts
+    !alert unmute all       ------ This will unmute all raid alerts

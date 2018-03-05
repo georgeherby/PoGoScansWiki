@@ -191,18 +191,20 @@ You can switch your active location as you wish, but you must type the command; 
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <ul class="last simple">
-<li>&lt;name&gt; should be alphanumeric - spaces won’t be accepted.</li>
+<li><code class="docutils literal"><span class="pre">&lt;name&gt;</span></code> should be alphanumeric - spaces won’t be accepted.</li>
 <li>The command is coord, not coords!</li>
-<li>&lt;coords&gt; should be in decimal notation only (51.xxx..,-0.xxx..).</li>
+<li><code class="docutils literal"><span class="pre">&lt;coords&gt;</span></code> should be in decimal notation only (51.xxx..,-0.xxx..).</li>
 <li>No spaces around the comma between coords, nor either side of any of the = in the command.</li>
-<li>Even if you only add one location, it doesn’t automatically become active (see Setting/Unsetting Locations below).</li>
 </ul>
+</div>
+<p>..warning:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>Even if you only add one location, it doesn’t automatically become active, you will need to set it active (see Setting/Unsetting Locations below).
+</pre></div>
 </div>
 <div class="highlight-default"><div class="highlight"><pre><span></span>!location remove &lt;name&gt;
 </pre></div>
 </div>
-<p>For example !location remove needle</p>
-<p>Removes a location by its name as stored at <code class="docutils literal"><span class="pre">!location</span> <span class="pre">show</span></code>.</p>
+<p>For example <code class="docutils literal"><span class="pre">!location</span> <span class="pre">remove</span> <span class="pre">work</span></code>. Removes a location by its name as stored at <code class="docutils literal"><span class="pre">!location</span> <span class="pre">show</span></code>.</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>!location remove all
 </pre></div>
 </div>
@@ -210,10 +212,10 @@ You can switch your active location as you wish, but you must type the command; 
 </div>
 <div class="section" id="setting-unsetting-locations">
 <h2><a class="toc-backref" href="#id3">Setting/Unsetting Locations</a><a class="headerlink" href="#setting-unsetting-locations" title="Permalink to this headline">¶</a></h2>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!location set needle
+<div class="highlight-default"><div class="highlight"><pre><span></span>!location set &lt;name&gt;
 </pre></div>
 </div>
-<p>Sets a location to active by its name as stored at <code class="docutils literal"><span class="pre">!location</span> <span class="pre">show</span></code>. All other locations become inactive.</p>
+<p>For example <code class="docutils literal"><span class="pre">!location</span> <span class="pre">set</span> <span class="pre">work</span></code>. Sets a location to active by its name as stored at <code class="docutils literal"><span class="pre">!location</span> <span class="pre">show</span></code>. All other locations become inactive.</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>!location mute
 </pre></div>
 </div>
