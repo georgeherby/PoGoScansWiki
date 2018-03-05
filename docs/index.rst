@@ -14,7 +14,7 @@ Welcome to PoGoScans's documentation!
     :glob:
 
     intro
-	T&C
+    T&C
 
 .. toctree::
     :titlesonly:
