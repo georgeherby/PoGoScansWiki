@@ -17,11 +17,11 @@ Adding Alerts
 
 The following parameters are used for setting up raid alerts:
 
-* **channel** - The discord channel of interest. Mandatory.
-* **area** - The geofence area of interest OR the name of the gym you want alerting for. Mandatory.
+* **channel** - The discord channel of interest. *Mandatory*.
+* **area** - The geofence area of interest OR the name of the gym you want alerting for. *Mandatory*.
 * **level** - The minimum level to alert for. *(either level or boss is mandatory)*
 * **boss** - Theboss name to alert for. *(either level or boss is mandatory)*
-* **egg** - This parameter will indicate whether you want alerting to egg posts or hatched bosses.
+* **egg** - This parameter will indicate whether you want alerting to egg posts or hatched bosses. *Optional*
 
 Example Alert Commands
 ----------------------
