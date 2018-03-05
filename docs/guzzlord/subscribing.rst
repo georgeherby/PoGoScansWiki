@@ -89,7 +89,7 @@ You will be sent a reminder 3 days before your subscription expires and again on
 * Your bot rights will be revoked
 * Your active alerts will be muted
 * You will no longer be able to see the scan channels
-* You will no longet be able to see the subscriber only channels.
+* You will no longer be able to see the subscriber only channels.
 
 Your alerts will not be deleted until you leave the server in case you decide to re-subscribe.
 

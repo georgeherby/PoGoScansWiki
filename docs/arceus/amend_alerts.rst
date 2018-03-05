@@ -136,7 +136,7 @@ To replace area exclusions:
 
 ::
 
-	!excludearea replace id=1234 area=Kennington  
+	!excludearea replace id=1234 area=Kennington,Bicester  
 
 Deleting Exclusions
 -------------------
