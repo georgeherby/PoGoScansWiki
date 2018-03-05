@@ -25,7 +25,7 @@ There are a few extra sorting options for this command (always in ascending orde
 Viewing Exclusions
 ------------------
 
-If you alerts have exclusions (indicated by a ✓ in the exclusions column, you can view these by typing:
+If your alerts have exclusions (indicated by a ✓ in the exclusions column, you can view these by typing:
 
 .. code-block:: bash
 

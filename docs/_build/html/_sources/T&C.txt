@@ -39,7 +39,7 @@ Scan Sharing
 
 You guys and girls pay for this service, so those that don’t shouldn’t be given the same privileges as the members who contribute to keeping this service going and hopefully expanding. 
 
-Service Level Agreeement
+Service Level Agreement
 ########################
 
 We will guarantee a level of service and extend expiration dates for extended downtime inside of our control.

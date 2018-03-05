@@ -195,7 +195,7 @@
 <h2><a class="toc-backref" href="#id1">Updating IV/CP/Level/Distance</a><a class="headerlink" href="#updating-iv-cp-level-distance" title="Permalink to this headline">¶</a></h2>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">You can either update 1 alert, or update mutliple alerts at once</p>
+<p class="last">You can either update 1 alert, or update multiple alerts at once</p>
 </div>
 <div class="section" id="change-minimum-iv">
 <h3><a class="toc-backref" href="#id2">Change Minimum IV</a><a class="headerlink" href="#change-minimum-iv" title="Permalink to this headline">¶</a></h3>
@@ -209,7 +209,7 @@
 <p>For example <code class="docutils literal"><span class="pre">!iv</span> <span class="pre">3121</span> <span class="pre">80,3222</span> <span class="pre">90,3333</span> <span class="pre">60</span></code> to update multiple alerts.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">You can have as many <code class="docutils literal"><span class="pre">&lt;ALERT_ID_OPTIONAL&gt;</span> <span class="pre">&lt;NEW_IV_OPTIONAL&gt;</span></code> as you like separated by a comma, but make sure there is no space between alerts.</p>
+<p class="last">You can have as many <code class="docutils literal"><span class="pre">&lt;ALERT_ID_OPTIONAL&gt;</span> <span class="pre">&lt;NEW_IV_OPTIONAL&gt;</span></code> as you like separated by a comma, but make sure there is no space between commas.</p>
 </div>
 </div>
 <div class="section" id="change-minimum-cp">
@@ -224,7 +224,7 @@
 <p>For example <code class="docutils literal"><span class="pre">!cp</span> <span class="pre">3121</span> <span class="pre">2000,3222</span> <span class="pre">1500,3333</span> <span class="pre">2900</span></code> to update multiple alerts.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">You can have as many <code class="docutils literal"><span class="pre">&lt;ALERT_ID_REQUIRED&gt;</span> <span class="pre">&lt;NEW_CP_REQUIRED&gt;</span></code> as you like separated by a comma, but make sure there is no space between alerts.</p>
+<p class="last">You can have as many <code class="docutils literal"><span class="pre">&lt;ALERT_ID_REQUIRED&gt;</span> <span class="pre">&lt;NEW_CP_REQUIRED&gt;</span></code> as you like separated by a comma, but make sure there is no space between commas.</p>
 </div>
 </div>
 <div class="section" id="change-minimum-level">
@@ -239,7 +239,7 @@
 <p>For example <code class="docutils literal"><span class="pre">!level</span> <span class="pre">3121</span> <span class="pre">25,3222</span> <span class="pre">30,3333</span> <span class="pre">30</span></code> to update multiple alerts.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">You can have as many <code class="docutils literal"><span class="pre">&lt;ALERT_ID_OPTIONAL&gt;</span> <span class="pre">&lt;NEW_LEVEL_OPTIONAL&gt;</span></code> as you like separated by a comma, but make sure there is no space between alerts.</p>
+<p class="last">You can have as many <code class="docutils literal"><span class="pre">&lt;ALERT_ID_OPTIONAL&gt;</span> <span class="pre">&lt;NEW_LEVEL_OPTIONAL&gt;</span></code> as you like separated by a comma, but make sure there is no space between commas.</p>
 </div>
 </div>
 <div class="section" id="change-distance">
@@ -258,7 +258,7 @@
 <p>For example <code class="docutils literal"><span class="pre">!distance</span> <span class="pre">3121</span> <span class="pre">2.5,3222</span> <span class="pre">5,3333</span> <span class="pre">0.5</span></code> to update multiple alerts.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">You can have as many <code class="docutils literal"><span class="pre">&lt;ALERT_ID_OPTIONAL&gt;</span> <span class="pre">&lt;NEW_DISTANCE_REQUIRED&gt;</span></code> as you like separated by a comma, but make sure there is no space between alerts.</p>
+<p class="last">You can have as many <code class="docutils literal"><span class="pre">&lt;ALERT_ID_OPTIONAL&gt;</span> <span class="pre">&lt;NEW_DISTANCE_REQUIRED&gt;</span></code> as you like separated by a comma, but make sure there is no space between commas.</p>
 </div>
 </div>
 </div>
@@ -271,6 +271,10 @@
 <li>You can only exclude pokemon when the alert pokemon is set to <code class="docutils literal"><span class="pre">all</span></code>, a generation or a rarity type.</li>
 <li>You can only exclude areas when the alert area is set to <code class="docutils literal"><span class="pre">all</span></code></li>
 </ul>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Area exclusion is only possible for channel based alerts.</p>
 </div>
 <div class="section" id="adding-new-exclusion">
 <h3><a class="toc-backref" href="#id7">Adding New Exclusion</a><a class="headerlink" href="#adding-new-exclusion" title="Permalink to this headline">¶</a></h3>
@@ -307,10 +311,6 @@
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">You can also delete all exclusions for pokemon or areas by using &#8220;all&#8221; for the final parameter, ie <code class="docutils literal"><span class="pre">!excludemon</span> <span class="pre">delete</span> <span class="pre">id=1234</span> <span class="pre">pokemon=all</span></code> or <code class="docutils literal"><span class="pre">!excludearea</span> <span class="pre">delete</span> <span class="pre">id=1234</span> <span class="pre">area=all</span></code></p>
-</div>
-<div class="admonition warning">
-<p class="first admonition-title">Warning</p>
-<p class="last">Excluding areas is only possible for channel based alerts.</p>
 </div>
 </div>
 </div>

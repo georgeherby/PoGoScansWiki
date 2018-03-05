@@ -199,13 +199,22 @@ but you also get ALL of the following goodies!!</p>
 <div class="section" id="cost-of-subscription">
 <h2><a class="toc-backref" href="#id3">Cost of Subscription</a><a class="headerlink" href="#cost-of-subscription" title="Permalink to this headline">¶</a></h2>
 <p>The minimum subscription cost is £1, which will cover you for 10 days. This works out to 10p a day!
-You can subscribe for whatever length of time you want; there is no maximum subscription but we would advise against subscribe too far into the future, due to the nature of our service.
+You can subscribe for whatever length of time you want; there is no maximum subscription but we would advise against subscribing too far into the future, due to the nature of our service.
 Niantic could enforce changes that would result in the potential closure of our service without much notice, and refunds will not be processed should this happen.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Guzzlord will only read whole pound amounts, so if you pay £2.50, your subscription will only be for 20 days, or £2 worth.</p>
+</div>
 </div>
 <div class="section" id="how-to-subscribe">
 <h2><a class="toc-backref" href="#id4">How To Subscribe</a><a class="headerlink" href="#how-to-subscribe" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="make-payment">
 <h3><a class="toc-backref" href="#id5">Make Payment</a><a class="headerlink" href="#make-payment" title="Permalink to this headline">¶</a></h3>
+<p>Firstly, work out how much you want to pay by seeing how long an amount will get you using:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!calculate amount
+</pre></div>
+</div>
+<p>For example <code class="docutils literal"><span class="pre">!calculate</span> <span class="pre">5</span></code></p>
 <p>Make a payment via <a class="reference external" href="http://bit.ly/2igVOxV">PayPal</a>. Make note of the transaction ID for the payment.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
@@ -215,53 +224,56 @@ Niantic could enforce changes that would result in the potential closure of our 
 <div class="section" id="apply-payment">
 <h3><a class="toc-backref" href="#id6">Apply Payment</a><a class="headerlink" href="#apply-payment" title="Permalink to this headline">¶</a></h3>
 <p>Go to the bot-commands channel and type:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>!subscribe
+<div class="highlight-default"><div class="highlight"><pre><span></span>!subscribe
 </pre></div>
 </div>
 <p>In DM with Guzzlord, type:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>!transction &lt;ID&gt;
+<div class="highlight-default"><div class="highlight"><pre><span></span>!transction &lt;ID&gt;
 </pre></div>
 </div>
 <p>where &lt;ID&gt; is the transaction ID you noted in step 1. If the transaction ID is correct and found on <a class="reference external" href="http://bit.ly/2igVOxV">PayPal</a>, you will receive a response with your new subscription expiry date.</p>
 <img alt="../_images/subscribe_response.PNG" src="../_images/subscribe_response.PNG" />
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">Please remember, if you are subscribing again after expiring, your map credentials will have changed. If extending your subscription, your credentials will remain unchanged.</p>
+<p class="last">Please remember, if you are subscribing again after expiring, your map credentials will have changed and alerts will have been muted. If extending your subscription, your credentials will remain unchanged.</p>
 </div>
 </div>
 <div class="section" id="get-map-credentials">
 <h3><a class="toc-backref" href="#id7">Get Map Credentials</a><a class="headerlink" href="#get-map-credentials" title="Permalink to this headline">¶</a></h3>
 <p>Type:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>!map
+<div class="highlight-default"><div class="highlight"><pre><span></span>!map
 </pre></div>
 </div>
 <p>In DM with Guzzlord to get the URL of the map, and your credentials for logging onto the map. If desired you can also change your password (see below)</p>
 </div>
 <div class="section" id="expiration">
 <h3><a class="toc-backref" href="#id8">Expiration</a><a class="headerlink" href="#expiration" title="Permalink to this headline">¶</a></h3>
-<p>You will be sent a reminder 3 days before your subscription expires and again once it does. Should your subscription expire, your map credentials will be deleted, your bot rights will be revoked
-and you will no longer be able to see the scan channels. Your alerts will not be deleted until you leave the server in case you decide to re-subscribe.</p>
+<p>You will be sent a reminder 3 days before your subscription expires and again once it does. Should your subscription expire, the following will happen:</p>
+<ul class="simple">
+<li>Your map credentials will be deleted</li>
+<li>Your bot rights will be revoked</li>
+<li>Your active alerts will be muted</li>
+<li>You will no longer be able to see the scan channels</li>
+<li>You will no longet be able to see the subscriber only channels.</li>
+</ul>
+<p>Your alerts will not be deleted until you leave the server in case you decide to re-subscribe.</p>
+<p>You can always check your expiry date by typing:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!expiry
+</pre></div>
+</div>
 </div>
 </div>
 <div class="section" id="useful-commands">
 <h2><a class="toc-backref" href="#id9">Useful Commands</a><a class="headerlink" href="#useful-commands" title="Permalink to this headline">¶</a></h2>
 <p>All commands must be done in DM with Guzzlord.</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>!change_password newpassword
+<div class="highlight-default"><div class="highlight"><pre><span></span>!change_password newpassword
 </pre></div>
 </div>
 <p>If you want to change your map password to something shorter or more memorable.</p>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
 <p class="last">Passwords are stored in the DB as plain text. Please do not use a password that you use elsewhere.</p>
 </div>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>!expiry
-</pre></div>
-</div>
-<p>If you want to check your expiry date, use this command.</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>!calculate amount
-</pre></div>
-</div>
-<p>Want to find out how much bang for your buck you get? Use this command to work out the expiry date for a given amount, for example <code class="docutils literal"><span class="pre">!calculate</span> <span class="pre">5</span></code></p>
 </div>
 </div>
 
