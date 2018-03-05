@@ -1,13 +1,12 @@
-**********************
 Miscellaneous Commands
-**********************
+======================
 
 .. contents:: :local:
 
 All commands should be posted in the bot-commands channel of discord.
 
 Inviting Other Users
-####################
+--------------------
 
 To generate an invite code to give to other users wannting to join, type:
 
@@ -16,7 +15,7 @@ To generate an invite code to give to other users wannting to join, type:
     !invite
 	
 Roles
-#####
+-----
 
 To view any channels here, you need area roles. Once you have an area role, the channels for that area become available to you. To view the current areas available, type:
 
@@ -47,7 +46,7 @@ To remove yourself from an area:
 i.e. ``!role remove Brighton``
 
 Help!
-#####
+-----
 
 To get a link to this wiki, type:
 

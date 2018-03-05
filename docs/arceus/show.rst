@@ -1,11 +1,10 @@
-***************************
 Showing Alerts & Exclusions
-***************************
+===========================
 
 .. contents:: :local:
 
 Viewing Filters
-###############
+---------------
 
 .. code-block:: bash
 
@@ -25,7 +24,7 @@ There are a few extra sorting options for this command (always in ascending orde
     !alert show area        Returns a list sorted by Area
 	
 Viewing Exclusions
-##################
+------------------
 
 If you alerts have exclusions (indicated by a ✓ in the exclusions column, you can view these by typing:
 

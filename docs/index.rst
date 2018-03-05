@@ -8,28 +8,22 @@ Welcome to PoGoScans's documentation!
 *************************************
 
 .. toctree::
-    :titlesonly:
     :maxdepth: 2
     :caption: Introduction
-    :glob:
 
     intro
     T&C
 
 .. toctree::
-    :titlesonly:
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: Guzzlord
-    :glob:
 
     guzzlord/subscribing
     guzzlord/miscellaneous
 
 .. toctree::
-    :titlesonly:
-    :maxdepth: 3
+    :maxdepth: 2
     :caption: Arceus
-    :glob:
 
     arceus/intro
     arceus/show
@@ -39,28 +33,22 @@ Welcome to PoGoScans's documentation!
     arceus/amend_alerts
 
 .. toctree::
-    :titlesonly:
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: Dialga    
-    :glob:
 
     dialga/intro
     dialga/raid_alert
     dialga/raid_meetups
 	
 .. toctree::
-    :titlesonly:
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: Shaymin
-    :glob:
 
     shaymin/shaymin
 
 .. toctree::
-    :titlesonly:
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: Prof Oak
-    :glob:
 
     prof_oak/prof_oak
 	

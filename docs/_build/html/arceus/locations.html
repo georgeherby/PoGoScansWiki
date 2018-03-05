@@ -31,8 +31,8 @@
 
   
     <link rel="top" title="PoGoScans 0 documentation" href="../index.html"/>
-        <link rel="next" title="Raid Alerts" href="../dialga/raid_alert.html"/>
-        <link rel="prev" title="Setting Up Location Alerts" href="location_alerts.html"/> 
+        <link rel="next" title="Setting Up Channel Alerts" href="channel_alerts.html"/>
+        <link rel="prev" title="Showing Alerts &amp; Exclusions" href="show.html"/> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -84,27 +84,36 @@
                 <p class="caption"><span class="caption-text">Introduction</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../T&amp;C.html">Terms &amp; Conditions</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Guzzlord</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../guzzlord/subscribing.html">Subscribing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guzzlord/miscellaneous.html">Miscellaneous Commands</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Arceus</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="alert_and_exclusions.html">Showing Alerts &amp; Exclusions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="amend_alerts.html">Amending Existing Alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="show.html">Showing Alerts &amp; Exclusions</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Locations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#viewing-locations">1. Viewing Locations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#adding-removing-locations">2. Adding/Removing Locations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#setting-unsetting-locations">3. Setting/Unsetting Locations</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="channel_alerts.html">Setting Up Channel Alerts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="location_alerts.html">Setting Up Location Alerts</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Locations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="amend_alerts.html">Amending Existing Alerts</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Dialga</span></p>
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="../dialga/intro.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../dialga/raid_alert.html">Raid Alerts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../dialga/raid_meetups.html">Raid Meetups</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Shaymin</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../shaymin/shaymin.html">Shaymin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../shaymin/shaymin.html">Nests</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Prof Oak</span></p>
 <ul>
@@ -161,12 +170,13 @@ You can switch your active location as you wish, but you must type the command; 
 <p>Viewing Locations
 Adding/Removing Locations
 Setting/Unsetting Locations</p>
-<p>1. Viewing Locations
-!location show
+<div class="section" id="viewing-locations">
+<h2>1. Viewing Locations<a class="headerlink" href="#viewing-locations" title="Permalink to this headline">¶</a></h2>
+<p>!location show
 Shows a list of your saved locations, and shows which is active. It’s the go-to to see what’s going on with locations.</p>
-<ol class="arabic simple" start="2">
-<li>Adding/Removing Locations</li>
-</ol>
+</div>
+<div class="section" id="adding-removing-locations">
+<h2>2. Adding/Removing Locations<a class="headerlink" href="#adding-removing-locations" title="Permalink to this headline">¶</a></h2>
 <p>!location add name=&lt;name&gt; coord=&lt;coords&gt;
 !location add name=needle coord=51.5085,-0.1204</p>
 <p>Adds a new location. Note the following:</p>
@@ -180,11 +190,14 @@ Even if you only add one location, it doesn’t automatically become active (see
 Removes a location by its name as stored at !location show.</p>
 <p>!location remove all
 Removes all stored locations; start afresh!</p>
-<p>3. Setting/Unsetting Locations
-!location set needle
+</div>
+<div class="section" id="setting-unsetting-locations">
+<h2>3. Setting/Unsetting Locations<a class="headerlink" href="#setting-unsetting-locations" title="Permalink to this headline">¶</a></h2>
+<p>!location set needle
 Sets a location to active by its name as stored at !location show. All other locations become inactive.</p>
 <p>!location mute
 Sets all locations to inactive.</p>
+</div>
 </div>
 
 
@@ -194,10 +207,10 @@ Sets all locations to inactive.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../dialga/raid_alert.html" class="btn btn-neutral float-right" title="Raid Alerts" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="channel_alerts.html" class="btn btn-neutral float-right" title="Setting Up Channel Alerts" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="location_alerts.html" class="btn btn-neutral" title="Setting Up Location Alerts" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="show.html" class="btn btn-neutral" title="Showing Alerts &amp; Exclusions" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
