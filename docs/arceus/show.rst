@@ -31,4 +31,6 @@ If you alerts have exclusions (indicated by a ✓ in the exclusions column, you 
 
     !exclude show <ID>
 	
+For exampple ``!exclude show 10``. The ID can be found in the ``!alert show`` output as shown above.
+	
 .. image:: exclude_show.PNG
