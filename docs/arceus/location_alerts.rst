@@ -2,6 +2,8 @@
 Setting Up Location Alerts
 **************************
 
+.. contents:: :local:
+
 The command to add a new alert is:
 
 ::
