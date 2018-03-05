@@ -35,7 +35,7 @@ Quick Start
 
 To quickly get up and running with scan alerts. Try these steps.
 
-1. Add an area :ref:`role <_roles>`
+1. Add an area :ref:`role <roles>`
 
 Help
 ####
