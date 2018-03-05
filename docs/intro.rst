@@ -2,6 +2,8 @@
 Introduction
 ************
 
+.. contents:: :local:
+
 Hi and welcome to the wiki for our Pokémon Go scanning service. We currently have three discord servers:
 
 * PoGo Sussex  
@@ -18,7 +20,7 @@ the map or any of our bots you must subscribe to this service. To subscribe to t
 Please make sure to read the :doc:`Terms & Conditions </T&C>` page, espeically the rules section. Failure to adhere to the rules will result in kicking or even banning, and not knowing the rules will not be accepted as a valid excuse.
 
 Our Bots
-###############
+########
 
 We have a few bots on our discord servers to help make your experience with us better and to help you find the pokemon you are looking for:
 
@@ -28,8 +30,15 @@ We have a few bots on our discord servers to help make your experience with us b
 #. :doc:`Shaymin </shaymin/shaymin>` - To let others know of nests in your area, use Shaymin.
 #. :doc:`Prof Oak </prof_oak/prof_oak>` - The professor is your one stop shop to get info on all things PoGo. From finding out which egg a pokemon appears in to calculating IVs for your catches, the professor will help.
 
+Quick Start
+###########
+
+To quickly get up and running with scan alerts. Try these steps.
+
+1. Add an area :ref:`role <_roles>`
+
 Help
-#####
+####
 
 If you see someone asking questions that is answered in here, feel free to direct them here, or if you can, provide assistance yourself. We are a community and we help each other.
 Arceus & Dialga can seem daunting at first, so let's help those that are new here :)

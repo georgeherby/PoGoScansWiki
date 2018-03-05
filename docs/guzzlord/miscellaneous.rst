@@ -5,7 +5,7 @@ Miscellaneous Commands
 
 .. note:: 
 
-	All the below commands should be posted in the bot-commands channel of discord.
+	All the below commands should be posted in the **bot-commands** channel of discord.
 
 Inviting Other Users
 --------------------
@@ -16,6 +16,8 @@ To generate an invite code to give to other users wanting to join, type:
 
     !invite
 	
+.. _roles:
+
 Roles
 -----
 
