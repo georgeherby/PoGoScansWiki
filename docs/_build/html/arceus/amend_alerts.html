@@ -98,7 +98,22 @@
 <li class="toctree-l1"><a class="reference internal" href="locations.html">Locations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="channel_alerts.html">Setting Up Channel Alerts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="location_alerts.html">Setting Up Location Alerts</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Amending Existing Alerts</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Amending Existing Alerts</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#updating-iv-cp-level-distance">Updating IV/CP/Level/Distance</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#change-minimum-iv">Change Minimum IV</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#change-minimum-cp">Change Minimum CP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#change-minimum-level">Change Minimum Level</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#change-distance">Change Distance</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#updating-exclusions">Updating Exclusions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#adding-new-exclusion">Adding New Exclusion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#replacing-existing-exclusions">Replacing Existing Exclusions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#deleting-exclusions">Deleting Exclusions</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 <p class="caption"><span class="caption-text">Dialga</span></p>
 <ul>
@@ -159,6 +174,146 @@
             
   <div class="section" id="amending-existing-alerts">
 <h1>Amending Existing Alerts<a class="headerlink" href="#amending-existing-alerts" title="Permalink to this headline">¶</a></h1>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><a class="reference internal" href="#updating-iv-cp-level-distance" id="id1">Updating IV/CP/Level/Distance</a><ul>
+<li><a class="reference internal" href="#change-minimum-iv" id="id2">Change Minimum IV</a></li>
+<li><a class="reference internal" href="#change-minimum-cp" id="id3">Change Minimum CP</a></li>
+<li><a class="reference internal" href="#change-minimum-level" id="id4">Change Minimum Level</a></li>
+<li><a class="reference internal" href="#change-distance" id="id5">Change Distance</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#updating-exclusions" id="id6">Updating Exclusions</a><ul>
+<li><a class="reference internal" href="#adding-new-exclusion" id="id7">Adding New Exclusion</a></li>
+<li><a class="reference internal" href="#replacing-existing-exclusions" id="id8">Replacing Existing Exclusions</a></li>
+<li><a class="reference internal" href="#deleting-exclusions" id="id9">Deleting Exclusions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="updating-iv-cp-level-distance">
+<h2><a class="toc-backref" href="#id1">Updating IV/CP/Level/Distance</a><a class="headerlink" href="#updating-iv-cp-level-distance" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You can either update 1 alert, or update mutliple alerts at once</p>
+</div>
+<div class="section" id="change-minimum-iv">
+<h3><a class="toc-backref" href="#id2">Change Minimum IV</a><a class="headerlink" href="#change-minimum-iv" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!iv &lt;ALERT_ID_REQUIRED&gt; &lt;NEW_IV_REQUIRED&gt;
+</pre></div>
+</div>
+<p>For example <code class="docutils literal"><span class="pre">!iv</span> <span class="pre">3121</span> <span class="pre">80</span></code>, to update a single alert.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!iv &lt;ALERT_ID_REQUIRED&gt; &lt;NEW_IV_REQUIRED&gt;,&lt;ALERT_ID_OPTIONAL&gt; &lt;NEW_IV_OPTIONAL&gt;
+</pre></div>
+</div>
+<p>For example <code class="docutils literal"><span class="pre">!iv</span> <span class="pre">3121</span> <span class="pre">80,3222</span> <span class="pre">90,3333</span> <span class="pre">60</span></code> to update multiple alerts.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You can have as many <code class="docutils literal"><span class="pre">&lt;ALERT_ID_OPTIONAL&gt;</span> <span class="pre">&lt;NEW_IV_OPTIONAL&gt;</span></code> as you like separated by a comma, but make sure there is no space between alerts.</p>
+</div>
+</div>
+<div class="section" id="change-minimum-cp">
+<h3><a class="toc-backref" href="#id3">Change Minimum CP</a><a class="headerlink" href="#change-minimum-cp" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!cp &lt;ALERT_ID_REQUIRED&gt; &lt;NEW_CP_REQUIRED&gt;
+</pre></div>
+</div>
+<p>For example <code class="docutils literal"><span class="pre">!cp</span> <span class="pre">3121</span> <span class="pre">1800</span></code>, to update a single alert.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!cp &lt;ALERT_ID_REQUIRED&gt; &lt;NEW_CP_REQUIRED&gt;,&lt;ALERT_ID_OPTIONAL&gt; &lt;NEW_CP_OPTIONAL&gt;
+</pre></div>
+</div>
+<p>For example <code class="docutils literal"><span class="pre">!cp</span> <span class="pre">3121</span> <span class="pre">2000,3222</span> <span class="pre">1500,3333</span> <span class="pre">2900</span></code> to update multiple alerts.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You can have as many <code class="docutils literal"><span class="pre">&lt;ALERT_ID_REQUIRED&gt;</span> <span class="pre">&lt;NEW_CP_REQUIRED&gt;</span></code> as you like separated by a comma, but make sure there is no space between alerts.</p>
+</div>
+</div>
+<div class="section" id="change-minimum-level">
+<h3><a class="toc-backref" href="#id4">Change Minimum Level</a><a class="headerlink" href="#change-minimum-level" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!level &lt;ALERT_ID_REQUIRED&gt; &lt;NEW_LEVEL_REQUIRED&gt;
+</pre></div>
+</div>
+<p>For example <code class="docutils literal"><span class="pre">!level</span> <span class="pre">3121</span> <span class="pre">30</span></code>, to update a single alert.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!level &lt;ALERT_ID_REQUIRED&gt; &lt;NEW_LEVEL_REQUIRED&gt;,&lt;ALERT_ID_OPTIONAL&gt; &lt;NEW_LEVEL_OPTIONAL&gt;
+</pre></div>
+</div>
+<p>For example <code class="docutils literal"><span class="pre">!level</span> <span class="pre">3121</span> <span class="pre">25,3222</span> <span class="pre">30,3333</span> <span class="pre">30</span></code> to update multiple alerts.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You can have as many <code class="docutils literal"><span class="pre">&lt;ALERT_ID_OPTIONAL&gt;</span> <span class="pre">&lt;NEW_LEVEL_OPTIONAL&gt;</span></code> as you like separated by a comma, but make sure there is no space between alerts.</p>
+</div>
+</div>
+<div class="section" id="change-distance">
+<h3><a class="toc-backref" href="#id5">Change Distance</a><a class="headerlink" href="#change-distance" title="Permalink to this headline">¶</a></h3>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">This command can only be used with location based alerts</p>
+</div>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!distance &lt;ALERT_ID_REQUIRED&gt; &lt;NEW_DISTANCE_REQUIRED&gt;
+</pre></div>
+</div>
+<p>For example <code class="docutils literal"><span class="pre">!distance</span> <span class="pre">3121</span> <span class="pre">2.5</span></code>, to update a single alert.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!distance &lt;ALERT_ID_REQUIRED&gt; &lt;NEW_DISTANCE_REQUIRED&gt;,&lt;ALERT_ID_OPTIONAL&gt; &lt;NEW_DISTANCE_REQUIRED&gt;
+</pre></div>
+</div>
+<p>For example <code class="docutils literal"><span class="pre">!distance</span> <span class="pre">3121</span> <span class="pre">2.5,3222</span> <span class="pre">5,3333</span> <span class="pre">0.5</span></code> to update multiple alerts.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You can have as many <code class="docutils literal"><span class="pre">&lt;ALERT_ID_OPTIONAL&gt;</span> <span class="pre">&lt;NEW_DISTANCE_REQUIRED&gt;</span></code> as you like separated by a comma, but make sure there is no space between alerts.</p>
+</div>
+</div>
+</div>
+<div class="section" id="updating-exclusions">
+<h2><a class="toc-backref" href="#id6">Updating Exclusions</a><a class="headerlink" href="#updating-exclusions" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<ul class="last simple">
+<li>This can only be done for one alert at a time.</li>
+<li>You can only exclude pokemon when the alert pokemon is set to <code class="docutils literal"><span class="pre">all</span></code>, a generation or a rarity type.</li>
+<li>You can only exclude areas when the alert area is set to <code class="docutils literal"><span class="pre">all</span></code></li>
+</ul>
+</div>
+<div class="section" id="adding-new-exclusion">
+<h3><a class="toc-backref" href="#id7">Adding New Exclusion</a><a class="headerlink" href="#adding-new-exclusion" title="Permalink to this headline">¶</a></h3>
+<p>To append pokemon exclusions:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!excludemon append id=1234 pokemon=rattata,common
+</pre></div>
+</div>
+<p>To append area exclusions:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!excludearea append id=1234 area=Caversham,Earley
+</pre></div>
+</div>
+</div>
+<div class="section" id="replacing-existing-exclusions">
+<h3><a class="toc-backref" href="#id8">Replacing Existing Exclusions</a><a class="headerlink" href="#replacing-existing-exclusions" title="Permalink to this headline">¶</a></h3>
+<p>To replace pokemon exclusions:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!excludemon replace id=1234 pokemon=pidgey
+</pre></div>
+</div>
+<p>To replace area exclusions:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!excludearea replace id=1234 area=Kennington
+</pre></div>
+</div>
+</div>
+<div class="section" id="deleting-exclusions">
+<h3><a class="toc-backref" href="#id9">Deleting Exclusions</a><a class="headerlink" href="#deleting-exclusions" title="Permalink to this headline">¶</a></h3>
+<p>To delete pokemon exclusions:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!excludemon delete id=1234 pokemon=meditite
+</pre></div>
+</div>
+<p>To delete area exclusions:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!excludearea delete id=1234 area=Marlow
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You can also delete all exclusions for pokemon or areas by using &#8220;all&#8221; for the final parameter, ie <code class="docutils literal"><span class="pre">!excludemon</span> <span class="pre">delete</span> <span class="pre">id=1234</span> <span class="pre">pokemon=all</span></code> or <code class="docutils literal"><span class="pre">!excludearea</span> <span class="pre">delete</span> <span class="pre">id=1234</span> <span class="pre">area=all</span></code></p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Excluding areas is only possible for channel based alerts.</p>
+</div>
+</div>
+</div>
 </div>
 
 

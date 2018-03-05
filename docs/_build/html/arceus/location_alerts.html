@@ -31,7 +31,7 @@
 
   
     <link rel="top" title="PoGoScans 0 documentation" href="../index.html"/>
-        <link rel="next" title="Amending Existing Alerts" href="amend_alerts.html"/>
+        <link rel="next" title="Updating IV/CP/Level/Distance" href="amend_alerts.html"/>
         <link rel="prev" title="Setting Up Channel Alerts" href="channel_alerts.html"/> 
 
   
@@ -98,7 +98,10 @@
 <li class="toctree-l1"><a class="reference internal" href="locations.html">Locations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="channel_alerts.html">Setting Up Channel Alerts</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Setting Up Location Alerts</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#example-commands">Example Commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#adding-a-new-alert">Adding A New Alert</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#example-commands">Example Commands</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="#removing-muting-or-unmuting-alerts">Removing, Muting Or Unmuting Alerts</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#by-id">By ID</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#all-alerts">All alerts</a></li>
@@ -106,7 +109,8 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="amend_alerts.html">Amending Existing Alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="amend_alerts.html">Updating IV/CP/Level/Distance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="amend_alerts.html#updating-exclusions">Updating Exclusions</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Dialga</span></p>
 <ul>
@@ -167,6 +171,21 @@
             
   <div class="section" id="setting-up-location-alerts">
 <h1>Setting Up Location Alerts<a class="headerlink" href="#setting-up-location-alerts" title="Permalink to this headline">¶</a></h1>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><a class="reference internal" href="#adding-a-new-alert" id="id1">Adding A New Alert</a><ul>
+<li><a class="reference internal" href="#example-commands" id="id2">Example Commands</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#removing-muting-or-unmuting-alerts" id="id3">Removing, Muting Or Unmuting Alerts</a><ul>
+<li><a class="reference internal" href="#by-id" id="id4">By ID</a></li>
+<li><a class="reference internal" href="#all-alerts" id="id5">All alerts</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="adding-a-new-alert">
+<h2><a class="toc-backref" href="#id1">Adding A New Alert</a><a class="headerlink" href="#adding-a-new-alert" title="Permalink to this headline">¶</a></h2>
 <p>The command to add a new alert is:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>!alert pokemon=&lt;name&gt; distance=&lt;distance&gt; iv=&lt;iv&gt; cp=&lt;cp&gt; level=&lt;level&gt; excludemon=&lt;exclusions&gt;
 </pre></div>
@@ -210,7 +229,7 @@
 </ul>
 </div>
 <div class="section" id="example-commands">
-<h2>Example Commands<a class="headerlink" href="#example-commands" title="Permalink to this headline">¶</a></h2>
+<h3><a class="toc-backref" href="#id2">Example Commands</a><a class="headerlink" href="#example-commands" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-default"><div class="highlight"><pre><span></span>!alert pokemon=dratini distance=1.5 iv=90
 </pre></div>
 </div>
@@ -218,29 +237,30 @@
 <div class="highlight-default"><div class="highlight"><pre><span></span>!alert pokemon=ultra rare distance=2 iv=80 cp=2000 excludemon=Blastoise
 </pre></div>
 </div>
-<p>Creates an alert for all ultra rare pokémon within 2km that have an IV over 80% <strong>and</strong> a CP over 2000, exclusing Blastoise</p>
+<p>Creates an alert for all ultra rare pokémon within 2km that have an IV over 80% <strong>and</strong> a CP over 2000, excluding Blastoise</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>!alert pokemon=all distance=5 iv=100 excludemon=gen1,ultra common
 </pre></div>
 </div>
-<p>Creates an alert for all 100% IV pokémon within 5km excluding ultra commons and anything gen1 pokémon</p>
+<p>Creates an alert for all 100% IV pokémon within 5km excluding ultra commons and any gen1 pokémon</p>
+</div>
 </div>
 <div class="section" id="removing-muting-or-unmuting-alerts">
-<h2>Removing, Muting Or Unmuting Alerts<a class="headerlink" href="#removing-muting-or-unmuting-alerts" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Removing, Muting Or Unmuting Alerts</a><a class="headerlink" href="#removing-muting-or-unmuting-alerts" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="by-id">
-<h3>By ID<a class="headerlink" href="#by-id" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id4">By ID</a><a class="headerlink" href="#by-id" title="Permalink to this headline">¶</a></h3>
 <p>First run <a class="reference internal" href="show.html"><span class="doc">show</span></a> command above and note the alert id for the record you
 want to remove.</p>
 <p>Once you have the alert id, use this command to remove, mute or unmute the alert</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>!alert remove 32        ------ 32 being the ID you want to remove
-!alert mute 32        ------ 32 being the ID you want to mute
+!alert mute 32          ------ 32 being the ID you want to mute
 !alert unmute 32        ------ 32 being the ID you want to unmute
 </pre></div>
 </div>
 </div>
 <div class="section" id="all-alerts">
-<h3>All alerts<a class="headerlink" href="#all-alerts" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id5">All alerts</a><a class="headerlink" href="#all-alerts" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-default"><div class="highlight"><pre><span></span>!alert remove all       ------ This will remove all raid alerts
-!alert mute all       ------ This will mute all raid alerts
+!alert mute all         ------ This will mute all raid alerts
 !alert unmute all       ------ This will unmute all raid alerts
 </pre></div>
 </div>
@@ -255,7 +275,7 @@ want to remove.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="amend_alerts.html" class="btn btn-neutral float-right" title="Amending Existing Alerts" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="amend_alerts.html" class="btn btn-neutral float-right" title="Updating IV/CP/Level/Distance" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="channel_alerts.html" class="btn btn-neutral" title="Setting Up Channel Alerts" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>

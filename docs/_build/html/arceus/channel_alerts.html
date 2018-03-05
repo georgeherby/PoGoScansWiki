@@ -96,9 +96,22 @@
 <li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="show.html">Showing Alerts &amp; Exclusions</a></li>
 <li class="toctree-l1"><a class="reference internal" href="locations.html">Locations</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Setting Up Channel Alerts</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Setting Up Channel Alerts</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#adding-a-new-alert">Adding A New Alert</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#example-commands">Example Commands</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#removing-muting-or-unmuting-alerts">Removing, Muting Or Unmuting Alerts</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#by-id">By ID</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#all-alerts">All alerts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#by-location">By Location</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="location_alerts.html">Setting Up Location Alerts</a></li>
-<li class="toctree-l1"><a class="reference internal" href="amend_alerts.html">Amending Existing Alerts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="amend_alerts.html">Updating IV/CP/Level/Distance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="amend_alerts.html#updating-exclusions">Updating Exclusions</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Dialga</span></p>
 <ul>
@@ -159,6 +172,136 @@
             
   <div class="section" id="setting-up-channel-alerts">
 <h1>Setting Up Channel Alerts<a class="headerlink" href="#setting-up-channel-alerts" title="Permalink to this headline">¶</a></h1>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><a class="reference internal" href="#adding-a-new-alert" id="id1">Adding A New Alert</a><ul>
+<li><a class="reference internal" href="#example-commands" id="id2">Example Commands</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#removing-muting-or-unmuting-alerts" id="id3">Removing, Muting Or Unmuting Alerts</a><ul>
+<li><a class="reference internal" href="#by-id" id="id4">By ID</a></li>
+<li><a class="reference internal" href="#all-alerts" id="id5">All alerts</a></li>
+<li><a class="reference internal" href="#by-location" id="id6">By Location</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="adding-a-new-alert">
+<h2><a class="toc-backref" href="#id1">Adding A New Alert</a><a class="headerlink" href="#adding-a-new-alert" title="Permalink to this headline">¶</a></h2>
+<p>The command to add a new alert is:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!alert pokemon=&lt;name&gt; channel=&lt;channel&gt; area=&lt;area&gt; iv=&lt;iv&gt; cp=&lt;cp&gt; level=&lt;level&gt; excludemon=&lt;monexclusions&gt; excludearea=&lt;areaexclusions&gt;
+</pre></div>
+</div>
+<ul>
+<li><p class="first"><code class="docutils literal"><span class="pre">&lt;name&gt;</span></code> - Compulsory. Here you can specify a single Pokémon by name, or use a built in group:</p>
+<blockquote>
+<div><ul class="simple">
+<li><code class="docutils literal"><span class="pre">all</span></code> refers to all Pokémon</li>
+<li><code class="docutils literal"><span class="pre">gen1</span></code>, <code class="docutils literal"><span class="pre">gen2</span></code>, <code class="docutils literal"><span class="pre">gen3</span></code> refers to all Pokémon in a generation.</li>
+<li><code class="docutils literal"><span class="pre">ultra</span> <span class="pre">common</span></code>, <code class="docutils literal"><span class="pre">common</span></code>, <code class="docutils literal"><span class="pre">uncommon</span></code>, <code class="docutils literal"><span class="pre">rare</span></code>, <code class="docutils literal"><span class="pre">ultra</span> <span class="pre">rare</span></code> refers to rarity tiers of Pokémon as decided by the admins. To see what’s in each tier, send Arceus the command <code class="docutils literal"><span class="pre">!rarity</span> <span class="pre">&lt;tier-name&gt;</span></code> – e.g. <code class="docutils literal"><span class="pre">!rarity</span> <span class="pre">ultra</span> <span class="pre">rare.</span></code></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first"><code class="docutils literal"><span class="pre">&lt;channel&gt;</span></code> - Compulsory. The channel for which you want alerting.</p>
+</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">To see the list of available channels, type <code class="docutils literal"><span class="pre">!channels</span></code> in the <strong>bot-commands</strong> channel in discord!</p>
+</div>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">&lt;area&gt;</span></code> - Compulsory. The area for which you want alerting. This can be a single area, or use <code class="docutils literal"><span class="pre">all</span></code> to get alerts for all areas in a channel.</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The areas are those in () in the spawn posts in discord. A list of areas in each channel can be found in the <strong>readme</strong> on discord.</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">There is no validation of the <code class="docutils literal"><span class="pre">&lt;area&gt;</span></code> parameter, so if you misspell the area name, your alert will not work.</p>
+</div>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">&lt;iv&gt;</span></code>, <code class="docutils literal"><span class="pre">&lt;cp&gt;</span></code>, <code class="docutils literal"><span class="pre">&lt;level&gt;</span></code> - Optional. Whole numbers specifying min IV (as a percentage), CP, level.</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You cannot specify all 3 of these in a single filter; between 0 and 2 of them is fine.</p>
+</div>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">&lt;monexclusions&gt;</span></code> - Optional. If you’ve chosen a group for <code class="docutils literal"><span class="pre">&lt;name&gt;</span></code>, you can exclude individual Pokémon, Generations or Rarity Types by providing a comma-separated list here.</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You can list Pokémon by name, or dex number.</p>
+</div>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">&lt;areaexclusions&gt;</span></code> - Optional. If you’ve chosen &#8220;all&#8221; <code class="docutils literal"><span class="pre">&lt;area&gt;</span></code>, you can exclude certain areas from generating an alert by providing a comma-separated list here.</li>
+</ul>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<ul class="last simple">
+<li>Though you may omit optional parameters, you must <strong>stick to the order</strong> of parameters as outlined above.</li>
+<li>Check there are <strong>no spaces around any = sign</strong>, and that you include only one space between separate parameters.</li>
+</ul>
+</div>
+<div class="section" id="example-commands">
+<h3><a class="toc-backref" href="#id2">Example Commands</a><a class="headerlink" href="#example-commands" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!alert pokemon=dratini channel=Brighton area=Patcham iv=90
+</pre></div>
+</div>
+<p>Creates an alert for all dratini In Patcham with an IV over 90%</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!alert pokemon=ultra rare channel=Reading area=All iv=80 cp=2000 excludemon=Blastoise excludearea=Henley
+</pre></div>
+</div>
+<p>Creates an alert for all ultra rare pokémon in Reading that have an IV over 80% <strong>and</strong> a CP over 2000, excluding Blastoise and any spawns in Henley.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!alert pokemon=all channel=Oxford area=All iv=100 excludemon=gen1,ultra common excludearea=Bicester
+</pre></div>
+</div>
+<p>Creates an alert for all 100% IV pokémon in Oxford excluding ultra commons and any gen1 pokémon. Do not send alert if in Bicester.</p>
+</div>
+</div>
+<div class="section" id="removing-muting-or-unmuting-alerts">
+<h2><a class="toc-backref" href="#id3">Removing, Muting Or Unmuting Alerts</a><a class="headerlink" href="#removing-muting-or-unmuting-alerts" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="by-id">
+<h3><a class="toc-backref" href="#id4">By ID</a><a class="headerlink" href="#by-id" title="Permalink to this headline">¶</a></h3>
+<p>First run <a class="reference internal" href="show.html"><span class="doc">show</span></a> command above and note the alert id for the record you
+want to remove.</p>
+<p>Once you have the alert id, use this command to remove, mute or unmute the alert</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!alert remove 32        ------ 32 being the ID you want to remove
+!alert mute 32          ------ 32 being the ID you want to mute
+!alert unmute 32        ------ 32 being the ID you want to unmute
+</pre></div>
+</div>
+</div>
+<div class="section" id="all-alerts">
+<h3><a class="toc-backref" href="#id5">All alerts</a><a class="headerlink" href="#all-alerts" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!alert remove all       ------ This will remove all raid alerts
+!alert mute all         ------ This will mute all raid alerts
+!alert unmute all       ------ This will unmute all raid alerts
+</pre></div>
+</div>
+</div>
+<div class="section" id="by-location">
+<h3><a class="toc-backref" href="#id6">By Location</a><a class="headerlink" href="#by-location" title="Permalink to this headline">¶</a></h3>
+<p>You can remove, mute or unmute all alerts for a channel or an area within a channel:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!alert remove channel=MidSussex
+!alert remove channel=MidSussex area=Hassocks
+</pre></div>
+</div>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!alert mute channel=Reading
+!alert mute channel=Reading area=Caversham
+</pre></div>
+</div>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!alert unmute channel=Slough
+!alert unmute channel=Slough area=Britwell
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If removing by area, channel is still required.</p>
+</div>
+</div>
+</div>
 </div>
 
 

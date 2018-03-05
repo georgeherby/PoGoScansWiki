@@ -1,6 +1,6 @@
 ************************
 Amending Existing Alerts
-*************************
+************************
 
 .. contents:: :local:
 
@@ -58,7 +58,7 @@ Change Minimum Level
 
 	!level <ALERT_ID_REQUIRED> <NEW_LEVEL_REQUIRED>  
 
-For example ``!level 3121 30 ``, to update a single alert.
+For example ``!level 3121 30``, to update a single alert.
 
 ::
 

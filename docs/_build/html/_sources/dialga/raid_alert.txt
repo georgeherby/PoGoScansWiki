@@ -112,7 +112,7 @@ Once you have the raid alert id, use this command to remove, mute or unmute the 
 ::
 
     !raid remove 32        ------ 32 being the ID you want to remove
-    !raid mute 32        ------ 32 being the ID you want to mute
+    !raid mute 32          ------ 32 being the ID you want to mute
     !raid unmute 32        ------ 32 being the ID you want to unmute
 
 All alerts
@@ -121,13 +121,13 @@ All alerts
 ::
 
     !raid remove all       ------ This will remove all raid alerts
-    !raid mute all       ------ This will mute all raid alerts
+    !raid mute all         ------ This will mute all raid alerts
     !raid unmute all       ------ This will unmute all raid alerts
 
 By Location
 ~~~~~~~~~~~~~~~~~~
 
-You can remove, mutye or unmute all alerts for a channel or an area within a channel:
+You can remove, mute or unmute all alerts for a channel or an area within a channel:
 
 ::
 
