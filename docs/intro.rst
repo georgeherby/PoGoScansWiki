@@ -10,7 +10,7 @@ Hi and welcome to the wiki for our Pokémon Go scanning service. We currently ha
 
 I guess you know about at least one of them having made your way here. If you need an invite to any of our other discord servers, just ask in the chat channel.
 
-To see which locations we scan in each server, the readme will provide te information. There are screenshots and lists of areas there.
+To see which locations we scan in each server, the readme will provide the information. There are screenshots and lists of areas there.
 
 All are welcome here, but only raid channels are availble for free. Providing this service costs a lot of money, so to get access to the scanning channels, 
 the map or any of our bots you must subscribe to this service. To subscribe to this service, please read the :doc:`guzzlord/subscribing` section.
