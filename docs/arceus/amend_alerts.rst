@@ -103,6 +103,10 @@ Updating Exclusions
 	* This can only be done for one alert at a time. 
 	* You can only exclude pokemon when the alert pokemon is set to ``all``, a generation or a rarity type.
 	* You can only exclude areas when the alert area is set to ``all``
+	
+.. warning::
+
+	Area exclusion is only possible for channel based alerts.
 
 Adding New Exclusion
 --------------------
@@ -153,6 +157,3 @@ To delete area exclusions:
 
 	You can also delete all exclusions for pokemon or areas by using "all" for the final parameter, ie ``!excludemon delete id=1234 pokemon=all`` or ``!excludearea delete id=1234 area=all``
 	
-.. warning::
-
-	Excluding areas is only possible for channel based alerts.
