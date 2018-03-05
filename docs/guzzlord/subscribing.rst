@@ -59,7 +59,7 @@ where <ID> is the transaction ID you noted in step 1. If the transaction ID is c
 
 .. note::
 
-	Please remember, if you are subscribing again after expiring, your map credentials will have changed. If extending your subscription, your credentials will remain unchanged.
+	Please remember, if you are subscribing again after expiring, your map credentials will have changed and alerts will have been muted. If extending your subscription, your credentials will remain unchanged.
  
 Get Map Credentials
 ===================
@@ -75,8 +75,15 @@ In DM with Guzzlord to get the URL of the map, and your credentials for logging 
 Expiration
 ==========
 
-You will be sent a reminder 3 days before your subscription expires and again once it does. Should your subscription expire, your map credentials will be deleted, your bot rights will be revoked
-and you will no longer be able to see the scan channels. Your alerts will not be deleted until you leave the server in case you decide to re-subscribe.
+You will be sent a reminder 3 days before your subscription expires and again once it does. Should your subscription expire, the following will happen:
+
+* Your map credentials will be deleted
+* Your bot rights will be revoked
+* Your active alerts will be muted
+* You will no longer be able to see the scan channels
+* You will no longet be able to see the subscriber only channels.
+
+Your alerts will not be deleted until you leave the server in case you decide to re-subscribe.
 
 Useful Commands 
 ###############
