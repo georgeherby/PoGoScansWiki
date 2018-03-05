@@ -14,6 +14,7 @@ Welcome to PoGoScans's documentation!
     :glob:
 
     intro
+	T&C
 
 .. toctree::
     :titlesonly:
@@ -63,11 +64,3 @@ Welcome to PoGoScans's documentation!
 
     prof_oak/prof_oak
 	
-.. toctree::
-    :titlesonly:
-    :maxdepth: 2
-    :caption: Terms & Conditions
-    :glob:
-
-    T&C
-
