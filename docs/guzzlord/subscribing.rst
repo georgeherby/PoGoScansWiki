@@ -103,7 +103,7 @@ What If I Do Not Have PayPal?
 =============================
 
 Unfortunately we only accept PayPal as a form of payment for subscription. We have found that 99% of people do have and are happy to use PayPal and we cannot process any other form of payment.
-If you cannot use PayPal at all, our only suggestion is to liase with a fellow PoGo player or friend that does use PayPal, and ask them to do it for you if you pay them.
+If you cannot use PayPal at all, our only suggestion is to liaise with a fellow PoGo player or friend that does use PayPal, and ask them to do it for you if you pay them.
 
 There is no issue our side with this, and anybody can use the transaction ID generated, as long as it has not already been used.
 
