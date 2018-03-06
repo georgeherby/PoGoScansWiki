@@ -7,6 +7,14 @@ Setting Up Location Alerts
 Adding A New Alert
 ##################
 
+If you want to set up alerts for Pokémon spawns, initiate a conversation with Arceus by typing into bot-commands:
+
+::
+
+    !arceus
+	
+This will get Arceus to send you a message. Use this DM window to send all commands. 
+
 The command to add a new alert is:
 
 ::

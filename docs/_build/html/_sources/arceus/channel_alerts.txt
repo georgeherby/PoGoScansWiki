@@ -10,6 +10,14 @@ Adding A New Alert
 .. warning::
 
 	Channel alerting is unavailable in London. Please see :doc:`here </arceus/intro>` for the reason why.
+	
+If you want to set up alerts for Pokémon spawns, initiate a conversation with Arceus by typing into bot-commands:
+
+::
+
+    !arceus
+	
+This will get Arceus to send you a message. Use this DM window to send all commands. 
 
 The command to add a new alert is:
 
@@ -51,7 +59,7 @@ The command to add a new alert is:
 
 	You can list Pokémon exclusions by name, or dex number.
 	
-* ``<areaexclusions>`` - Optional. If you’ve chosen "all" ``<area>``, you can exclude certain areas from generating an alert by providing a comma-separated list here.
+* ``<areaexclusions>`` - Optional. If you’ve chosen ``all`` for the ``<area>``, you can exclude certain areas from generating an alert by providing a comma-separated list here.
 	
 .. warning::
 
