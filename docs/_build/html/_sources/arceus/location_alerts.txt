@@ -11,7 +11,7 @@ If you want to set up alerts for Pokémon spawns, initiate a conversation with A
 
 ::
 
-    !arceus
+    !alert
 	
 This will get Arceus to send you a message. Use this DM window to send all commands. 
 

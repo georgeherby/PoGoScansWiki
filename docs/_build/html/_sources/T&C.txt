@@ -11,7 +11,7 @@ We only have a few rules, we expect everyone to be respectful to admin and to ot
 We will not get involved in local disputes. Banter is always welcome, just be mindful of language in the long term as there may be children on here going forward but in general we have no issue with swearing. 
 
 There is ZERO TOLERANCE on physical or verbal abuse; our first response will ALWAYS be to tell the victim to call the police. 
-Individuals who have been witnessed being abusive or we receive evidence of you breaking this rule you will be removed from the discord permanently.
+If you are witnessed being abusive, or we receive evidence of you breaking this rule you will be removed from the discord permanently.
 
 Spoofing
 --------
@@ -32,7 +32,7 @@ Scan Sharing
 
 **THIS IS OUR NUMBER 1, MOST IMPORTANT RULE**
 
-* Sharing of scan of any Pokémon spawn data from discord, including IVs, screenshots, map images and coordinates in various social media channels will result in being kicked from the server, requiring you to re-join and re-subscribe. Scans are for personal use only!!
+* Sharing of scans of any Pokémon spawn data from discord, including IVs, screenshots, map images and coordinates in various social media channels will result in being kicked from the server, requiring you to re-join and re-subscribe. Scans are for personal use only!!
 * Do not share your map credentials. We log every visit to the map and usage is monitored. Overly excessive use over many multiple devices will result in a ban. Trusted individuals on the discord have had access to the map for a while now, we have tested this and know when you're sharing map credentials.  
 * It is very important that the above is adhered to, breaking the above rules will result in an initial warning and kicking from the discord; repeated misuse will result in a permanent ban. 
 * If we see constant rule-breaking of the above from multiple individuals, we will turn off scans for that area until we are confident that it will no longer be an issue. 
@@ -41,7 +41,7 @@ You guys and girls pay for this service, so those that don’t shouldn’t be gi
 
 .. note::
 
-	Feel free to share the raid information. This is available to all for free so we have no issue with you using the posts to help organise raids in your local Facebook or WhatsApp groups. It is just the paid for Pokémon spawns that we take objection to.
+	Feel free to share the raid information. This is available to all for free so we have no issue with you using the posts to help organise raids in your local Facebook or WhatsApp groups. It is just sharing the paid for Pokémon spawns that we take objection to.
 
 Service Level Agreement
 ########################
