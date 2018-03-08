@@ -18,14 +18,16 @@ Adding Alerts
 The following parameters are used for setting up raid alerts:
 
 * ``channel`` - Compulsory. The discord channel of interest.
-* ``area`` - Compulsory. The area of interest OR the name of the gym you want alerting for.
+* ``area`` - Optional (see note below). The area of interest you want alerting for.
+* ``gym`` - Optional (see note below). The name of the gym you want alerting for.
 * ``level`` - Optional (see note below). The minimum level to alert for.
 * ``boss`` - Optional (see note below). The boss name to alert for.
 * ``egg`` - Optional. This parameter will indicate whether you want alerting to egg posts or hatched bosses. *Optional*
 
 .. note::
 
-	You must supply either ``level`` or ``boss``, but not both.
+	#. You must supply either ``level`` or ``boss``, but not both.
+	#. You must supply either ``area`` or ``gym``, but not both.
 
 Example Alert Commands
 ----------------------

@@ -197,14 +197,18 @@
 <p>The following parameters are used for setting up raid alerts:</p>
 <ul class="simple">
 <li><code class="docutils literal"><span class="pre">channel</span></code> - Compulsory. The discord channel of interest.</li>
-<li><code class="docutils literal"><span class="pre">area</span></code> - Compulsory. The area of interest OR the name of the gym you want alerting for.</li>
+<li><code class="docutils literal"><span class="pre">area</span></code> - Optional (see note below). The area of interest you want alerting for.</li>
+<li><code class="docutils literal"><span class="pre">gym</span></code> - Optional (see note below). The name of the gym you want alerting for.</li>
 <li><code class="docutils literal"><span class="pre">level</span></code> - Optional (see note below). The minimum level to alert for.</li>
 <li><code class="docutils literal"><span class="pre">boss</span></code> - Optional (see note below). The boss name to alert for.</li>
 <li><code class="docutils literal"><span class="pre">egg</span></code> - Optional. This parameter will indicate whether you want alerting to egg posts or hatched bosses. <em>Optional</em></li>
 </ul>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">You must supply either <code class="docutils literal"><span class="pre">level</span></code> or <code class="docutils literal"><span class="pre">boss</span></code>, but not both.</p>
+<ol class="last arabic simple">
+<li>You must supply either <code class="docutils literal"><span class="pre">level</span></code> or <code class="docutils literal"><span class="pre">boss</span></code>, but not both.</li>
+<li>You must supply either <code class="docutils literal"><span class="pre">area</span></code> or <code class="docutils literal"><span class="pre">gym</span></code>, but not both.</li>
+</ol>
 </div>
 <div class="section" id="example-alert-commands">
 <h3><a class="toc-backref" href="#id2">Example Alert Commands</a><a class="headerlink" href="#example-alert-commands" title="Permalink to this headline">¶</a></h3>

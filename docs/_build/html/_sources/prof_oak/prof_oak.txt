@@ -38,7 +38,7 @@ This will likely return more results, as includes half levels if possible
 Pokémon Stats
 #############
 
-These commands will provide you with all the niformation you need for pokemon.
+These commands will provide you with all the notification you need for pokemon.
 
 ::
 
