@@ -23,7 +23,7 @@ The command to add a new alert is:
 
 ::
 
-	!alert pokemon=<name> channel=<channel> area=<area> iv=<iv> cp=<cp> level=<level> excludemon=<monexclusions> excludearea=<areaexclusions>
+	!alert pokemon=<name> channel=<channel> area=<area> iv=<iv> cp=<cp> level=<level> excludemon=<monexclusions> excludearea=<areaexclusions> excludeform=<formexclusions>
 	
 * ``<name>`` - Compulsory. Here you can specify a single Pokémon by name, or use a built in group:
 
@@ -60,6 +60,8 @@ The command to add a new alert is:
 	You can list Pokémon exclusions by name, or dex number.
 	
 * ``<areaexclusions>`` - Optional. If you’ve chosen ``all`` for the ``<area>``, you can exclude certain areas from generating an alert by providing a comma-separated list here.
+
+* ``<formexclusions>`` - Optional. If you’ve chosen a group for ``<name>`` or a pokemon that has forms, such as Castform, you can exclude certain forms by providing a comma-separated list here.
 	
 .. warning::
 
