@@ -191,7 +191,7 @@
 </div>
 <p>This will get Arceus to send you a message. Use this DM window to send all commands.</p>
 <p>The command to add a new alert is:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!alert pokemon=&lt;name&gt; distance=&lt;distance&gt; iv=&lt;iv&gt; cp=&lt;cp&gt; level=&lt;level&gt; excludemon=&lt;exclusions&gt;
+<div class="highlight-default"><div class="highlight"><pre><span></span>!alert pokemon=&lt;name&gt; distance=&lt;distance&gt; iv=&lt;iv&gt; cp=&lt;cp&gt; level=&lt;level&gt; excludemon=&lt;monexclusions&gt; excludeform=&lt;formexclusions&gt;
 </pre></div>
 </div>
 <ul>
@@ -219,12 +219,15 @@
 <p class="last">You cannot specify all 3 of these in a single filter; between 0 and 2 of them is fine.</p>
 </div>
 <ul class="simple">
-<li><code class="docutils literal"><span class="pre">&lt;exclusions&gt;</span></code> - Optional. If you’ve chosen a group for <code class="docutils literal"><span class="pre">&lt;name&gt;</span></code>, you can exclude individual Pokémon, Generations or Rarity Types by providing a comma-separated list here.</li>
+<li><code class="docutils literal"><span class="pre">&lt;monexclusions&gt;</span></code> - Optional. If you’ve chosen a group for <code class="docutils literal"><span class="pre">&lt;name&gt;</span></code>, you can exclude individual Pokémon, Generations or Rarity Types by providing a comma-separated list here.</li>
 </ul>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">You can list Pokémon exclusions by name, or dex number.</p>
 </div>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">&lt;formexclusions&gt;</span></code> - Optional. If you’ve chosen a group for <code class="docutils literal"><span class="pre">&lt;name&gt;</span></code> or a pokemon that has forms, such as Castform, you can exclude certain forms by providing a comma-separated list here.</li>
+</ul>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
 <ul class="last simple">
@@ -245,7 +248,11 @@
 <div class="highlight-default"><div class="highlight"><pre><span></span>!alert pokemon=all distance=5 iv=100 excludemon=gen1,ultra common
 </pre></div>
 </div>
-<p>Creates an alert for all 100% IV pokémon within 5km excluding ultra commons and any gen1 pokémon</p>
+<p>Creates an alert for all 100% IV pokémon within 5km excluding ultra commons and any gen1 pokémon.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!alert pokemon=unown distance=7.5 excludeform=A,F,J
+</pre></div>
+</div>
+<p>Creates an alert for all Unown within 7.5km except A,F,J</p>
 </div>
 </div>
 <div class="section" id="removing-muting-or-unmuting-alerts">

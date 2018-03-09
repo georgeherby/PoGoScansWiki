@@ -103,6 +103,7 @@ Updating Exclusions
 	* This can only be done for one alert at a time. 
 	* You can only exclude pokemon when the alert pokemon is set to ``all``, a generation or a rarity type.
 	* You can only exclude areas when the alert area is set to ``all``
+	* You can only exclude forms when the alert pokemon is set to ``all``, a generation, a rarity type or a pokemon that has forms, such as Unown.
 	
 .. warning::
 
@@ -122,6 +123,12 @@ To append area exclusions:
 ::
 
 	!excludearea append id=1234 area=Caversham,Earley  
+	
+To append form exclusions:
+
+::
+
+	!excludeform append id=1234 form=Normal,Sunny 
 
 Replacing Existing Exclusions
 -----------------------------
@@ -137,6 +144,12 @@ To replace area exclusions:
 ::
 
 	!excludearea replace id=1234 area=Kennington,Bicester  
+	
+To replace form exclusions:
+
+::
+
+	!excludeform replace id=1234 form=K,L,P
 
 Deleting Exclusions
 -------------------
@@ -152,8 +165,14 @@ To delete area exclusions:
 ::
 
 	!excludearea delete id=1234 area=Marlow
+	
+To delete form exclusions:
+
+::
+
+	!excludeform delete id=1234 form=Rainy
 
 .. note::
 
-	You can also delete all exclusions for pokemon or areas by using "all" for the final parameter, ie ``!excludemon delete id=1234 pokemon=all`` or ``!excludearea delete id=1234 area=all``
+	You can also delete all exclusions for pokemon or areas by using "all" for the final parameter, ie ``!excludemon delete id=1234 pokemon=all``, ``!excludearea delete id=1234 area=all`` or ``!excludeform delete id=1234 form=all``
 	

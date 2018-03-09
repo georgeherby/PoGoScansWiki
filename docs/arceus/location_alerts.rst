@@ -19,7 +19,7 @@ The command to add a new alert is:
 
 ::
 
-	!alert pokemon=<name> distance=<distance> iv=<iv> cp=<cp> level=<level> excludemon=<exclusions>
+	!alert pokemon=<name> distance=<distance> iv=<iv> cp=<cp> level=<level> excludemon=<monexclusions> excludeform=<formexclusions>
 	
 * ``<name>`` - Compulsory. Here you can specify a single Pokémon by name, or use a built in group:
 
@@ -39,11 +39,13 @@ The command to add a new alert is:
 
 	You cannot specify all 3 of these in a single filter; between 0 and 2 of them is fine.
 	
-* ``<exclusions>`` - Optional. If you’ve chosen a group for ``<name>``, you can exclude individual Pokémon, Generations or Rarity Types by providing a comma-separated list here.
+* ``<monexclusions>`` - Optional. If you’ve chosen a group for ``<name>``, you can exclude individual Pokémon, Generations or Rarity Types by providing a comma-separated list here.
 
 .. note::
 
 	You can list Pokémon exclusions by name, or dex number.
+	
+* ``<formexclusions>`` - Optional. If you’ve chosen a group for ``<name>`` or a pokemon that has forms, such as Castform, you can exclude certain forms by providing a comma-separated list here.
 	
 .. warning::
 
@@ -69,7 +71,13 @@ Creates an alert for all ultra rare pokémon within 2km that have an IV over 80%
 	
 	!alert pokemon=all distance=5 iv=100 excludemon=gen1,ultra common
 	
-Creates an alert for all 100% IV pokémon within 5km excluding ultra commons and any gen1 pokémon
+Creates an alert for all 100% IV pokémon within 5km excluding ultra commons and any gen1 pokémon.
+
+::
+	
+	!alert pokemon=unown distance=7.5 excludeform=A,F,J
+	
+Creates an alert for all Unown within 7.5km except A,F,J
 
 Removing, Muting Or Unmuting Alerts
 ###################################

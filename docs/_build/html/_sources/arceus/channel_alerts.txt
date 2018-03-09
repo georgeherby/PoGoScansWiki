@@ -87,6 +87,12 @@ Creates an alert for all ultra rare pokémon in Reading that have an IV over 80%
 	
 Creates an alert for all 100% IV pokémon in Oxford excluding ultra commons and any gen1 pokémon. Do not send alert if in Bicester.
 
+::
+	
+	!alert pokemon=unown channel=MidSussex area=Haywards Heath excludeform=A,F,J
+	
+Creates an alert for all Unown in Haywards Heath except A,F,J
+
 Removing, Muting Or Unmuting Alerts
 ###################################
 

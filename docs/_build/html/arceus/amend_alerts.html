@@ -270,6 +270,7 @@
 <li>This can only be done for one alert at a time.</li>
 <li>You can only exclude pokemon when the alert pokemon is set to <code class="docutils literal"><span class="pre">all</span></code>, a generation or a rarity type.</li>
 <li>You can only exclude areas when the alert area is set to <code class="docutils literal"><span class="pre">all</span></code></li>
+<li>You can only exclude forms when the alert pokemon is set to <code class="docutils literal"><span class="pre">all</span></code>, a generation, a rarity type or a pokemon that has forms, such as Unown.</li>
 </ul>
 </div>
 <div class="admonition warning">
@@ -286,6 +287,10 @@
 <div class="highlight-default"><div class="highlight"><pre><span></span>!excludearea append id=1234 area=Caversham,Earley
 </pre></div>
 </div>
+<p>To append form exclusions:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!excludeform append id=1234 form=Normal,Sunny
+</pre></div>
+</div>
 </div>
 <div class="section" id="replacing-existing-exclusions">
 <h3><a class="toc-backref" href="#id8">Replacing Existing Exclusions</a><a class="headerlink" href="#replacing-existing-exclusions" title="Permalink to this headline">¶</a></h3>
@@ -295,6 +300,10 @@
 </div>
 <p>To replace area exclusions:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>!excludearea replace id=1234 area=Kennington,Bicester
+</pre></div>
+</div>
+<p>To replace form exclusions:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!excludeform replace id=1234 form=K,L,P
 </pre></div>
 </div>
 </div>
@@ -308,9 +317,13 @@
 <div class="highlight-default"><div class="highlight"><pre><span></span>!excludearea delete id=1234 area=Marlow
 </pre></div>
 </div>
+<p>To delete form exclusions:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>!excludeform delete id=1234 form=Rainy
+</pre></div>
+</div>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">You can also delete all exclusions for pokemon or areas by using &#8220;all&#8221; for the final parameter, ie <code class="docutils literal"><span class="pre">!excludemon</span> <span class="pre">delete</span> <span class="pre">id=1234</span> <span class="pre">pokemon=all</span></code> or <code class="docutils literal"><span class="pre">!excludearea</span> <span class="pre">delete</span> <span class="pre">id=1234</span> <span class="pre">area=all</span></code></p>
+<p class="last">You can also delete all exclusions for pokemon or areas by using &#8220;all&#8221; for the final parameter, ie <code class="docutils literal"><span class="pre">!excludemon</span> <span class="pre">delete</span> <span class="pre">id=1234</span> <span class="pre">pokemon=all</span></code>, <code class="docutils literal"><span class="pre">!excludearea</span> <span class="pre">delete</span> <span class="pre">id=1234</span> <span class="pre">area=all</span></code> or <code class="docutils literal"><span class="pre">!excludeform</span> <span class="pre">delete</span> <span class="pre">id=1234</span> <span class="pre">form=all</span></code></p>
 </div>
 </div>
 </div>
