@@ -15,12 +15,12 @@ To attend or create meetups, commands must be posted in the ``-raidchat`` channe
 
 Create Meetups When Scans Are Down
 ----------------------------------
-So scans are down and you still want to organise raids dont worry Dialga has you covered.
+So scans are down and you still want to organise raids, dont worry Dialga has you covered.
 
 You just need to use commands as below.
 
-.. note::
-	The time that you place in the meetup i will be the time of the meetup not the time the egg hatches or when the raid finishes.
+.. warning::
+	The time that you place in the meetup will be the time of the meetup, NOT the time the egg hatches or when the raid finishes.
 	
 	This command will create a 'dummy' raid with the same time as the meetup. This doesn't mean that the raid finishes then. You can use the !setup command to create a later one if the raid is still going on!
 
@@ -38,6 +38,9 @@ Boss
 Egg
 ::
 	!setup gym=St Marys area=worthing level=4 14:00`
+
+.. note::
+	This command will not be available when normal scans are running
 
 Create a meetup
 ---------------
