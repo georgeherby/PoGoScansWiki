@@ -25,15 +25,19 @@ You just need to use commands as below.
 	This command will create a 'dummy' raid with the same time as the meetup. This doesn't mean that the raid finishes then. You can use the !setup command to create a later one if the raid is still going on!
 
 Boss
-`!setup gym=St Marys boss=Tyranitar 14:00`
+::
+	!setup gym=St Marys boss=Tyranitar 14:00`
 Egg
-`!setup gym=St Marys level=4 14:00`
+::
+	!setup gym=St Marys level=4 14:00`
 
 If you have many gyms with similar names in an area you can add area as below
 Boss
-`!setup gym=St Marys area=worthing boss=Tyranitar 14:00`
+::
+	!setup gym=St Marys area=worthing boss=Tyranitar 14:00`
 Egg
-`!setup gym=St Marys area=worthing level=4 14:00`
+::
+	!setup gym=St Marys area=worthing level=4 14:00`
 
 Create a meetup
 ---------------
