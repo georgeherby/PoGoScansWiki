@@ -15,6 +15,9 @@ To attend or create meetups, commands must be posted in the ``-raidchat`` channe
 
 Create Meetups When Scans Are Down
 ----------------------------------
+.. note::
+	This command will not be available when normal scans are running
+
 So scans are down and you still want to organise raids, dont worry Dialga has you covered.
 
 You just need to use commands as below.
@@ -31,7 +34,7 @@ Egg
 ::
 	!setup gym=St Marys level=4 14:00
 
-If you have many gyms with similar names in an area you can add area as below
+If you have many gyms with similar names in an channel you can add area as below
 Boss
 ::
 	!setup gym=St Marys area=worthing boss=Tyranitar 14:00
@@ -39,8 +42,7 @@ Egg
 ::
 	!setup gym=St Marys area=worthing level=4 14:00
 
-.. note::
-	This command will not be available when normal scans are running
+
 
 Create a meetup
 ---------------
