@@ -13,6 +13,8 @@
 
   
   
+  
+  
 
   
 
@@ -22,25 +24,21 @@
 
   
 
-  
-  
-    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-    <link rel="top" title="PoGoScans 0 documentation" href="../index.html"/>
-        <link rel="next" title="Setting Up Channel Alerts" href="channel_alerts.html"/>
-        <link rel="prev" title="Showing Alerts &amp; Exclusions" href="show.html"/> 
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Setting Up Channel Alerts" href="channel_alerts.html" />
+    <link rel="prev" title="Showing Alerts &amp; Exclusions" href="show.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
+   
   <div class="wy-grid-for-nav">
 
     
@@ -81,7 +79,10 @@
           
             
             
-                <p class="caption"><span class="caption-text">Introduction</span></p>
+              
+            
+            
+              <p class="caption"><span class="caption-text">Introduction</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../intro.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../T&amp;C.html">Terms &amp; Conditions</a></li>
@@ -115,6 +116,10 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../shaymin/shaymin.html">Nests</a></li>
 </ul>
+<p class="caption"><span class="caption-text">Cosmog</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../cosmog/cosmog.html">Trading</a></li>
+</ul>
 <p class="caption"><span class="caption-text">Prof Oak</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../prof_oak/prof_oak.html">Prof Oak</a></li>
@@ -129,34 +134,54 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">PoGoScans</a>
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PoGoScans</a>
+        
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 <div role="navigation" aria-label="breadcrumbs navigation">
+
   <ul class="wy-breadcrumbs">
-    <li><a href="../index.html">Docs</a> &raquo;</li>
-      
-    <li>Locations</li>
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Locations</li>
+    
+    
       <li class="wy-breadcrumbs-aside">
         
-          
-            <a href="../_sources/arceus/locations.txt" rel="nofollow"> View page source</a>
+            
+            <a href="../_sources/arceus/locations.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -175,7 +200,7 @@ You can switch your active location as you wish, but you must type the command; 
 </div>
 <div class="section" id="viewing-locations">
 <h2><a class="toc-backref" href="#id1">Viewing Locations</a><a class="headerlink" href="#viewing-locations" title="Permalink to this headline">¶</a></h2>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!location show
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!location show
 </pre></div>
 </div>
 <p>Shows a list of your saved locations, and shows which is active. It’s the go-to to see what’s going on with locations.</p>
@@ -183,17 +208,17 @@ You can switch your active location as you wish, but you must type the command; 
 </div>
 <div class="section" id="adding-removing-locations">
 <span id="addinglocations"></span><h2><a class="toc-backref" href="#id2">Adding/Removing Locations</a><a class="headerlink" href="#adding-removing-locations" title="Permalink to this headline">¶</a></h2>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!location add name=&lt;name&gt; coord=&lt;coords&gt;
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!location add name=&lt;name&gt; coord=&lt;coords&gt;
 </pre></div>
 </div>
-<p>For example <code class="docutils literal"><span class="pre">!location</span> <span class="pre">add</span> <span class="pre">name=needle</span> <span class="pre">coord=51.5085,-0.1204</span></code></p>
+<p>For example <code class="docutils literal notranslate"><span class="pre">!location</span> <span class="pre">add</span> <span class="pre">name=needle</span> <span class="pre">coord=51.5085,-0.1204</span></code></p>
 <p>Adds a new location.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <ul class="last simple">
-<li><code class="docutils literal"><span class="pre">&lt;name&gt;</span></code> should be alphanumeric - spaces won’t be accepted.</li>
+<li><code class="docutils literal notranslate"><span class="pre">&lt;name&gt;</span></code> should be alphanumeric - spaces won’t be accepted.</li>
 <li>The command is coord, not coords!</li>
-<li><code class="docutils literal"><span class="pre">&lt;coords&gt;</span></code> should be in decimal notation only (51.xxx..,-0.xxx..).</li>
+<li><code class="docutils literal notranslate"><span class="pre">&lt;coords&gt;</span></code> should be in decimal notation only (51.xxx..,-0.xxx..).</li>
 <li>No spaces around the comma between coords, nor either side of any of the = in the command.</li>
 </ul>
 </div>
@@ -201,22 +226,22 @@ You can switch your active location as you wish, but you must type the command; 
 <p class="first admonition-title">Warning</p>
 <p class="last">Even if you only add one location, it doesn’t automatically become active, you will need to set it active (see <a class="reference internal" href="#settinglocations"><span class="std std-ref">Setting/Unsetting Locations</span></a>).</p>
 </div>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!location remove &lt;name&gt;
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!location remove &lt;name&gt;
 </pre></div>
 </div>
-<p>For example <code class="docutils literal"><span class="pre">!location</span> <span class="pre">remove</span> <span class="pre">work</span></code>. Removes a location by its name as stored at <code class="docutils literal"><span class="pre">!location</span> <span class="pre">show</span></code>.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!location remove all
+<p>For example <code class="docutils literal notranslate"><span class="pre">!location</span> <span class="pre">remove</span> <span class="pre">work</span></code>. Removes a location by its name as stored at <code class="docutils literal notranslate"><span class="pre">!location</span> <span class="pre">show</span></code>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!location remove all
 </pre></div>
 </div>
 <p>Removes all stored locations; start afresh!</p>
 </div>
 <div class="section" id="setting-unsetting-locations">
 <span id="settinglocations"></span><h2><a class="toc-backref" href="#id3">Setting/Unsetting Locations</a><a class="headerlink" href="#setting-unsetting-locations" title="Permalink to this headline">¶</a></h2>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!location set &lt;name&gt;
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!location set &lt;name&gt;
 </pre></div>
 </div>
-<p>For example <code class="docutils literal"><span class="pre">!location</span> <span class="pre">set</span> <span class="pre">work</span></code>. Sets a location to active by its name as stored at <code class="docutils literal"><span class="pre">!location</span> <span class="pre">show</span></code>. All other locations become inactive.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!location mute
+<p>For example <code class="docutils literal notranslate"><span class="pre">!location</span> <span class="pre">set</span> <span class="pre">work</span></code>. Sets a location to active by its name as stored at <code class="docutils literal notranslate"><span class="pre">!location</span> <span class="pre">show</span></code>. All other locations become inactive.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!location mute
 </pre></div>
 </div>
 <p>Sets all locations to inactive.</p>
@@ -225,15 +250,16 @@ You can switch your active location as you wish, but you must type the command; 
 
 
            </div>
+           
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="channel_alerts.html" class="btn btn-neutral float-right" title="Setting Up Channel Alerts" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="channel_alerts.html" class="btn btn-neutral float-right" title="Setting Up Channel Alerts" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="show.html" class="btn btn-neutral" title="Showing Alerts &amp; Exclusions" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="show.html" class="btn btn-neutral" title="Showing Alerts &amp; Exclusions" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -246,7 +272,7 @@ You can switch your active location as you wish, but you must type the command; 
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -265,9 +291,11 @@ You can switch your active location as you wish, but you must type the command; 
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
             VERSION:'0',
+            LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
         };
     </script>
       <script type="text/javascript" src="../_static/jquery.js"></script>
@@ -276,19 +304,13 @@ You can switch your active location as you wish, but you must type the command; 
 
   
 
-  
-  
-    <script type="text/javascript" src="../_static/js/theme.js"></script>
-  
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
 
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-   
+  </script> 
 
 </body>
 </html>

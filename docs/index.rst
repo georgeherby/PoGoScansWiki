@@ -45,6 +45,12 @@ Welcome to PoGoScans's documentation!
     :caption: Shaymin
 
     shaymin/shaymin
+	
+.. toctree::
+    :maxdepth: 2
+    :caption: Cosmog
+
+    cosmog/cosmog
 
 .. toctree::
     :maxdepth: 2

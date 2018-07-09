@@ -13,6 +13,8 @@
 
   
   
+  
+  
 
   
 
@@ -22,25 +24,21 @@
 
   
 
-  
-  
-    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-    <link rel="top" title="PoGoScans 0 documentation" href="../index.html"/>
-        <link rel="next" title="Prof Oak" href="../prof_oak/prof_oak.html"/>
-        <link rel="prev" title="Raid Meetups" href="../dialga/raid_meetups.html"/> 
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Trading" href="../cosmog/cosmog.html" />
+    <link rel="prev" title="Raid Meetups" href="../dialga/raid_meetups.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
+   
   <div class="wy-grid-for-nav">
 
     
@@ -81,7 +79,10 @@
           
             
             
-                <p class="caption"><span class="caption-text">Introduction</span></p>
+              
+            
+            
+              <p class="caption"><span class="caption-text">Introduction</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../intro.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../T&amp;C.html">Terms &amp; Conditions</a></li>
@@ -115,6 +116,10 @@
 </ul>
 </li>
 </ul>
+<p class="caption"><span class="caption-text">Cosmog</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../cosmog/cosmog.html">Trading</a></li>
+</ul>
 <p class="caption"><span class="caption-text">Prof Oak</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../prof_oak/prof_oak.html">Prof Oak</a></li>
@@ -129,34 +134,54 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">PoGoScans</a>
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PoGoScans</a>
+        
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 <div role="navigation" aria-label="breadcrumbs navigation">
+
   <ul class="wy-breadcrumbs">
-    <li><a href="../index.html">Docs</a> &raquo;</li>
-      
-    <li>Nests</li>
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Nests</li>
+    
+    
       <li class="wy-breadcrumbs-aside">
         
-          
-            <a href="../_sources/shaymin/shaymin.txt" rel="nofollow"> View page source</a>
+            
+            <a href="../_sources/shaymin/shaymin.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -177,10 +202,10 @@
 <div class="section" id="adding-a-new-nest">
 <h2>Adding A New Nest<a class="headerlink" href="#adding-a-new-nest" title="Permalink to this headline">¶</a></h2>
 <p>To add a new nest use this command:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>!nest <span class="s2">&quot;channel&quot;</span> <span class="s2">&quot;Nest Name&quot;</span> <span class="s2">&quot;pokemon&quot;</span> &lt;nest_type&gt;
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>!nest <span class="s2">&quot;channel&quot;</span> <span class="s2">&quot;Nest Name&quot;</span> <span class="s2">&quot;pokemon&quot;</span> &lt;nest_type&gt;
 </pre></div>
 </div>
-<p>Example: <code class="docutils literal"><span class="pre">!nest</span> <span class="pre">&quot;Worthing&quot;</span> <span class="pre">&quot;Denton</span> <span class="pre">Garden&quot;</span> <span class="pre">&quot;Weedle&quot;</span> <span class="pre">1</span></code></p>
+<p>Example: <code class="docutils literal notranslate"><span class="pre">!nest</span> <span class="pre">&quot;Worthing&quot;</span> <span class="pre">&quot;Denton</span> <span class="pre">Garden&quot;</span> <span class="pre">&quot;Weedle&quot;</span> <span class="pre">1</span></code></p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">Before adding a new nest, please double check that the location does not already exist. If it does, use the below instead.</p>
@@ -190,24 +215,25 @@
 <h2>Updating A Nest After Migration<a class="headerlink" href="#updating-a-nest-after-migration" title="Permalink to this headline">¶</a></h2>
 <p>Nests migrate every two weeks. When a migration has happened, We clear the pokemon from the nests. The information that needs repopulating with the new pokemon.</p>
 <p>To update a nest with no pokemon assigned to it:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>!update &lt;nest_id&gt; <span class="s2">&quot;pokemon Name&quot;</span>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>!update &lt;nest_id&gt; <span class="s2">&quot;pokemon Name&quot;</span>
 </pre></div>
 </div>
-<p>Example: !update 1432 &#8220;Weedle&#8221;</p>
+<p>Example: !update 1432 “Weedle”</p>
 </div>
 </div>
 
 
            </div>
+           
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../prof_oak/prof_oak.html" class="btn btn-neutral float-right" title="Prof Oak" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../cosmog/cosmog.html" class="btn btn-neutral float-right" title="Trading" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="../dialga/raid_meetups.html" class="btn btn-neutral" title="Raid Meetups" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../dialga/raid_meetups.html" class="btn btn-neutral" title="Raid Meetups" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -220,7 +246,7 @@
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -239,9 +265,11 @@
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
             VERSION:'0',
+            LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
         };
     </script>
       <script type="text/javascript" src="../_static/jquery.js"></script>
@@ -250,19 +278,13 @@
 
   
 
-  
-  
-    <script type="text/javascript" src="../_static/js/theme.js"></script>
-  
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
 
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-   
+  </script> 
 
 </body>
 </html>

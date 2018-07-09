@@ -32,6 +32,7 @@ We have a few bots on our discord servers to help make your experience with us b
 #. :doc:`Dialga </dialga/intro>` - This is our raid bot. Use Dialga to set up raid alerts for the areas or gyms of interest to you. Dialga is also used to set up and attend raid battles.
 #. :doc:`Shaymin </shaymin/shaymin>` - To let others know of nests in your area, use Shaymin.
 #. :doc:`Prof Oak </prof_oak/prof_oak>` - The professor is your one stop shop to get info on all things PoGo. From finding out which egg a pokemon appears in to calculating IVs for your catches, the professor will help.
+#. :doc:`Cosmog </cosmog/cosmog>` - In need of a pokémon? Request a trade using Cosmog. 
 
 Quick Start
 ###########

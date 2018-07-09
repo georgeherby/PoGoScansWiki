@@ -13,6 +13,8 @@
 
   
   
+  
+  
 
   
 
@@ -22,25 +24,21 @@
 
   
 
-  
-  
-    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-    <link rel="top" title="PoGoScans 0 documentation" href="../index.html"/>
-        <link rel="next" title="Introduction" href="../dialga/intro.html"/>
-        <link rel="prev" title="Setting Up Location Alerts" href="location_alerts.html"/> 
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Introduction" href="../dialga/intro.html" />
+    <link rel="prev" title="Setting Up Location Alerts" href="location_alerts.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
+   
   <div class="wy-grid-for-nav">
 
     
@@ -81,7 +79,10 @@
           
             
             
-                <p class="caption"><span class="caption-text">Introduction</span></p>
+              
+            
+            
+              <p class="caption"><span class="caption-text">Introduction</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../intro.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../T&amp;C.html">Terms &amp; Conditions</a></li>
@@ -125,6 +126,10 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../shaymin/shaymin.html">Nests</a></li>
 </ul>
+<p class="caption"><span class="caption-text">Cosmog</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../cosmog/cosmog.html">Trading</a></li>
+</ul>
 <p class="caption"><span class="caption-text">Prof Oak</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../prof_oak/prof_oak.html">Prof Oak</a></li>
@@ -139,34 +144,54 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">PoGoScans</a>
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PoGoScans</a>
+        
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 <div role="navigation" aria-label="breadcrumbs navigation">
+
   <ul class="wy-breadcrumbs">
-    <li><a href="../index.html">Docs</a> &raquo;</li>
-      
-    <li>Amending Existing Alerts</li>
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Amending Existing Alerts</li>
+    
+    
       <li class="wy-breadcrumbs-aside">
         
-          
-            <a href="../_sources/arceus/amend_alerts.txt" rel="nofollow"> View page source</a>
+            
+            <a href="../_sources/arceus/amend_alerts.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -199,47 +224,47 @@
 </div>
 <div class="section" id="change-minimum-iv">
 <h3><a class="toc-backref" href="#id2">Change Minimum IV</a><a class="headerlink" href="#change-minimum-iv" title="Permalink to this headline">¶</a></h3>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!iv &lt;ALERT_ID_REQUIRED&gt; &lt;NEW_IV_REQUIRED&gt;
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!iv &lt;ALERT_ID_REQUIRED&gt; &lt;NEW_IV_REQUIRED&gt;
 </pre></div>
 </div>
-<p>For example <code class="docutils literal"><span class="pre">!iv</span> <span class="pre">3121</span> <span class="pre">80</span></code>, to update a single alert.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!iv &lt;ALERT_ID_REQUIRED&gt; &lt;NEW_IV_REQUIRED&gt;,&lt;ALERT_ID_OPTIONAL&gt; &lt;NEW_IV_OPTIONAL&gt;
+<p>For example <code class="docutils literal notranslate"><span class="pre">!iv</span> <span class="pre">3121</span> <span class="pre">80</span></code>, to update a single alert.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!iv &lt;ALERT_ID_REQUIRED&gt; &lt;NEW_IV_REQUIRED&gt;,&lt;ALERT_ID_OPTIONAL&gt; &lt;NEW_IV_OPTIONAL&gt;
 </pre></div>
 </div>
-<p>For example <code class="docutils literal"><span class="pre">!iv</span> <span class="pre">3121</span> <span class="pre">80,3222</span> <span class="pre">90,3333</span> <span class="pre">60</span></code> to update multiple alerts.</p>
+<p>For example <code class="docutils literal notranslate"><span class="pre">!iv</span> <span class="pre">3121</span> <span class="pre">80,3222</span> <span class="pre">90,3333</span> <span class="pre">60</span></code> to update multiple alerts.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">You can have as many <code class="docutils literal"><span class="pre">&lt;ALERT_ID_OPTIONAL&gt;</span> <span class="pre">&lt;NEW_IV_OPTIONAL&gt;</span></code> as you like separated by a comma, but make sure there is no space between commas.</p>
+<p class="last">You can have as many <code class="docutils literal notranslate"><span class="pre">&lt;ALERT_ID_OPTIONAL&gt;</span> <span class="pre">&lt;NEW_IV_OPTIONAL&gt;</span></code> as you like separated by a comma, but make sure there is no space between commas.</p>
 </div>
 </div>
 <div class="section" id="change-minimum-cp">
 <h3><a class="toc-backref" href="#id3">Change Minimum CP</a><a class="headerlink" href="#change-minimum-cp" title="Permalink to this headline">¶</a></h3>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!cp &lt;ALERT_ID_REQUIRED&gt; &lt;NEW_CP_REQUIRED&gt;
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!cp &lt;ALERT_ID_REQUIRED&gt; &lt;NEW_CP_REQUIRED&gt;
 </pre></div>
 </div>
-<p>For example <code class="docutils literal"><span class="pre">!cp</span> <span class="pre">3121</span> <span class="pre">1800</span></code>, to update a single alert.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!cp &lt;ALERT_ID_REQUIRED&gt; &lt;NEW_CP_REQUIRED&gt;,&lt;ALERT_ID_OPTIONAL&gt; &lt;NEW_CP_OPTIONAL&gt;
+<p>For example <code class="docutils literal notranslate"><span class="pre">!cp</span> <span class="pre">3121</span> <span class="pre">1800</span></code>, to update a single alert.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!cp &lt;ALERT_ID_REQUIRED&gt; &lt;NEW_CP_REQUIRED&gt;,&lt;ALERT_ID_OPTIONAL&gt; &lt;NEW_CP_OPTIONAL&gt;
 </pre></div>
 </div>
-<p>For example <code class="docutils literal"><span class="pre">!cp</span> <span class="pre">3121</span> <span class="pre">2000,3222</span> <span class="pre">1500,3333</span> <span class="pre">2900</span></code> to update multiple alerts.</p>
+<p>For example <code class="docutils literal notranslate"><span class="pre">!cp</span> <span class="pre">3121</span> <span class="pre">2000,3222</span> <span class="pre">1500,3333</span> <span class="pre">2900</span></code> to update multiple alerts.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">You can have as many <code class="docutils literal"><span class="pre">&lt;ALERT_ID_REQUIRED&gt;</span> <span class="pre">&lt;NEW_CP_REQUIRED&gt;</span></code> as you like separated by a comma, but make sure there is no space between commas.</p>
+<p class="last">You can have as many <code class="docutils literal notranslate"><span class="pre">&lt;ALERT_ID_REQUIRED&gt;</span> <span class="pre">&lt;NEW_CP_REQUIRED&gt;</span></code> as you like separated by a comma, but make sure there is no space between commas.</p>
 </div>
 </div>
 <div class="section" id="change-minimum-level">
 <h3><a class="toc-backref" href="#id4">Change Minimum Level</a><a class="headerlink" href="#change-minimum-level" title="Permalink to this headline">¶</a></h3>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!level &lt;ALERT_ID_REQUIRED&gt; &lt;NEW_LEVEL_REQUIRED&gt;
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!level &lt;ALERT_ID_REQUIRED&gt; &lt;NEW_LEVEL_REQUIRED&gt;
 </pre></div>
 </div>
-<p>For example <code class="docutils literal"><span class="pre">!level</span> <span class="pre">3121</span> <span class="pre">30</span></code>, to update a single alert.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!level &lt;ALERT_ID_REQUIRED&gt; &lt;NEW_LEVEL_REQUIRED&gt;,&lt;ALERT_ID_OPTIONAL&gt; &lt;NEW_LEVEL_OPTIONAL&gt;
+<p>For example <code class="docutils literal notranslate"><span class="pre">!level</span> <span class="pre">3121</span> <span class="pre">30</span></code>, to update a single alert.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!level &lt;ALERT_ID_REQUIRED&gt; &lt;NEW_LEVEL_REQUIRED&gt;,&lt;ALERT_ID_OPTIONAL&gt; &lt;NEW_LEVEL_OPTIONAL&gt;
 </pre></div>
 </div>
-<p>For example <code class="docutils literal"><span class="pre">!level</span> <span class="pre">3121</span> <span class="pre">25,3222</span> <span class="pre">30,3333</span> <span class="pre">30</span></code> to update multiple alerts.</p>
+<p>For example <code class="docutils literal notranslate"><span class="pre">!level</span> <span class="pre">3121</span> <span class="pre">25,3222</span> <span class="pre">30,3333</span> <span class="pre">30</span></code> to update multiple alerts.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">You can have as many <code class="docutils literal"><span class="pre">&lt;ALERT_ID_OPTIONAL&gt;</span> <span class="pre">&lt;NEW_LEVEL_OPTIONAL&gt;</span></code> as you like separated by a comma, but make sure there is no space between commas.</p>
+<p class="last">You can have as many <code class="docutils literal notranslate"><span class="pre">&lt;ALERT_ID_OPTIONAL&gt;</span> <span class="pre">&lt;NEW_LEVEL_OPTIONAL&gt;</span></code> as you like separated by a comma, but make sure there is no space between commas.</p>
 </div>
 </div>
 <div class="section" id="change-distance">
@@ -248,17 +273,17 @@
 <p class="first admonition-title">Warning</p>
 <p class="last">This command can only be used with location based alerts</p>
 </div>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!distance &lt;ALERT_ID_REQUIRED&gt; &lt;NEW_DISTANCE_REQUIRED&gt;
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!distance &lt;ALERT_ID_REQUIRED&gt; &lt;NEW_DISTANCE_REQUIRED&gt;
 </pre></div>
 </div>
-<p>For example <code class="docutils literal"><span class="pre">!distance</span> <span class="pre">3121</span> <span class="pre">2.5</span></code>, to update a single alert.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!distance &lt;ALERT_ID_REQUIRED&gt; &lt;NEW_DISTANCE_REQUIRED&gt;,&lt;ALERT_ID_OPTIONAL&gt; &lt;NEW_DISTANCE_REQUIRED&gt;
+<p>For example <code class="docutils literal notranslate"><span class="pre">!distance</span> <span class="pre">3121</span> <span class="pre">2.5</span></code>, to update a single alert.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!distance &lt;ALERT_ID_REQUIRED&gt; &lt;NEW_DISTANCE_REQUIRED&gt;,&lt;ALERT_ID_OPTIONAL&gt; &lt;NEW_DISTANCE_REQUIRED&gt;
 </pre></div>
 </div>
-<p>For example <code class="docutils literal"><span class="pre">!distance</span> <span class="pre">3121</span> <span class="pre">2.5,3222</span> <span class="pre">5,3333</span> <span class="pre">0.5</span></code> to update multiple alerts.</p>
+<p>For example <code class="docutils literal notranslate"><span class="pre">!distance</span> <span class="pre">3121</span> <span class="pre">2.5,3222</span> <span class="pre">5,3333</span> <span class="pre">0.5</span></code> to update multiple alerts.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">You can have as many <code class="docutils literal"><span class="pre">&lt;ALERT_ID_OPTIONAL&gt;</span> <span class="pre">&lt;NEW_DISTANCE_REQUIRED&gt;</span></code> as you like separated by a comma, but make sure there is no space between commas.</p>
+<p class="last">You can have as many <code class="docutils literal notranslate"><span class="pre">&lt;ALERT_ID_OPTIONAL&gt;</span> <span class="pre">&lt;NEW_DISTANCE_REQUIRED&gt;</span></code> as you like separated by a comma, but make sure there is no space between commas.</p>
 </div>
 </div>
 </div>
@@ -268,9 +293,9 @@
 <p class="first admonition-title">Note</p>
 <ul class="last simple">
 <li>This can only be done for one alert at a time.</li>
-<li>You can only exclude pokemon when the alert pokemon is set to <code class="docutils literal"><span class="pre">all</span></code>, a generation or a rarity type.</li>
-<li>You can only exclude areas when the alert area is set to <code class="docutils literal"><span class="pre">all</span></code></li>
-<li>You can only exclude forms when the alert pokemon is set to <code class="docutils literal"><span class="pre">all</span></code>, a generation, a rarity type or a pokemon that has forms, such as Unown.</li>
+<li>You can only exclude pokemon when the alert pokemon is set to <code class="docutils literal notranslate"><span class="pre">all</span></code>, a generation or a rarity type.</li>
+<li>You can only exclude areas when the alert area is set to <code class="docutils literal notranslate"><span class="pre">all</span></code></li>
+<li>You can only exclude forms when the alert pokemon is set to <code class="docutils literal notranslate"><span class="pre">all</span></code>, a generation, a rarity type or a pokemon that has forms, such as Unown.</li>
 </ul>
 </div>
 <div class="admonition warning">
@@ -280,50 +305,50 @@
 <div class="section" id="adding-new-exclusion">
 <h3><a class="toc-backref" href="#id7">Adding New Exclusion</a><a class="headerlink" href="#adding-new-exclusion" title="Permalink to this headline">¶</a></h3>
 <p>To append pokemon exclusions:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!excludemon append id=1234 pokemon=rattata,common
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!excludemon append id=1234 pokemon=rattata,common
 </pre></div>
 </div>
 <p>To append area exclusions:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!excludearea append id=1234 area=Caversham,Earley
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!excludearea append id=1234 area=Caversham,Earley
 </pre></div>
 </div>
 <p>To append form exclusions:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!excludeform append id=1234 form=Normal,Sunny
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!excludeform append id=1234 form=Normal,Sunny
 </pre></div>
 </div>
 </div>
 <div class="section" id="replacing-existing-exclusions">
 <h3><a class="toc-backref" href="#id8">Replacing Existing Exclusions</a><a class="headerlink" href="#replacing-existing-exclusions" title="Permalink to this headline">¶</a></h3>
 <p>To replace pokemon exclusions:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!excludemon replace id=1234 pokemon=pidgey
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!excludemon replace id=1234 pokemon=pidgey
 </pre></div>
 </div>
 <p>To replace area exclusions:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!excludearea replace id=1234 area=Kennington,Bicester
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!excludearea replace id=1234 area=Kennington,Bicester
 </pre></div>
 </div>
 <p>To replace form exclusions:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!excludeform replace id=1234 form=K,L,P
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!excludeform replace id=1234 form=K,L,P
 </pre></div>
 </div>
 </div>
 <div class="section" id="deleting-exclusions">
 <h3><a class="toc-backref" href="#id9">Deleting Exclusions</a><a class="headerlink" href="#deleting-exclusions" title="Permalink to this headline">¶</a></h3>
 <p>To delete pokemon exclusions:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!excludemon delete id=1234 pokemon=meditite
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!excludemon delete id=1234 pokemon=meditite
 </pre></div>
 </div>
 <p>To delete area exclusions:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!excludearea delete id=1234 area=Marlow
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!excludearea delete id=1234 area=Marlow
 </pre></div>
 </div>
 <p>To delete form exclusions:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!excludeform delete id=1234 form=Rainy
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!excludeform delete id=1234 form=Rainy
 </pre></div>
 </div>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">You can also delete all exclusions for pokemon or areas by using &#8220;all&#8221; for the final parameter, ie <code class="docutils literal"><span class="pre">!excludemon</span> <span class="pre">delete</span> <span class="pre">id=1234</span> <span class="pre">pokemon=all</span></code>, <code class="docutils literal"><span class="pre">!excludearea</span> <span class="pre">delete</span> <span class="pre">id=1234</span> <span class="pre">area=all</span></code> or <code class="docutils literal"><span class="pre">!excludeform</span> <span class="pre">delete</span> <span class="pre">id=1234</span> <span class="pre">form=all</span></code></p>
+<p class="last">You can also delete all exclusions for pokemon or areas by using “all” for the final parameter, ie <code class="docutils literal notranslate"><span class="pre">!excludemon</span> <span class="pre">delete</span> <span class="pre">id=1234</span> <span class="pre">pokemon=all</span></code>, <code class="docutils literal notranslate"><span class="pre">!excludearea</span> <span class="pre">delete</span> <span class="pre">id=1234</span> <span class="pre">area=all</span></code> or <code class="docutils literal notranslate"><span class="pre">!excludeform</span> <span class="pre">delete</span> <span class="pre">id=1234</span> <span class="pre">form=all</span></code></p>
 </div>
 </div>
 </div>
@@ -331,15 +356,16 @@
 
 
            </div>
+           
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../dialga/intro.html" class="btn btn-neutral float-right" title="Introduction" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../dialga/intro.html" class="btn btn-neutral float-right" title="Introduction" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="location_alerts.html" class="btn btn-neutral" title="Setting Up Location Alerts" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="location_alerts.html" class="btn btn-neutral" title="Setting Up Location Alerts" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -352,7 +378,7 @@
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -371,9 +397,11 @@
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
             VERSION:'0',
+            LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
         };
     </script>
       <script type="text/javascript" src="../_static/jquery.js"></script>
@@ -382,19 +410,13 @@
 
   
 
-  
-  
-    <script type="text/javascript" src="../_static/js/theme.js"></script>
-  
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
 
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-   
+  </script> 
 
 </body>
 </html>

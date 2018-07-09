@@ -13,6 +13,8 @@
 
   
   
+  
+  
 
   
 
@@ -22,25 +24,21 @@
 
   
 
-  
-  
-    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-    <link rel="top" title="PoGoScans 0 documentation" href="../index.html"/>
-        <link rel="next" title="Locations" href="locations.html"/>
-        <link rel="prev" title="Introduction" href="intro.html"/> 
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Locations" href="locations.html" />
+    <link rel="prev" title="Introduction" href="intro.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
+   
   <div class="wy-grid-for-nav">
 
     
@@ -81,7 +79,10 @@
           
             
             
-                <p class="caption"><span class="caption-text">Introduction</span></p>
+              
+            
+            
+              <p class="caption"><span class="caption-text">Introduction</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../intro.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../T&amp;C.html">Terms &amp; Conditions</a></li>
@@ -114,6 +115,10 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../shaymin/shaymin.html">Nests</a></li>
 </ul>
+<p class="caption"><span class="caption-text">Cosmog</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../cosmog/cosmog.html">Trading</a></li>
+</ul>
 <p class="caption"><span class="caption-text">Prof Oak</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../prof_oak/prof_oak.html">Prof Oak</a></li>
@@ -128,34 +133,54 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">PoGoScans</a>
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PoGoScans</a>
+        
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 <div role="navigation" aria-label="breadcrumbs navigation">
+
   <ul class="wy-breadcrumbs">
-    <li><a href="../index.html">Docs</a> &raquo;</li>
-      
-    <li>Showing Alerts &amp; Exclusions</li>
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Showing Alerts &amp; Exclusions</li>
+    
+    
       <li class="wy-breadcrumbs-aside">
         
-          
-            <a href="../_sources/arceus/show.txt" rel="nofollow"> View page source</a>
+            
+            <a href="../_sources/arceus/show.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -171,13 +196,13 @@
 </div>
 <div class="section" id="viewing-filters">
 <h2><a class="toc-backref" href="#id1">Viewing Filters</a><a class="headerlink" href="#viewing-filters" title="Permalink to this headline">¶</a></h2>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>!alert show
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>!alert show
 </pre></div>
 </div>
 <p>Shows a list of alerts, sorted by pokedex number. It’s the go-to to see what’s going on with your alerts. Example:</p>
 <img alt="../_images/alert_show.PNG" src="../_images/alert_show.PNG" />
 <p>There are a few extra sorting options for this command (always in ascending order):</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>!alert show name        Returns a list sorted by Pokemon Name
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>!alert show name        Returns a list sorted by Pokemon Name
 !alert show channel     Returns a list sorted by Channel
 !alert show area        Returns a list sorted by Area
 </pre></div>
@@ -186,25 +211,26 @@
 <div class="section" id="viewing-exclusions">
 <h2><a class="toc-backref" href="#id2">Viewing Exclusions</a><a class="headerlink" href="#viewing-exclusions" title="Permalink to this headline">¶</a></h2>
 <p>If your alerts have exclusions (indicated by a ✓ in the exclusions column, you can view these by typing:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>!exclude show &lt;ID&gt;
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>!exclude show &lt;ID&gt;
 </pre></div>
 </div>
-<p>For exampple <code class="docutils literal"><span class="pre">!exclude</span> <span class="pre">show</span> <span class="pre">10</span></code>. The ID can be found in the <code class="docutils literal"><span class="pre">!alert</span> <span class="pre">show</span></code> output as shown above.</p>
+<p>For exampple <code class="docutils literal notranslate"><span class="pre">!exclude</span> <span class="pre">show</span> <span class="pre">10</span></code>. The ID can be found in the <code class="docutils literal notranslate"><span class="pre">!alert</span> <span class="pre">show</span></code> output as shown above.</p>
 <img alt="../_images/exclude_show.PNG" src="../_images/exclude_show.PNG" />
 </div>
 </div>
 
 
            </div>
+           
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="locations.html" class="btn btn-neutral float-right" title="Locations" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="locations.html" class="btn btn-neutral float-right" title="Locations" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="intro.html" class="btn btn-neutral" title="Introduction" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="intro.html" class="btn btn-neutral" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -217,7 +243,7 @@
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -236,9 +262,11 @@
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
             VERSION:'0',
+            LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
         };
     </script>
       <script type="text/javascript" src="../_static/jquery.js"></script>
@@ -247,19 +275,13 @@
 
   
 
-  
-  
-    <script type="text/javascript" src="../_static/js/theme.js"></script>
-  
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
 
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-   
+  </script> 
 
 </body>
 </html>

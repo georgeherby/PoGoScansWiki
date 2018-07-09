@@ -13,6 +13,8 @@
 
   
   
+  
+  
 
   
 
@@ -22,25 +24,21 @@
 
   
 
-  
-  
-    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-    <link rel="top" title="PoGoScans 0 documentation" href="../index.html"/>
-        <link rel="next" title="Amending Existing Alerts" href="amend_alerts.html"/>
-        <link rel="prev" title="Setting Up Channel Alerts" href="channel_alerts.html"/> 
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Amending Existing Alerts" href="amend_alerts.html" />
+    <link rel="prev" title="Setting Up Channel Alerts" href="channel_alerts.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
+   
   <div class="wy-grid-for-nav">
 
     
@@ -81,7 +79,10 @@
           
             
             
-                <p class="caption"><span class="caption-text">Introduction</span></p>
+              
+            
+            
+              <p class="caption"><span class="caption-text">Introduction</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../intro.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../T&amp;C.html">Terms &amp; Conditions</a></li>
@@ -121,6 +122,10 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../shaymin/shaymin.html">Nests</a></li>
 </ul>
+<p class="caption"><span class="caption-text">Cosmog</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../cosmog/cosmog.html">Trading</a></li>
+</ul>
 <p class="caption"><span class="caption-text">Prof Oak</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../prof_oak/prof_oak.html">Prof Oak</a></li>
@@ -135,34 +140,54 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">PoGoScans</a>
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PoGoScans</a>
+        
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 <div role="navigation" aria-label="breadcrumbs navigation">
+
   <ul class="wy-breadcrumbs">
-    <li><a href="../index.html">Docs</a> &raquo;</li>
-      
-    <li>Setting Up Location Alerts</li>
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Setting Up Location Alerts</li>
+    
+    
       <li class="wy-breadcrumbs-aside">
         
-          
-            <a href="../_sources/arceus/location_alerts.txt" rel="nofollow"> View page source</a>
+            
+            <a href="../_sources/arceus/location_alerts.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -186,25 +211,25 @@
 <div class="section" id="adding-a-new-alert">
 <h2><a class="toc-backref" href="#id1">Adding A New Alert</a><a class="headerlink" href="#adding-a-new-alert" title="Permalink to this headline">¶</a></h2>
 <p>If you want to set up alerts for Pokémon spawns, initiate a conversation with Arceus by typing into bot-commands:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!alert
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!alert
 </pre></div>
 </div>
 <p>This will get Arceus to send you a message. Use this DM window to send all commands.</p>
 <p>The command to add a new alert is:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!alert pokemon=&lt;name&gt; distance=&lt;distance&gt; iv=&lt;iv&gt; cp=&lt;cp&gt; level=&lt;level&gt; excludemon=&lt;monexclusions&gt; excludeform=&lt;formexclusions&gt;
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!alert pokemon=&lt;name&gt; distance=&lt;distance&gt; iv=&lt;iv&gt; cp=&lt;cp&gt; level=&lt;level&gt; excludemon=&lt;monexclusions&gt; excludeform=&lt;formexclusions&gt;
 </pre></div>
 </div>
 <ul>
-<li><p class="first"><code class="docutils literal"><span class="pre">&lt;name&gt;</span></code> - Compulsory. Here you can specify a single Pokémon by name, or use a built in group:</p>
+<li><p class="first"><code class="docutils literal notranslate"><span class="pre">&lt;name&gt;</span></code> - Compulsory. Here you can specify a single Pokémon by name, or use a built in group:</p>
 <blockquote>
 <div><ul class="simple">
-<li><code class="docutils literal"><span class="pre">all</span></code> refers to all Pokémon</li>
-<li><code class="docutils literal"><span class="pre">gen1</span></code>, <code class="docutils literal"><span class="pre">gen2</span></code>, <code class="docutils literal"><span class="pre">gen3</span></code> refers to all Pokémon in a generation.</li>
-<li><code class="docutils literal"><span class="pre">ultra</span> <span class="pre">common</span></code>, <code class="docutils literal"><span class="pre">common</span></code>, <code class="docutils literal"><span class="pre">uncommon</span></code>, <code class="docutils literal"><span class="pre">rare</span></code>, <code class="docutils literal"><span class="pre">ultra</span> <span class="pre">rare</span></code> refers to rarity tiers of Pokémon as decided by the admins. To see what’s in each tier, send Arceus the command <code class="docutils literal"><span class="pre">!rarity</span> <span class="pre">&lt;tier-name&gt;</span></code> – e.g. <code class="docutils literal"><span class="pre">!rarity</span> <span class="pre">ultra</span> <span class="pre">rare</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">all</span></code> refers to all Pokémon</li>
+<li><code class="docutils literal notranslate"><span class="pre">gen1</span></code>, <code class="docutils literal notranslate"><span class="pre">gen2</span></code>, <code class="docutils literal notranslate"><span class="pre">gen3</span></code> refers to all Pokémon in a generation.</li>
+<li><code class="docutils literal notranslate"><span class="pre">ultra</span> <span class="pre">common</span></code>, <code class="docutils literal notranslate"><span class="pre">common</span></code>, <code class="docutils literal notranslate"><span class="pre">uncommon</span></code>, <code class="docutils literal notranslate"><span class="pre">rare</span></code>, <code class="docutils literal notranslate"><span class="pre">ultra</span> <span class="pre">rare</span></code> refers to rarity tiers of Pokémon as decided by the admins. To see what’s in each tier, send Arceus the command <code class="docutils literal notranslate"><span class="pre">!rarity</span> <span class="pre">&lt;tier-name&gt;</span></code> – e.g. <code class="docutils literal notranslate"><span class="pre">!rarity</span> <span class="pre">ultra</span> <span class="pre">rare</span></code></li>
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first"><code class="docutils literal"><span class="pre">&lt;distance&gt;</span></code> - Compulsory. A decimal number specifying max distance from active location, interpreted in km.</p>
+<li><p class="first"><code class="docutils literal notranslate"><span class="pre">&lt;distance&gt;</span></code> - Compulsory. A decimal number specifying max distance from active location, interpreted in km.</p>
 </li>
 </ul>
 <div class="admonition note">
@@ -212,21 +237,21 @@
 <p class="last">Don’t type km; just the number will do!</p>
 </div>
 <ul class="simple">
-<li><code class="docutils literal"><span class="pre">&lt;iv&gt;</span></code>, <code class="docutils literal"><span class="pre">&lt;cp&gt;</span></code>, <code class="docutils literal"><span class="pre">&lt;level&gt;</span></code> - Optional. Whole numbers specifying min IV (as a percentage), CP, level.</li>
+<li><code class="docutils literal notranslate"><span class="pre">&lt;iv&gt;</span></code>, <code class="docutils literal notranslate"><span class="pre">&lt;cp&gt;</span></code>, <code class="docutils literal notranslate"><span class="pre">&lt;level&gt;</span></code> - Optional. Whole numbers specifying min IV (as a percentage), CP, level.</li>
 </ul>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">You cannot specify all 3 of these in a single filter; between 0 and 2 of them is fine.</p>
 </div>
 <ul class="simple">
-<li><code class="docutils literal"><span class="pre">&lt;monexclusions&gt;</span></code> - Optional. If you’ve chosen a group for <code class="docutils literal"><span class="pre">&lt;name&gt;</span></code>, you can exclude individual Pokémon, Generations or Rarity Types by providing a comma-separated list here.</li>
+<li><code class="docutils literal notranslate"><span class="pre">&lt;monexclusions&gt;</span></code> - Optional. If you’ve chosen a group for <code class="docutils literal notranslate"><span class="pre">&lt;name&gt;</span></code>, you can exclude individual Pokémon, Generations or Rarity Types by providing a comma-separated list here.</li>
 </ul>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">You can list Pokémon exclusions by name, or dex number.</p>
 </div>
 <ul class="simple">
-<li><code class="docutils literal"><span class="pre">&lt;formexclusions&gt;</span></code> - Optional. If you’ve chosen a group for <code class="docutils literal"><span class="pre">&lt;name&gt;</span></code> or a pokemon that has forms, such as Castform, you can exclude certain forms by providing a comma-separated list here.</li>
+<li><code class="docutils literal notranslate"><span class="pre">&lt;formexclusions&gt;</span></code> - Optional. If you’ve chosen a group for <code class="docutils literal notranslate"><span class="pre">&lt;name&gt;</span></code> or a pokemon that has forms, such as Castform, you can exclude certain forms by providing a comma-separated list here.</li>
 </ul>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
@@ -237,19 +262,19 @@
 </div>
 <div class="section" id="example-commands">
 <h3><a class="toc-backref" href="#id2">Example Commands</a><a class="headerlink" href="#example-commands" title="Permalink to this headline">¶</a></h3>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!alert pokemon=dratini distance=1.5 iv=90
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!alert pokemon=dratini distance=1.5 iv=90
 </pre></div>
 </div>
 <p>Creates an alert for all dratini within 1.5km with an IV over 90%</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!alert pokemon=ultra rare distance=2 iv=80 cp=2000 excludemon=Blastoise
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!alert pokemon=ultra rare distance=2 iv=80 cp=2000 excludemon=Blastoise
 </pre></div>
 </div>
 <p>Creates an alert for all ultra rare pokémon within 2km that have an IV over 80% <strong>and</strong> a CP over 2000, excluding Blastoise</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!alert pokemon=all distance=5 iv=100 excludemon=gen1,ultra common
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!alert pokemon=all distance=5 iv=100 excludemon=gen1,ultra common
 </pre></div>
 </div>
 <p>Creates an alert for all 100% IV pokémon within 5km excluding ultra commons and any gen1 pokémon.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!alert pokemon=unown distance=7.5 excludeform=A,F,J
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!alert pokemon=unown distance=7.5 excludeform=A,F,J
 </pre></div>
 </div>
 <p>Creates an alert for all Unown within 7.5km except A,F,J</p>
@@ -262,7 +287,7 @@
 <p>First run <a class="reference internal" href="show.html"><span class="doc">show</span></a> command above and note the alert id for the record you
 want to remove.</p>
 <p>Once you have the alert id, use this command to remove, mute or unmute the alert</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!alert remove 32        ------ 32 being the ID you want to remove
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!alert remove 32        ------ 32 being the ID you want to remove
 !alert mute 32          ------ 32 being the ID you want to mute
 !alert unmute 32        ------ 32 being the ID you want to unmute
 </pre></div>
@@ -270,7 +295,7 @@ want to remove.</p>
 </div>
 <div class="section" id="all-alerts">
 <h3><a class="toc-backref" href="#id5">All alerts</a><a class="headerlink" href="#all-alerts" title="Permalink to this headline">¶</a></h3>
-<div class="highlight-default"><div class="highlight"><pre><span></span>!alert remove all       ------ This will remove all raid alerts
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!alert remove all       ------ This will remove all raid alerts
 !alert mute all         ------ This will mute all raid alerts
 !alert unmute all       ------ This will unmute all raid alerts
 </pre></div>
@@ -281,15 +306,16 @@ want to remove.</p>
 
 
            </div>
+           
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="amend_alerts.html" class="btn btn-neutral float-right" title="Amending Existing Alerts" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="amend_alerts.html" class="btn btn-neutral float-right" title="Amending Existing Alerts" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="channel_alerts.html" class="btn btn-neutral" title="Setting Up Channel Alerts" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="channel_alerts.html" class="btn btn-neutral" title="Setting Up Channel Alerts" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -302,7 +328,7 @@ want to remove.</p>
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -321,9 +347,11 @@ want to remove.</p>
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
             VERSION:'0',
+            LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
         };
     </script>
       <script type="text/javascript" src="../_static/jquery.js"></script>
@@ -332,19 +360,13 @@ want to remove.</p>
 
   
 
-  
-  
-    <script type="text/javascript" src="../_static/js/theme.js"></script>
-  
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
 
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-   
+  </script> 
 
 </body>
 </html>
