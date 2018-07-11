@@ -16,9 +16,17 @@ To add a new trade request use this command:
 
 .. code-block:: bash
 
-     !trade pokemon=<pokemon> shiny=<yes/no> new=<yes/no>
+     !trade pokemon=<pokemon> form=<form> shiny=<yes/no> new=<yes/no>
+	 
+.. note::
+	The **form** and **new** parameters are optional. The command will work without adding these. If left out, the new parameter will default to Yes. Only include form if requesting Unown letters or event mons like Party Hat Pikachu.
+
 	
-Example: ``!trade pokemon=Wailmer shiny=yes new=yes``
+Examples: 
+
+``!trade pokemon=Wailmer shiny=yes``
+``!trade pokemon=Unown form=C shiny=no new=yes``
+``!trade pokemon=Wailmer shiny=yes new=no``
 
 Making An Offer For a Trade
 ---------------------------
