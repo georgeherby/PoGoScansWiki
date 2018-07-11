@@ -24,9 +24,11 @@ To add a new trade request use this command:
 	
 Examples: 
 
-``!trade pokemon=Wailmer shiny=yes``
-``!trade pokemon=Unown form=C shiny=no new=yes``
-``!trade pokemon=Wailmer shiny=yes new=no``
+.. code-block:: bash
+
+     !trade pokemon=Wailmer shiny=yes
+     !trade pokemon=Unown form=C shiny=no new=yes
+     !trade pokemon=Wailmer shiny=yes new=no
 
 Making An Offer For a Trade
 ---------------------------
