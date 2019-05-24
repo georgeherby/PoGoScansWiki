@@ -73,6 +73,10 @@ where <ID> is the transaction ID you noted in step 1 and <SubType> is one of ``r
 .. note::
 
 	Please remember, if you are subscribing again after expiring, your map credentials will have changed and alerts will have been muted. If extending your subscription, your credentials will remain unchanged.
+	
+.. warning::
+
+	ONLY CHOOSE 1 SUB TYPE! IF YOU WANT ALL TYPES, PICK POKEMON. THE TIERS WILL ALWAYS INCLUDE THE LOWER TIER!
  
 Get Map Credentials
 ===================
