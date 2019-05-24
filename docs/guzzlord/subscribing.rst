@@ -20,9 +20,9 @@ Cost of Subscription
 
 We have implemented a new subscription model, so you can choose to sign up to what you want to get:
 
-Raids - £1 per 30 days
-Raids and Quests - £2 per 30 days
-Raid, Quests & Pokemon - £3 per 30 days
+* Raids - £1 per 30 days
+* Raids and Quests - £2 per 30 days
+* Raid, Quests & Pokemon - £3 per 30 days
 
 You can subscribe for whatever length of time you want; there is no maximum subscription but we would advise against subscribing too far into the future, due to the nature of our service. 
 Niantic could enforce changes that would result in the potential closure of our service without much notice, and refunds will not be processed should this happen.
