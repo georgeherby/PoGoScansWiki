@@ -64,7 +64,7 @@ In DM with Guzzlord, type:
  
 ::
 
-    !transction <ID> <SubType>
+    !transaction <ID> <SubType>
 
 where <ID> is the transaction ID you noted in step 1 and <SubType> is one of ``raids``, ``quests`` or ``pokemon``. If the transaction ID is correct and found on `PayPal <http://bit.ly/2igVOxV>`_, you will receive a response with your new subscription expiry date.
 
