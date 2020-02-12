@@ -43,6 +43,10 @@ To create a meetup for an upcoming EX raid :
 	
 For example ``!ex "St Mary's" 20/03/2018 17:00``
 
+.. note::
+
+	The gym name should not contain an @ character.
+
 Attend a meetup
 ---------------
 
