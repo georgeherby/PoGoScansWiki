@@ -45,7 +45,7 @@ Firstly, work out how much you want to pay by seeing how long an amount will get
 
 For example ``!calculate 5`` 
 
-Make a payment via `PayPal <http://bit.ly/PoGoScans>`_. Make note of the transaction ID for the payment.
+Make a payment via `PayPal <https://bit.ly/PoGoScansUK>`_. Make note of the transaction ID for the payment.
 
 .. note::
 
